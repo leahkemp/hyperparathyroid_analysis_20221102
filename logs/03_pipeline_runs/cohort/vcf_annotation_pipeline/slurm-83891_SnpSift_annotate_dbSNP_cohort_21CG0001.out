@@ -1,0 +1,19 @@
+localrules directive specifies rules that are not present in the Snakefile:
+	pbrun_cnnscorevariants
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 64
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	SnpSift_annotate_dbSNP_cohort
+	1
+
+[Tue Dec  6 02:25:39 2022]
+Job 0: Using SnpSift to annotate ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd.vcf with dbSNP
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/.snakemake/conda/d2579d00
+[Tue Dec  6 02:31:36 2022]
+Finished job 0.
+1 of 1 steps (100%) done

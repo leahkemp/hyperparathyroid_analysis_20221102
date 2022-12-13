@@ -1,0 +1,1411 @@
+
+Configuring conda
+
+no change     /home/lkemp/miniconda3/condabin/conda
+no change     /home/lkemp/miniconda3/bin/conda
+no change     /home/lkemp/miniconda3/bin/conda-env
+no change     /home/lkemp/miniconda3/bin/activate
+no change     /home/lkemp/miniconda3/bin/deactivate
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.sh
+no change     /home/lkemp/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/lkemp/miniconda3/shell/condabin/Conda.psm1
+no change     /home/lkemp/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/lkemp/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.csh
+no change     /home/lkemp/.bashrc
+No action taken.
+
+Creating conda environment with gatk installed
+
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/gatk4
+
+  Updating specs:
+
+   - bioconda::gatk4=4.1.6.0
+   - bioconda::gatktool=0.0.1
+   - conda-forge::numpy=1.18.1
+   - conda-forge::blas=1.0
+   - main::certifi=2019.11.28
+   - main::openssl=1.0.2
+   - main::scipy=1.3.2
+
+
+  Package               Version  Build           Channel                    Size
+──────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge     conda-forge/linux-64     Cached
+  + _openmp_mutex           4.5  2_kmp_llvm      conda-forge/linux-64     Cached
+  + blas                    1.0  mkl             conda-forge/linux-64     Cached
+  + bzip2                 1.0.8  h7f98852_4      conda-forge/linux-64     Cached
+  + ca-certificates   2022.9.24  ha878542_0      conda-forge/linux-64     Cached
+  + certifi          2019.11.28  py37_1          main/linux-64            Cached
+  + gatk4               4.1.6.0  py38_0          bioconda/noarch          Cached
+  + gatktool              0.0.1  py_0            bioconda/noarch          Cached
+  + libblas               3.9.0  8_mkl           conda-forge/linux-64     Cached
+  + libcblas              3.9.0  8_mkl           conda-forge/linux-64     Cached
+  + libffi                3.2.1  he1b5a44_1007   conda-forge/linux-64     Cached
+  + libgcc-ng            12.2.0  h65d4601_19     conda-forge/linux-64     Cached
+  + libgfortran-ng        7.5.0  h14aa051_20     conda-forge/linux-64     Cached
+  + libgfortran4          7.5.0  h14aa051_20     conda-forge/linux-64     Cached
+  + liblapack             3.9.0  8_mkl           conda-forge/linux-64     Cached
+  + libstdcxx-ng         12.2.0  h46fd767_19     conda-forge/linux-64     Cached
+  + libzlib              1.2.13  h166bdaf_4      conda-forge/linux-64     Cached
+  + llvm-openmp          14.0.4  he0ac6c6_0      conda-forge/linux-64     Cached
+  + mkl                  2020.4  h726a3e6_304    conda-forge/linux-64     Cached
+  + mkl-service           2.3.0  py37h8f50634_2  conda-forge/linux-64     Cached
+  + ncurses                 6.3  h27087fc_1      conda-forge/linux-64     Cached
+  + numpy                1.18.1  py37h8960a57_1  conda-forge/linux-64     Cached
+  + openjdk             8.0.332  h166bdaf_0      conda-forge/linux-64     Cached
+  + openssl              1.0.2u  h7b6447c_0      main/linux-64            Cached
+  + pip                  22.3.1  pyhd8ed1ab_0    conda-forge/noarch       Cached
+  + python                3.7.1  hd21baee_1001   conda-forge/linux-64     Cached
+  + python_abi              3.7  2_cp37m         conda-forge/linux-64     Cached
+  + readline                7.0  hf8c457e_1001   conda-forge/linux-64     Cached
+  + scipy                 1.3.2  py37h7c811a0_0  main/linux-64            Cached
+  + setuptools           65.5.1  pyhd8ed1ab_0    conda-forge/noarch       Cached
+  + six                  1.16.0  pyh6c4a22f_0    conda-forge/noarch       Cached
+  + sqlite               3.28.0  h8b20d00_0      conda-forge/linux-64     Cached
+  + tk                   8.6.12  h27826a3_0      conda-forge/linux-64     Cached
+  + wheel                0.38.3  pyhd8ed1ab_0    conda-forge/noarch       Cached
+  + xz                    5.2.6  h166bdaf_0      conda-forge/linux-64     Cached
+  + zlib                 1.2.13  h166bdaf_4      conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 36 packages
+
+  Total download: 0 B
+
+──────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['bioconda::gatk4=4.1.6.0', 'bioconda::gatktool=0.0.1', 'conda-forge::numpy=1.18.1', 'conda-forge::blas=1.0', 'main::certifi=2019.11.28', 'main::openssl=1.0.2', 'main::scipy=1.3.2']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate gatk4
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Filtering variants
+
+Detected 2 CUDA Capable device(s), considering 2 device(s)
+  CUDA Driver Version / Runtime Version          11.2 / 10.1
+Using model for CUDA Capability Major/Minor version number:    70
+------------------------------------------------------------------------------
+||                 Parabricks accelerated Genomics Pipeline                 ||
+||                              Version 3.6.1-1                             ||
+||                             cnnscorevariants                             ||
+||                  Contact: Parabricks-Support@nvidia.com                  ||
+------------------------------------------------------------------------------
+[W] [TRT] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+[W] [TRT] Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+------------------------------------------------------------------------------
+Time-Stamp	  Elapsed-Minutes	Current-Locus
+------------------------------------------------------------------------------
+14:16:48		0.1		2:7001249
+14:16:54		0.2		2:175613115
+14:17:00		0.3		3:40571927
+14:17:06		0.4		3:180475426
+14:17:12		0.5		4:75247090
+14:17:18		0.6		5:22941137
+14:17:24		0.7		6:33474916
+14:17:30		0.8		7:64300177
+14:17:36		0.9		8:6002953
+14:17:42		1.0		9:34725069
+14:17:48		1.1		10:115897917
+14:17:54		1.2		12:16397411
+14:18:00		1.3		14:21101580
+14:18:06		1.4		15:91147846
+14:18:12		1.5		17:12339392
+14:18:18		1.6		19:6896483
+14:18:24		1.7		19:56086272
+14:18:30		1.8		X:150293260
+14:18:36		1.9		hs37d5:35454102
+14:18:42		2.0		hs37d5:35454102
+cnnscorevariants finished in 146.224 seconds
+------------------------------------------------------------------------------
+||        Program:                                  cnnscorevariants        ||
+||        Version:                                           3.6.1-1        ||
+||        Start Time:                       Wed Nov  9 14:16:12 2022        ||
+||        End Time:                         Wed Nov  9 14:18:42 2022        ||
+||        Total Time:                           2 minutes 30 seconds        ||
+------------------------------------------------------------------------------
+Please visit https://docs.nvidia.com/clara/#parabricks for detailed documentation
+
+14:18:52.701 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/lkemp/miniconda3/envs/gatk4/share/gatk4-4.1.6.0-0/gatk-package-4.1.6.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Nov 09, 2022 2:18:53 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+14:18:53.090 INFO  FilterVariantTranches - ------------------------------------------------------------
+14:18:53.091 INFO  FilterVariantTranches - The Genome Analysis Toolkit (GATK) v4.1.6.0
+14:18:53.092 INFO  FilterVariantTranches - For support and documentation go to https://software.broadinstitute.org/gatk/
+14:18:53.094 INFO  FilterVariantTranches - Executing as lkemp@kscprod-data1 on Linux v3.10.0-957.10.1.el7.x86_64 amd64
+14:18:53.095 INFO  FilterVariantTranches - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_332-b09
+14:18:53.097 INFO  FilterVariantTranches - Start Date/Time: 9 November 2022 2:18:52 PM
+14:18:53.098 INFO  FilterVariantTranches - ------------------------------------------------------------
+14:18:53.100 INFO  FilterVariantTranches - ------------------------------------------------------------
+14:18:53.102 INFO  FilterVariantTranches - HTSJDK Version: 2.21.2
+14:18:53.103 INFO  FilterVariantTranches - Picard Version: 2.21.9
+14:18:53.104 INFO  FilterVariantTranches - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+14:18:53.105 INFO  FilterVariantTranches - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+14:18:53.105 INFO  FilterVariantTranches - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+14:18:53.106 INFO  FilterVariantTranches - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+14:18:53.107 INFO  FilterVariantTranches - Deflater: IntelDeflater
+14:18:53.107 INFO  FilterVariantTranches - Inflater: IntelInflater
+14:18:53.108 INFO  FilterVariantTranches - GCS max retries/reopens: 20
+14:18:53.108 INFO  FilterVariantTranches - Requester pays: disabled
+14:18:53.109 INFO  FilterVariantTranches - Initializing engine
+14:18:53.451 INFO  FeatureManager - Using codec VCFCodec to read file file:///NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/hapmap_3.3.b37.vcf
+14:18:53.516 INFO  FeatureManager - Using codec VCFCodec to read file file:///NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/Mills_and_1000G_gold_standard.indels.b37.vcf
+14:18:53.550 INFO  FeatureManager - Using codec VCFCodec to read file file:///NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/04_manual_annotation/singleton/22CG019_raw_snps_indels.scored.vcf
+14:18:53.563 INFO  FilterVariantTranches - Done initializing engine
+14:18:53.595 INFO  ProgressMeter - Starting traversal
+14:18:53.595 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+14:18:53.596 INFO  FilterVariantTranches - Starting pass 0 through the variants
+14:19:03.632 INFO  ProgressMeter -          11:98685405              0.2                217000        1297458.9
+14:19:09.120 INFO  FilterVariantTranches - Finished pass 0 through the variants
+14:19:09.121 INFO  FilterVariantTranches - Found 309815 SNPs and 56055 indels with INFO score key:CNN_2D.
+14:19:09.122 INFO  FilterVariantTranches - Found 91873 SNPs and 16588 indels in the resources.
+14:19:09.188 INFO  FilterVariantTranches - Starting pass 1 through the variants
+14:19:13.642 INFO  ProgressMeter -          17:32366906              0.3                662000        1981541.5
+14:19:14.986 INFO  FilterVariantTranches - Finished pass 1 through the variants
+14:19:14.986 INFO  FilterVariantTranches - No variants filtered by: AllowAllVariantsVariantFilter
+14:19:14.989 INFO  FilterVariantTranches - 0 read(s) filtered by: AllowAllReadsReadFilter 
+
+14:19:14.990 INFO  ProgressMeter -      hs37d5:28402212              0.4                731852        2052497.0
+14:19:14.990 INFO  ProgressMeter - Traversal complete. Processed 731852 total variants in 0.4 minutes.
+14:19:14.991 INFO  FilterVariantTranches - Filtered 1258 SNPs out of 309815 and filtered 877 indels out of 56055 with INFO score: CNN_2D.
+14:19:15.369 INFO  FilterVariantTranches - Shutting down engine
+[9 November 2022 2:19:15 PM] org.broadinstitute.hellbender.tools.walkers.vqsr.FilterVariantTranches done. Elapsed time: 0.38 minutes.
+Runtime.totalMemory()=4559208448
+Using GATK jar /home/lkemp/miniconda3/envs/gatk4/share/gatk4-4.1.6.0-0/gatk-package-4.1.6.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/lkemp/miniconda3/envs/gatk4/share/gatk4-4.1.6.0-0/gatk-package-4.1.6.0-local.jar FilterVariantTranches -V /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/04_manual_annotation/singleton/22CG019_raw_snps_indels.scored.vcf -O /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/04_manual_annotation/singleton/22CG019_raw_snps_indels.filtered.vcf --snp-tranche 99.95 --indel-tranche 99.4 --tmp-dir /NGS/humangenomics/active/tmp/ --resource /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/hapmap_3.3.b37.vcf --resource /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/Mills_and_1000G_gold_standard.indels.b37.vcf --info-key CNN_2D
+
+Creating conda environment with snpsift installed
+
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/snpsift
+
+  Updating specs:
+
+   - bioconda::snpsift=4.3.1t
+
+
+  Package                           Version  Build               Channel                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                       0.1  conda_forge         conda-forge/linux-64     Cached
+  + _openmp_mutex                       4.5  2_gnu               conda-forge/linux-64     Cached
+  + alsa-lib                          1.2.8  h166bdaf_0          conda-forge/linux-64     Cached
+  + bzip2                             1.0.8  h7f98852_4          conda-forge/linux-64     Cached
+  + ca-certificates               2022.9.24  ha878542_0          conda-forge/linux-64     Cached
+  + cairo                            1.16.0  ha61ee94_1014       conda-forge/linux-64     Cached
+  + expat                             2.5.0  h27087fc_0          conda-forge/linux-64     Cached
+  + font-ttf-dejavu-sans-mono          2.37  hab24e00_0          conda-forge/noarch       Cached
+  + font-ttf-inconsolata              3.000  h77eed37_0          conda-forge/noarch       Cached
+  + font-ttf-source-code-pro          2.038  h77eed37_0          conda-forge/noarch       Cached
+  + font-ttf-ubuntu                    0.83  hab24e00_0          conda-forge/noarch       Cached
+  + fontconfig                       2.14.1  hc2a2eb6_0          conda-forge/linux-64     Cached
+  + fonts-conda-ecosystem                 1  0                   conda-forge/noarch       Cached
+  + fonts-conda-forge                     1  0                   conda-forge/noarch       Cached
+  + freetype                         2.12.1  hca18f0e_0          conda-forge/linux-64     Cached
+  + gettext                          0.21.1  h27087fc_0          conda-forge/linux-64     Cached
+  + giflib                            5.2.1  h36c2ea0_2          conda-forge/linux-64     Cached
+  + graphite2                        1.3.13  h58526e2_1001       conda-forge/linux-64     Cached
+  + harfbuzz                          5.3.0  h418a68e_0          conda-forge/linux-64     Cached
+  + icu                                70.1  h27087fc_0          conda-forge/linux-64     Cached
+  + jpeg                                 9e  h166bdaf_2          conda-forge/linux-64     Cached
+  + keyutils                          1.6.1  h166bdaf_0          conda-forge/linux-64     Cached
+  + krb5                             1.19.3  h08a2579_0          conda-forge/linux-64     Cached
+  + lcms2                              2.14  h6ed2654_0          conda-forge/linux-64     Cached
+  + ld_impl_linux-64                   2.39  hc81fddc_0          conda-forge/linux-64     Cached
+  + lerc                              4.0.0  h27087fc_0          conda-forge/linux-64     Cached
+  + libcups                           2.3.3  h3e49a29_2          conda-forge/linux-64     Cached
+  + libdeflate                         1.14  h166bdaf_0          conda-forge/linux-64     Cached
+  + libedit                    3.1.20191231  he28a2e2_2          conda-forge/linux-64     Cached
+  + libffi                            3.4.2  h7f98852_5          conda-forge/linux-64     Cached
+  + libgcc-ng                        12.2.0  h65d4601_19         conda-forge/linux-64     Cached
+  + libglib                          2.74.1  h606061b_1          conda-forge/linux-64     Cached
+  + libgomp                          12.2.0  h65d4601_19         conda-forge/linux-64     Cached
+  + libiconv                           1.17  h166bdaf_0          conda-forge/linux-64     Cached
+  + libnsl                            2.0.0  h7f98852_0          conda-forge/linux-64     Cached
+  + libpng                           1.6.38  h753d276_0          conda-forge/linux-64     Cached
+  + libsqlite                        3.39.4  h753d276_0          conda-forge/linux-64     Cached
+  + libstdcxx-ng                     12.2.0  h46fd767_19         conda-forge/linux-64     Cached
+  + libtiff                           4.4.0  h55922b4_4          conda-forge/linux-64     Cached
+  + libuuid                          2.32.1  h7f98852_1000       conda-forge/linux-64     Cached
+  + libwebp-base                      1.2.4  h166bdaf_0          conda-forge/linux-64     Cached
+  + libxcb                             1.13  h7f98852_1004       conda-forge/linux-64     Cached
+  + libzlib                          1.2.13  h166bdaf_4          conda-forge/linux-64     Cached
+  + ncurses                             6.3  h27087fc_1          conda-forge/linux-64     Cached
+  + openjdk                          17.0.3  hafdced1_4          conda-forge/linux-64     Cached
+  + openssl                           3.0.7  h166bdaf_0          conda-forge/linux-64     Cached
+  + pcre2                             10.40  hc3806b6_0          conda-forge/linux-64     Cached
+  + perl                             5.32.1  2_h7f98852_perl5    conda-forge/linux-64     Cached
+  + pip                              22.3.1  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + pixman                           0.40.0  h36c2ea0_0          conda-forge/linux-64     Cached
+  + pthread-stubs                       0.4  h36c2ea0_1001       conda-forge/linux-64     Cached
+  + python                           3.11.0  ha86cf86_0_cpython  conda-forge/linux-64     Cached
+  + readline                          8.1.2  h0f457ee_0          conda-forge/linux-64     Cached
+  + setuptools                       65.5.1  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + snpsift                          4.3.1t  hdfd78af_3          bioconda/noarch          Cached
+  + tk                               8.6.12  h27826a3_0          conda-forge/linux-64     Cached
+  + tzdata                            2022f  h191b570_0          conda-forge/noarch       Cached
+  + wheel                            0.38.3  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + xorg-fixesproto                     5.0  h7f98852_1002       conda-forge/linux-64     Cached
+  + xorg-inputproto                   2.3.2  h7f98852_1002       conda-forge/linux-64     Cached
+  + xorg-kbproto                      1.0.7  h7f98852_1002       conda-forge/linux-64     Cached
+  + xorg-libice                      1.0.10  h7f98852_0          conda-forge/linux-64     Cached
+  + xorg-libsm                        1.2.3  hd9c2040_1000       conda-forge/linux-64     Cached
+  + xorg-libx11                       1.7.2  h7f98852_0          conda-forge/linux-64     Cached
+  + xorg-libxau                       1.0.9  h7f98852_0          conda-forge/linux-64     Cached
+  + xorg-libxdmcp                     1.1.3  h7f98852_0          conda-forge/linux-64     Cached
+  + xorg-libxext                      1.3.4  h7f98852_1          conda-forge/linux-64     Cached
+  + xorg-libxfixes                    5.0.3  h7f98852_1004       conda-forge/linux-64     Cached
+  + xorg-libxi                       1.7.10  h7f98852_0          conda-forge/linux-64     Cached
+  + xorg-libxrender                  0.9.10  h7f98852_1003       conda-forge/linux-64     Cached
+  + xorg-libxtst                      1.2.3  h7f98852_1002       conda-forge/linux-64     Cached
+  + xorg-recordproto                 1.14.2  h7f98852_1002       conda-forge/linux-64     Cached
+  + xorg-renderproto                 0.11.1  h7f98852_1002       conda-forge/linux-64     Cached
+  + xorg-xextproto                    7.3.0  h7f98852_1002       conda-forge/linux-64     Cached
+  + xorg-xproto                      7.0.31  h7f98852_1007       conda-forge/linux-64     Cached
+  + xz                                5.2.6  h166bdaf_0          conda-forge/linux-64     Cached
+  + zlib                             1.2.13  h166bdaf_4          conda-forge/linux-64     Cached
+  + zstd                              1.5.2  h6239696_4          conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 78 packages
+
+  Total download: 0 B
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['bioconda::snpsift=4.3.1t']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate snpsift
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Annotating with dbNSFP
+
+00:00:00	SnpSift version 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'dbnsfp'
+00:00:00	Reading configuration file 'snpEff.config'
+00:00:00	done
+00:00:00	Annotating:	Input file : '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/04_manual_annotation/singleton/22CG019_raw_snps_indels.filtered.vcf'	Database file : '/NGS/clinicalgenomics/public_data/dbNSFP/GRCh37/dbNSFPv4.0a.hg19.custombuild.gz'
+00:00:00	Loading data types from file '/NGS/clinicalgenomics/public_data/dbNSFP/GRCh37/dbNSFPv4.0a.hg19.custombuild.gz.data_types'
+00:00:00	Opening database file and loading index
+00:00:00	Database fields:
+			'chr'
+			'pos(1-based)'
+			'ref'
+			'alt'
+			'aaref'
+			'aaalt'
+			'rs_dbSNP151'
+			'hg38_chr'
+			'hg38_pos(1-based)'
+			'hg18_chr'
+			'hg18_pos(1-based)'
+			'aapos'
+			'genename'
+			'Ensembl_geneid'
+			'Ensembl_transcriptid'
+			'Ensembl_proteinid'
+			'Uniprot_acc'
+			'Uniprot_entry'
+			'HGVSc_ANNOVAR'
+			'HGVSp_ANNOVAR'
+			'HGVSc_snpEff'
+			'HGVSp_snpEff'
+			'HGVSc_VEP'
+			'HGVSp_VEP'
+			'APPRIS'
+			'GENCODE_basic'
+			'TSL'
+			'VEP_canonical'
+			'cds_strand'
+			'refcodon'
+			'codonpos'
+			'codon_degeneracy'
+			'Ancestral_allele'
+			'AltaiNeandertal'
+			'Denisova'
+			'VindijiaNeandertal'
+			'SIFT_score'
+			'SIFT_converted_rankscore'
+			'SIFT_pred'
+			'SIFT4G_score'
+			'SIFT4G_converted_rankscore'
+			'SIFT4G_pred'
+			'Polyphen2_HDIV_score'
+			'Polyphen2_HDIV_rankscore'
+			'Polyphen2_HDIV_pred'
+			'Polyphen2_HVAR_score'
+			'Polyphen2_HVAR_rankscore'
+			'Polyphen2_HVAR_pred'
+			'LRT_score'
+			'LRT_converted_rankscore'
+			'LRT_pred'
+			'LRT_Omega'
+			'MutationTaster_score'
+			'MutationTaster_converted_rankscore'
+			'MutationTaster_pred'
+			'MutationTaster_model'
+			'MutationTaster_AAE'
+			'MutationAssessor_score'
+			'MutationAssessor_rankscore'
+			'MutationAssessor_pred'
+			'FATHMM_score'
+			'FATHMM_converted_rankscore'
+			'FATHMM_pred'
+			'PROVEAN_score'
+			'PROVEAN_converted_rankscore'
+			'PROVEAN_pred'
+			'VEST4_score'
+			'VEST4_rankscore'
+			'MetaSVM_score'
+			'MetaSVM_rankscore'
+			'MetaSVM_pred'
+			'MetaLR_score'
+			'MetaLR_rankscore'
+			'MetaLR_pred'
+			'Reliability_index'
+			'M-CAP_score'
+			'M-CAP_rankscore'
+			'M-CAP_pred'
+			'REVEL_score'
+			'REVEL_rankscore'
+			'MutPred_score'
+			'MutPred_rankscore'
+			'MutPred_protID'
+			'MutPred_AAchange'
+			'MutPred_Top5features'
+			'MVP_score'
+			'MVP_rankscore'
+			'MPC_score'
+			'MPC_rankscore'
+			'PrimateAI_score'
+			'PrimateAI_rankscore'
+			'PrimateAI_pred'
+			'DEOGEN2_score'
+			'DEOGEN2_rankscore'
+			'DEOGEN2_pred'
+			'Aloft_Fraction_transcripts_affected'
+			'Aloft_prob_Tolerant'
+			'Aloft_prob_Recessive'
+			'Aloft_prob_Dominant'
+			'Aloft_pred'
+			'Aloft_Confidence'
+			'CADD_raw'
+			'CADD_raw_rankscore'
+			'CADD_phred'
+			'DANN_score'
+			'DANN_rankscore'
+			'fathmm-MKL_coding_score'
+			'fathmm-MKL_coding_rankscore'
+			'fathmm-MKL_coding_pred'
+			'fathmm-MKL_coding_group'
+			'fathmm-XF_coding_score'
+			'fathmm-XF_coding_rankscore'
+			'fathmm-XF_coding_pred'
+			'Eigen-raw_coding'
+			'Eigen-raw_coding_rankscore'
+			'Eigen-pred_coding'
+			'Eigen-PC-raw_coding'
+			'Eigen-PC-raw_coding_rankscore'
+			'Eigen-PC-phred_coding'
+			'GenoCanyon_score'
+			'GenoCanyon_rankscore'
+			'integrated_fitCons_score'
+			'integrated_fitCons_rankscore'
+			'integrated_confidence_value'
+			'GM12878_fitCons_score'
+			'GM12878_fitCons_rankscore'
+			'GM12878_confidence_value'
+			'H1-hESC_fitCons_score'
+			'H1-hESC_fitCons_rankscore'
+			'H1-hESC_confidence_value'
+			'HUVEC_fitCons_score'
+			'HUVEC_fitCons_rankscore'
+			'HUVEC_confidence_value'
+			'LINSIGHT'
+			'LINSIGHT_rankscore'
+			'GERP++_NR'
+			'GERP++_RS'
+			'GERP++_RS_rankscore'
+			'phyloP100way_vertebrate'
+			'phyloP100way_vertebrate_rankscore'
+			'phyloP30way_mammalian'
+			'phyloP30way_mammalian_rankscore'
+			'phyloP17way_primate'
+			'phyloP17way_primate_rankscore'
+			'phastCons100way_vertebrate'
+			'phastCons100way_vertebrate_rankscore'
+			'phastCons30way_mammalian'
+			'phastCons30way_mammalian_rankscore'
+			'phastCons17way_primate'
+			'phastCons17way_primate_rankscore'
+			'SiPhy_29way_pi'
+			'SiPhy_29way_logOdds'
+			'SiPhy_29way_logOdds_rankscore'
+			'bStatistic'
+			'bStatistic_rankscore'
+			'1000Gp3_AC'
+			'1000Gp3_AF'
+			'1000Gp3_AFR_AC'
+			'1000Gp3_AFR_AF'
+			'1000Gp3_EUR_AC'
+			'1000Gp3_EUR_AF'
+			'1000Gp3_AMR_AC'
+			'1000Gp3_AMR_AF'
+			'1000Gp3_EAS_AC'
+			'1000Gp3_EAS_AF'
+			'1000Gp3_SAS_AC'
+			'1000Gp3_SAS_AF'
+			'TWINSUK_AC'
+			'TWINSUK_AF'
+			'ALSPAC_AC'
+			'ALSPAC_AF'
+			'UK10K_AC'
+			'UK10K_AF'
+			'ESP6500_AA_AC'
+			'ESP6500_AA_AF'
+			'ESP6500_EA_AC'
+			'ESP6500_EA_AF'
+			'ExAC_AC'
+			'ExAC_AF'
+			'ExAC_Adj_AC'
+			'ExAC_Adj_AF'
+			'ExAC_AFR_AC'
+			'ExAC_AFR_AF'
+			'ExAC_AMR_AC'
+			'ExAC_AMR_AF'
+			'ExAC_EAS_AC'
+			'ExAC_EAS_AF'
+			'ExAC_FIN_AC'
+			'ExAC_FIN_AF'
+			'ExAC_NFE_AC'
+			'ExAC_NFE_AF'
+			'ExAC_SAS_AC'
+			'ExAC_SAS_AF'
+			'ExAC_nonTCGA_AC'
+			'ExAC_nonTCGA_AF'
+			'ExAC_nonTCGA_Adj_AC'
+			'ExAC_nonTCGA_Adj_AF'
+			'ExAC_nonTCGA_AFR_AC'
+			'ExAC_nonTCGA_AFR_AF'
+			'ExAC_nonTCGA_AMR_AC'
+			'ExAC_nonTCGA_AMR_AF'
+			'ExAC_nonTCGA_EAS_AC'
+			'ExAC_nonTCGA_EAS_AF'
+			'ExAC_nonTCGA_FIN_AC'
+			'ExAC_nonTCGA_FIN_AF'
+			'ExAC_nonTCGA_NFE_AC'
+			'ExAC_nonTCGA_NFE_AF'
+			'ExAC_nonTCGA_SAS_AC'
+			'ExAC_nonTCGA_SAS_AF'
+			'ExAC_nonpsych_AC'
+			'ExAC_nonpsych_AF'
+			'ExAC_nonpsych_Adj_AC'
+			'ExAC_nonpsych_Adj_AF'
+			'ExAC_nonpsych_AFR_AC'
+			'ExAC_nonpsych_AFR_AF'
+			'ExAC_nonpsych_AMR_AC'
+			'ExAC_nonpsych_AMR_AF'
+			'ExAC_nonpsych_EAS_AC'
+			'ExAC_nonpsych_EAS_AF'
+			'ExAC_nonpsych_FIN_AC'
+			'ExAC_nonpsych_FIN_AF'
+			'ExAC_nonpsych_NFE_AC'
+			'ExAC_nonpsych_NFE_AF'
+			'ExAC_nonpsych_SAS_AC'
+			'ExAC_nonpsych_SAS_AF'
+			'gnomAD_exomes_flag'
+			'gnomAD_exomes_AC'
+			'gnomAD_exomes_AN'
+			'gnomAD_exomes_AF'
+			'gnomAD_exomes_nhomalt'
+			'gnomAD_exomes_AFR_AC'
+			'gnomAD_exomes_AFR_AN'
+			'gnomAD_exomes_AFR_AF'
+			'gnomAD_exomes_AFR_nhomalt'
+			'gnomAD_exomes_AMR_AC'
+			'gnomAD_exomes_AMR_AN'
+			'gnomAD_exomes_AMR_AF'
+			'gnomAD_exomes_AMR_nhomalt'
+			'gnomAD_exomes_ASJ_AC'
+			'gnomAD_exomes_ASJ_AN'
+			'gnomAD_exomes_ASJ_AF'
+			'gnomAD_exomes_ASJ_nhomalt'
+			'gnomAD_exomes_EAS_AC'
+			'gnomAD_exomes_EAS_AN'
+			'gnomAD_exomes_EAS_AF'
+			'gnomAD_exomes_EAS_nhomalt'
+			'gnomAD_exomes_FIN_AC'
+			'gnomAD_exomes_FIN_AN'
+			'gnomAD_exomes_FIN_AF'
+			'gnomAD_exomes_FIN_nhomalt'
+			'gnomAD_exomes_NFE_AC'
+			'gnomAD_exomes_NFE_AN'
+			'gnomAD_exomes_NFE_AF'
+			'gnomAD_exomes_NFE_nhomalt'
+			'gnomAD_exomes_SAS_AC'
+			'gnomAD_exomes_SAS_AN'
+			'gnomAD_exomes_SAS_AF'
+			'gnomAD_exomes_SAS_nhomalt'
+			'gnomAD_exomes_POPMAX_AC'
+			'gnomAD_exomes_POPMAX_AN'
+			'gnomAD_exomes_POPMAX_AF'
+			'gnomAD_exomes_POPMAX_nhomalt'
+			'gnomAD_exomes_controls_AC'
+			'gnomAD_exomes_controls_AN'
+			'gnomAD_exomes_controls_AF'
+			'gnomAD_exomes_controls_nhomalt'
+			'gnomAD_exomes_controls_AFR_AC'
+			'gnomAD_exomes_controls_AFR_AN'
+			'gnomAD_exomes_controls_AFR_AF'
+			'gnomAD_exomes_controls_AFR_nhomalt'
+			'gnomAD_exomes_controls_AMR_AC'
+			'gnomAD_exomes_controls_AMR_AN'
+			'gnomAD_exomes_controls_AMR_AF'
+			'gnomAD_exomes_controls_AMR_nhomalt'
+			'gnomAD_exomes_controls_ASJ_AC'
+			'gnomAD_exomes_controls_ASJ_AN'
+			'gnomAD_exomes_controls_ASJ_AF'
+			'gnomAD_exomes_controls_ASJ_nhomalt'
+			'gnomAD_exomes_controls_EAS_AC'
+			'gnomAD_exomes_controls_EAS_AN'
+			'gnomAD_exomes_controls_EAS_AF'
+			'gnomAD_exomes_controls_EAS_nhomalt'
+			'gnomAD_exomes_controls_FIN_AC'
+			'gnomAD_exomes_controls_FIN_AN'
+			'gnomAD_exomes_controls_FIN_AF'
+			'gnomAD_exomes_controls_FIN_nhomalt'
+			'gnomAD_exomes_controls_NFE_AC'
+			'gnomAD_exomes_controls_NFE_AN'
+			'gnomAD_exomes_controls_NFE_AF'
+			'gnomAD_exomes_controls_NFE_nhomalt'
+			'gnomAD_exomes_controls_SAS_AC'
+			'gnomAD_exomes_controls_SAS_AN'
+			'gnomAD_exomes_controls_SAS_AF'
+			'gnomAD_exomes_controls_SAS_nhomalt'
+			'gnomAD_exomes_controls_POPMAX_AC'
+			'gnomAD_exomes_controls_POPMAX_AN'
+			'gnomAD_exomes_controls_POPMAX_AF'
+			'gnomAD_exomes_controls_POPMAX_nhomalt'
+			'gnomAD_genomes_flag'
+			'gnomAD_genomes_AC'
+			'gnomAD_genomes_AN'
+			'gnomAD_genomes_AF'
+			'gnomAD_genomes_nhomalt'
+			'gnomAD_genomes_AFR_AC'
+			'gnomAD_genomes_AFR_AN'
+			'gnomAD_genomes_AFR_AF'
+			'gnomAD_genomes_AFR_nhomalt'
+			'gnomAD_genomes_AMR_AC'
+			'gnomAD_genomes_AMR_AN'
+			'gnomAD_genomes_AMR_AF'
+			'gnomAD_genomes_AMR_nhomalt'
+			'gnomAD_genomes_ASJ_AC'
+			'gnomAD_genomes_ASJ_AN'
+			'gnomAD_genomes_ASJ_AF'
+			'gnomAD_genomes_ASJ_nhomalt'
+			'gnomAD_genomes_EAS_AC'
+			'gnomAD_genomes_EAS_AN'
+			'gnomAD_genomes_EAS_AF'
+			'gnomAD_genomes_EAS_nhomalt'
+			'gnomAD_genomes_FIN_AC'
+			'gnomAD_genomes_FIN_AN'
+			'gnomAD_genomes_FIN_AF'
+			'gnomAD_genomes_FIN_nhomalt'
+			'gnomAD_genomes_NFE_AC'
+			'gnomAD_genomes_NFE_AN'
+			'gnomAD_genomes_NFE_AF'
+			'gnomAD_genomes_NFE_nhomalt'
+			'gnomAD_genomes_POPMAX_AC'
+			'gnomAD_genomes_POPMAX_AN'
+			'gnomAD_genomes_POPMAX_AF'
+			'gnomAD_genomes_POPMAX_nhomalt'
+			'gnomAD_genomes_controls_AC'
+			'gnomAD_genomes_controls_AN'
+			'gnomAD_genomes_controls_AF'
+			'gnomAD_genomes_controls_nhomalt'
+			'gnomAD_genomes_controls_AFR_AC'
+			'gnomAD_genomes_controls_AFR_AN'
+			'gnomAD_genomes_controls_AFR_AF'
+			'gnomAD_genomes_controls_AFR_nhomalt'
+			'gnomAD_genomes_controls_AMR_AC'
+			'gnomAD_genomes_controls_AMR_AN'
+			'gnomAD_genomes_controls_AMR_AF'
+			'gnomAD_genomes_controls_AMR_nhomalt'
+			'gnomAD_genomes_controls_ASJ_AC'
+			'gnomAD_genomes_controls_ASJ_AN'
+			'gnomAD_genomes_controls_ASJ_AF'
+			'gnomAD_genomes_controls_ASJ_nhomalt'
+			'gnomAD_genomes_controls_EAS_AC'
+			'gnomAD_genomes_controls_EAS_AN'
+			'gnomAD_genomes_controls_EAS_AF'
+			'gnomAD_genomes_controls_EAS_nhomalt'
+			'gnomAD_genomes_controls_FIN_AC'
+			'gnomAD_genomes_controls_FIN_AN'
+			'gnomAD_genomes_controls_FIN_AF'
+			'gnomAD_genomes_controls_FIN_nhomalt'
+			'gnomAD_genomes_controls_NFE_AC'
+			'gnomAD_genomes_controls_NFE_AN'
+			'gnomAD_genomes_controls_NFE_AF'
+			'gnomAD_genomes_controls_NFE_nhomalt'
+			'gnomAD_genomes_controls_POPMAX_AC'
+			'gnomAD_genomes_controls_POPMAX_AN'
+			'gnomAD_genomes_controls_POPMAX_AF'
+			'gnomAD_genomes_controls_POPMAX_nhomalt'
+			'clinvar_id'
+			'clinvar_clnsig'
+			'clinvar_trait'
+			'clinvar_review'
+			'clinvar_hgvs'
+			'clinvar_var_source'
+			'clinvar_MedGen_id'
+			'clinvar_OMIM_id'
+			'clinvar_Orphanet_id'
+			'Interpro_domain'
+			'GTEx_V7_gene'
+			'GTEx_V7_tissue'
+			'Geuvadis_eQTL_target_gene'
+00:00:00	Warning: Default field name '1000Gp1_AF' not found, ignoring
+00:00:00	Warning: Default field name '1000Gp1_AFR_AF' not found, ignoring
+00:00:00	Warning: Default field name '1000Gp1_EUR_AF' not found, ignoring
+00:00:00	Warning: Default field name '1000Gp1_AMR_AF' not found, ignoring
+00:00:00	Warning: Default field name '1000Gp1_ASN_AF' not found, ignoring
+00:00:00	Fields to add:
+			'1000Gp3_AC'
+			'1000Gp3_AF'
+			'1000Gp3_AFR_AC'
+			'1000Gp3_AFR_AF'
+			'1000Gp3_AMR_AC'
+			'1000Gp3_AMR_AF'
+			'1000Gp3_EAS_AC'
+			'1000Gp3_EAS_AF'
+			'1000Gp3_EUR_AC'
+			'1000Gp3_EUR_AF'
+			'1000Gp3_SAS_AC'
+			'1000Gp3_SAS_AF'
+			'CADD_phred'
+			'ESP6500_AA_AC'
+			'ESP6500_AA_AF'
+			'ESP6500_EA_AC'
+			'ESP6500_EA_AF'
+			'ExAC_AC'
+			'ExAC_AF'
+			'ExAC_AFR_AC'
+			'ExAC_AFR_AF'
+			'ExAC_AMR_AC'
+			'ExAC_AMR_AF'
+			'ExAC_Adj_AC'
+			'ExAC_Adj_AF'
+			'ExAC_EAS_AC'
+			'ExAC_EAS_AF'
+			'ExAC_FIN_AC'
+			'ExAC_FIN_AF'
+			'ExAC_NFE_AC'
+			'ExAC_NFE_AF'
+			'ExAC_SAS_AC'
+			'ExAC_SAS_AF'
+			'FATHMM_pred'
+			'GERP++_NR'
+			'GERP++_RS'
+			'Interpro_domain'
+			'LRT_pred'
+			'MetaSVM_pred'
+			'MutationAssessor_pred'
+			'MutationTaster_pred'
+			'PROVEAN_pred'
+			'Polyphen2_HDIV_pred'
+			'Polyphen2_HVAR_pred'
+			'SIFT_pred'
+			'Uniprot_acc'
+			'phastCons100way_vertebrate'
+00:00:00	Annotating file '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/04_manual_annotation/singleton/22CG019_raw_snps_indels.filtered.vcf'
+....................................................................................................
+10000	....................................................................................................
+20000	....................................................................................................
+30000	....................................................................................................
+40000	....................................................................................................
+50000	....................................................................................................
+60000	....................................................................................................
+70000	....................................................................................................
+80000	....................................................................................................
+90000	....................................................................................................
+100000	....................................................................................................
+110000	....................................................................................................
+120000	....................................................................................................
+130000	....................................................................................................
+140000	....................................................................................................
+150000	....................................................................................................
+160000	....................................................................................................
+170000	....................................................................................................
+180000	....................................................................................................
+190000	....................................................................................................
+200000	....................................................................................................
+210000	....................................................................................................
+220000	....................................................................................................
+230000	....................................................................................................
+240000	....................................................................................................
+250000	....................................................................................................
+260000	....................................................................................................
+270000	....................................................................................................
+280000	....................................................................................................
+290000	....................................................................................................
+300000	....................................................................................................
+310000	....................................................................................................
+320000	....................................................................................................
+330000	....................................................................................................
+340000	....................................................................................................
+350000	....................................................................................................
+360000	.................................................................01:06:24	Done.
+	Total annotated entries : 11793
+	Total entries           : 365926
+	Percent                 : 3.22%
+
+Creating conda environment with htslib installed
+
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/htslib
+
+  Updating specs:
+
+   - bioconda::htslib=1.10.2
+
+
+  Package                 Version  Build        Channel                    Size
+─────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge  conda-forge/linux-64     Cached
+  + _openmp_mutex             4.5  2_gnu        conda-forge/linux-64     Cached
+  + bzip2                   1.0.8  h7f98852_4   conda-forge/linux-64     Cached
+  + c-ares                 1.18.1  h7f98852_0   conda-forge/linux-64     Cached
+  + ca-certificates     2022.9.24  ha878542_0   conda-forge/linux-64     Cached
+  + htslib                 1.10.2  hd3b49d5_1   bioconda/linux-64        Cached
+  + keyutils                1.6.1  h166bdaf_0   conda-forge/linux-64     Cached
+  + krb5                   1.19.3  h3790be6_0   conda-forge/linux-64     Cached
+  + libcurl                7.86.0  h7bff187_1   conda-forge/linux-64     Cached
+  + libdeflate                1.6  h516909a_0   conda-forge/linux-64     Cached
+  + libedit          3.1.20191231  he28a2e2_2   conda-forge/linux-64     Cached
+  + libev                    4.33  h516909a_1   conda-forge/linux-64     Cached
+  + libgcc-ng              12.2.0  h65d4601_19  conda-forge/linux-64     Cached
+  + libgomp                12.2.0  h65d4601_19  conda-forge/linux-64     Cached
+  + libnghttp2             1.47.0  hdcd2b5c_1   conda-forge/linux-64     Cached
+  + libssh2                1.10.0  haa6b8db_3   conda-forge/linux-64     Cached
+  + libstdcxx-ng           12.2.0  h46fd767_19  conda-forge/linux-64     Cached
+  + libzlib                1.2.13  h166bdaf_4   conda-forge/linux-64     Cached
+  + ncurses                   6.3  h27087fc_1   conda-forge/linux-64     Cached
+  + openssl                1.1.1s  h166bdaf_0   conda-forge/linux-64     Cached
+  + xz                      5.2.6  h166bdaf_0   conda-forge/linux-64     Cached
+  + zlib                   1.2.13  h166bdaf_4   conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 0 B
+
+─────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['bioconda::htslib=1.10.2']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate htslib
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+bgzipping
+
+
+Creating conda environment with tabix installed
+
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/tabix
+
+  Updating specs:
+
+   - bioconda::tabix=0.2.6
+
+
+  Package          Version  Build        Channel                    Size
+──────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64     Cached
+  + _openmp_mutex      4.5  2_gnu        conda-forge/linux-64     Cached
+  + libgcc-ng       12.2.0  h65d4601_19  conda-forge/linux-64     Cached
+  + libgomp         12.2.0  h65d4601_19  conda-forge/linux-64     Cached
+  + libzlib         1.2.13  h166bdaf_4   conda-forge/linux-64     Cached
+  + tabix            0.2.6  ha92aebf_0   bioconda/linux-64        Cached
+  + zlib            1.2.13  h166bdaf_4   conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 0 B
+
+──────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['bioconda::tabix=0.2.6']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate tabix
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Indexing
+
+
+Creating conda environment with vep installed
+
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/vep
+
+  Updating specs:
+
+   - bioconda::ensembl-vep=99.2
+
+
+  Package                                       Version  Build                 Channel                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                                   0.1  conda_forge           conda-forge/linux-64     Cached
+  + _openmp_mutex                                   4.5  2_gnu                 conda-forge/linux-64     Cached
+  + bzip2                                         1.0.8  h7f98852_4            conda-forge/linux-64     Cached
+  + c-ares                                       1.18.1  h7f98852_0            conda-forge/linux-64     Cached
+  + ca-certificates                           2022.9.24  ha878542_0            conda-forge/linux-64     Cached
+  + cairo                                        1.16.0  h6cf1ce9_1008         conda-forge/linux-64     Cached
+  + clustalw                                        2.1  h9f5acd7_7            bioconda/linux-64        Cached
+  + curl                                         7.86.0  h7bff187_1            conda-forge/linux-64     Cached
+  + ensembl-vep                                    99.2  pl526hecc5488_0       bioconda/noarch          Cached
+  + expat                                        2.2.10  h9c3ff4c_0            conda-forge/linux-64     Cached
+  + fontconfig                                  2.13.96  ha180cfb_0            conda-forge/linux-64     Cached
+  + freetype                                     2.12.1  hca18f0e_0            conda-forge/linux-64     Cached
+  + fribidi                                      1.0.10  h36c2ea0_0            conda-forge/linux-64     Cached
+  + gettext                                      0.21.1  h27087fc_0            conda-forge/linux-64     Cached
+  + giflib                                        5.2.1  h36c2ea0_2            conda-forge/linux-64     Cached
+  + graphite2                                    1.3.13  h58526e2_1001         conda-forge/linux-64     Cached
+  + graphviz                                     2.42.3  h0511662_0            conda-forge/linux-64     Cached
+  + harfbuzz                                      2.9.1  h83ec7ef_1            conda-forge/linux-64     Cached
+  + htslib                                         1.12  h9093b5e_1            bioconda/linux-64        Cached
+  + icu                                            68.2  h9c3ff4c_0            conda-forge/linux-64     Cached
+  + jpeg                                             9e  h166bdaf_2            conda-forge/linux-64     Cached
+  + keyutils                                      1.6.1  h166bdaf_0            conda-forge/linux-64     Cached
+  + krb5                                         1.19.3  h3790be6_0            conda-forge/linux-64     Cached
+  + ld_impl_linux-64                               2.39  hc81fddc_0            conda-forge/linux-64     Cached
+  + libcurl                                      7.86.0  h7bff187_1            conda-forge/linux-64     Cached
+  + libdb                                        6.2.32  h9c3ff4c_0            conda-forge/linux-64     Cached
+  + libdeflate                                      1.7  h7f98852_5            conda-forge/linux-64     Cached
+  + libedit                                3.1.20191231  he28a2e2_2            conda-forge/linux-64     Cached
+  + libev                                          4.33  h516909a_1            conda-forge/linux-64     Cached
+  + libffi                                        3.4.2  h7f98852_5            conda-forge/linux-64     Cached
+  + libgcc-ng                                    12.2.0  h65d4601_19           conda-forge/linux-64     Cached
+  + libgd                                         2.2.5  h8e06009_4            pkgs/main/linux-64       Cached
+  + libglib                                      2.74.1  h606061b_1            conda-forge/linux-64     Cached
+  + libgomp                                      12.2.0  h65d4601_19           conda-forge/linux-64     Cached
+  + libiconv                                       1.17  h166bdaf_0            conda-forge/linux-64     Cached
+  + libnghttp2                                   1.47.0  hdcd2b5c_1            conda-forge/linux-64     Cached
+  + libnsl                                        2.0.0  h7f98852_0            conda-forge/linux-64     Cached
+  + libpng                                       1.6.38  h753d276_0            conda-forge/linux-64     Cached
+  + libsqlite                                    3.39.4  h753d276_0            conda-forge/linux-64     Cached
+  + libssh2                                      1.10.0  haa6b8db_3            conda-forge/linux-64     Cached
+  + libstdcxx-ng                                 12.2.0  h46fd767_19           conda-forge/linux-64     Cached
+  + libtiff                                       4.1.0  hc3755c2_3            conda-forge/linux-64     Cached
+  + libtool                                       2.4.6  h9c3ff4c_1008         conda-forge/linux-64     Cached
+  + libuuid                                      2.32.1  h7f98852_1000         conda-forge/linux-64     Cached
+  + libwebp                                       1.0.2  h56121f0_5            conda-forge/linux-64     Cached
+  + libxcb                                         1.13  h7f98852_1004         conda-forge/linux-64     Cached
+  + libxml2                                      2.9.12  h72842e0_0            conda-forge/linux-64     Cached
+  + libxslt                                      1.1.33  h15afd5d_2            conda-forge/linux-64     Cached
+  + libzlib                                      1.2.13  h166bdaf_4            conda-forge/linux-64     Cached
+  + lz4-c                                         1.9.3  h9c3ff4c_1            conda-forge/linux-64     Cached
+  + mysql-connector-c                            6.1.11  h6eb9d5d_1007         conda-forge/linux-64     Cached
+  + ncurses                                         6.3  h27087fc_1            conda-forge/linux-64     Cached
+  + openssl                                      1.1.1s  h166bdaf_0            conda-forge/linux-64     Cached
+  + paml                                            4.9  hec16e2b_7            bioconda/linux-64        Cached
+  + pango                                        1.42.4  h69149e4_5            conda-forge/linux-64     Cached
+  + pcre2                                         10.40  hc3806b6_0            conda-forge/linux-64     Cached
+  + perl                                         5.26.2  h36c2ea0_1008         conda-forge/linux-64     Cached
+  + perl-aceperl                                   1.92  pl526_2               bioconda/linux-64        Cached
+  + perl-algorithm-diff                          1.1903  pl526_2               bioconda/linux-64        Cached
+  + perl-algorithm-munkres                         0.08  pl526_1               bioconda/linux-64        Cached
+  + perl-apache-test                               1.40  pl526_1               bioconda/linux-64        Cached
+  + perl-app-cpanminus                           1.7044  pl526_1               bioconda/linux-64        Cached
+  + perl-appconfig                                 1.71  pl526_1               bioconda/linux-64        Cached
+  + perl-array-compare                            3.0.1  pl526_1               bioconda/linux-64        Cached
+  + perl-autoloader                                5.74  pl526_2               bioconda/linux-64        Cached
+  + perl-base                                      2.23  pl526_1               bioconda/linux-64        Cached
+  + perl-bio-asn1-entrezgene                       1.73  pl5262hdfd78af_2      bioconda/noarch          Cached
+  + perl-bio-coordinate                        1.007001  pl5262hdfd78af_2      bioconda/noarch          Cached
+  + perl-bio-db-hts                                3.01  pl5262h22771d5_3      bioconda/linux-64        Cached
+  + perl-bio-featureio                          1.6.905  pl5262hdfd78af_3      bioconda/noarch          Cached
+  + perl-bio-phylo                                 0.58  pl5262hdfd78af_3      bioconda/noarch          Cached
+  + perl-bio-samtools                              1.43  pl526h1341992_1       bioconda/linux-64        Cached
+  + perl-bio-tools-phylo-paml                     1.7.3  pl5262hdfd78af_2      bioconda/noarch          Cached
+  + perl-bio-tools-run-alignment-clustalw         1.7.4  pl5262hdfd78af_2      bioconda/noarch          Cached
+  + perl-bio-tools-run-alignment-tcoffee          1.7.4  pl5262hdfd78af_3      bioconda/noarch          Cached
+  + perl-bioperl                                  1.7.2  pl526_11              bioconda/noarch          Cached
+  + perl-bioperl-core                          1.007002  pl5262hdfd78af_3      bioconda/noarch          Cached
+  + perl-bioperl-run                           1.007002  pl5262hdfd78af_5      bioconda/noarch          Cached
+  + perl-business-isbn                            3.004  pl526_0               bioconda/linux-64        Cached
+  + perl-business-isbn-data                20140910.003  pl526_0               bioconda/linux-64        Cached
+  + perl-cache-cache                               1.08  pl526_0               bioconda/linux-64        Cached
+  + perl-capture-tiny                              0.48  pl526_0               bioconda/linux-64        Cached
+  + perl-carp                                      1.38  pl526_3               bioconda/linux-64        Cached
+  + perl-cgi                                       4.44  pl526h14c3975_1       bioconda/linux-64        Cached
+  + perl-class-data-inheritable                    0.08  pl526_1               bioconda/linux-64        Cached
+  + perl-class-inspector                           1.34  pl526_0               bioconda/linux-64        Cached
+  + perl-class-load                                0.25  pl526_0               bioconda/linux-64        Cached
+  + perl-class-load-xs                             0.10  pl526h6bb024c_2       bioconda/linux-64        Cached
+  + perl-class-method-modifiers                    2.12  pl526_0               bioconda/linux-64        Cached
+  + perl-clone                                     0.42  pl526h516909a_0       bioconda/linux-64        Cached
+  + perl-common-sense                              3.74  pl526_2               bioconda/linux-64        Cached
+  + perl-compress-raw-bzip2                       2.087  pl526he1b5a44_0       bioconda/linux-64        Cached
+  + perl-compress-raw-zlib                        2.087  pl526hc9558a2_0       bioconda/linux-64        Cached
+  + perl-constant                                  1.33  pl526_1               bioconda/linux-64        Cached
+  + perl-convert-binary-c                          0.78  pl526h6bb024c_3       bioconda/linux-64        Cached
+  + perl-convert-binhex                           1.125  pl526_1               bioconda/linux-64        Cached
+  + perl-crypt-rc4                                 2.02  pl526_1               bioconda/linux-64        Cached
+  + perl-data-dumper                              2.173  pl526_0               bioconda/linux-64        Cached
+  + perl-data-optlist                             0.110  pl526_2               bioconda/linux-64        Cached
+  + perl-data-stag                                 0.14  pl526_1               bioconda/linux-64        Cached
+  + perl-date-format                               2.30  pl526_2               bioconda/linux-64        Cached
+  + perl-db-file                                  1.855  pl526h516909a_0       bioconda/linux-64        Cached
+  + perl-dbd-mysql                                4.046  pl526h6bb024c_1       bioconda/linux-64        Cached
+  + perl-dbd-sqlite                                1.64  pl526h516909a_0       bioconda/linux-64        Cached
+  + perl-dbi                                      1.642  pl526_0               bioconda/linux-64        Cached
+  + perl-devel-globaldestruction                   0.14  pl526_0               bioconda/linux-64        Cached
+  + perl-devel-overloadinfo                       0.005  pl526_0               bioconda/linux-64        Cached
+  + perl-devel-stacktrace                          2.04  pl526_0               bioconda/noarch          Cached
+  + perl-digest-hmac                               1.03  pl526_3               bioconda/linux-64        Cached
+  + perl-digest-md5                                2.55  pl526_0               bioconda/linux-64        Cached
+  + perl-digest-perl-md5                            1.9  pl526_1               bioconda/linux-64        Cached
+  + perl-digest-sha1                               2.13  pl526h6bb024c_1       bioconda/linux-64        Cached
+  + perl-dist-checkconflicts                       0.11  pl526_2               bioconda/linux-64        Cached
+  + perl-dynaloader                                1.25  pl526_1               bioconda/linux-64        Cached
+  + perl-email-date-format                        1.005  pl526_2               bioconda/linux-64        Cached
+  + perl-encode                                    2.88  pl526_1               bioconda/linux-64        Cached
+  + perl-encode-locale                             1.05  pl526_6               bioconda/linux-64        Cached
+  + perl-error                                  0.17027  pl526_1               bioconda/linux-64        Cached
+  + perl-eval-closure                              0.14  pl526h6bb024c_4       bioconda/linux-64        Cached
+  + perl-exception-class                           1.44  pl526_0               bioconda/linux-64        Cached
+  + perl-exporter                                  5.72  pl526_1               bioconda/linux-64        Cached
+  + perl-exporter-tiny                         1.002001  pl526_0               bioconda/linux-64        Cached
+  + perl-extutils-makemaker                        7.36  pl526_1               bioconda/linux-64        Cached
+  + perl-file-listing                              6.04  pl526_1               bioconda/linux-64        Cached
+  + perl-file-path                                 2.16  pl526_0               bioconda/linux-64        Cached
+  + perl-file-slurp-tiny                          0.004  pl526_1               bioconda/linux-64        Cached
+  + perl-file-sort                                 1.01  pl526_2               bioconda/linux-64        Cached
+  + perl-file-temp                               0.2304  pl526_2               bioconda/linux-64        Cached
+  + perl-file-which                                1.23  pl526_0               bioconda/linux-64        Cached
+  + perl-font-afm                                  1.20  pl526_2               bioconda/linux-64        Cached
+  + perl-font-ttf                                  1.06  pl526_0               bioconda/linux-64        Cached
+  + perl-gd                                        2.71  pl526he860b03_0       bioconda/linux-64        Cached
+  + perl-getopt-long                               2.50  pl526_1               bioconda/linux-64        Cached
+  + perl-graph                                   0.9704  pl526_1               bioconda/linux-64        Cached
+  + perl-graphviz                                  2.24  pl526h734ff71_0       bioconda/linux-64        Cached
+  + perl-html-element-extended                     1.18  pl526_1               bioconda/linux-64        Cached
+  + perl-html-entities-numbered                    0.04  pl526_1               bioconda/linux-64        Cached
+  + perl-html-formatter                            2.16  pl526_0               bioconda/linux-64        Cached
+  + perl-html-parser                               3.72  pl526h6bb024c_5       bioconda/linux-64        Cached
+  + perl-html-tableextract                         2.13  pl526_2               bioconda/linux-64        Cached
+  + perl-html-tagset                               3.20  pl526_3               bioconda/linux-64        Cached
+  + perl-html-tidy                                 1.60  pl526_0               bioconda/linux-64        Cached
+  + perl-html-tree                                 5.07  pl526_1               bioconda/linux-64        Cached
+  + perl-html-treebuilder-xpath                    0.14  pl526_1               bioconda/linux-64        Cached
+  + perl-http-cookies                              6.04  pl526_0               bioconda/linux-64        Cached
+  + perl-http-daemon                               6.01  pl526_1               bioconda/linux-64        Cached
+  + perl-http-date                                 6.02  pl526_3               bioconda/linux-64        Cached
+  + perl-http-message                              6.18  pl526_0               bioconda/linux-64        Cached
+  + perl-http-negotiate                            6.01  pl526_3               bioconda/linux-64        Cached
+  + perl-image-info                                1.38  pl526_1               bioconda/linux-64        Cached
+  + perl-image-size                               3.300  pl526_2               bioconda/linux-64        Cached
+  + perl-io-compress                              2.087  pl526he1b5a44_0       bioconda/linux-64        Cached
+  + perl-io-html                                  1.001  pl526_2               bioconda/linux-64        Cached
+  + perl-io-sessiondata                            1.03  pl526_1               bioconda/linux-64        Cached
+  + perl-io-socket-ssl                            2.066  pl526_0               bioconda/linux-64        Cached
+  + perl-io-string                                 1.08  pl526_3               bioconda/linux-64        Cached
+  + perl-io-stringy                               2.111  pl526_1               bioconda/linux-64        Cached
+  + perl-io-tty                                    1.12  pl526_1               bioconda/linux-64        Cached
+  + perl-ipc-run                             20180523.0  pl526_0               bioconda/linux-64        Cached
+  + perl-ipc-sharelite                             0.17  pl526h6bb024c_1       bioconda/linux-64        Cached
+  + perl-jcode                                     2.07  pl526_2               bioconda/linux-64        Cached
+  + perl-json                                      4.02  pl526_0               bioconda/linux-64        Cached
+  + perl-json-xs                                   2.34  pl526h6bb024c_3       bioconda/linux-64        Cached
+  + perl-lib                                       0.63  pl526_1               bioconda/linux-64        Cached
+  + perl-libwww-perl                               6.39  pl526_0               bioconda/noarch          Cached
+  + perl-libxml-perl                               0.08  pl526_2               bioconda/linux-64        Cached
+  + perl-list-moreutils                           0.428  pl526_1               bioconda/linux-64        Cached
+  + perl-list-moreutils-xs                        0.428  pl526_0               bioconda/linux-64        Cached
+  + perl-lwp-mediatypes                            6.04  pl526_0               bioconda/linux-64        Cached
+  + perl-lwp-protocol-https                        6.07  pl526_4               bioconda/linux-64        Cached
+  + perl-lwp-simple                                6.15  pl526h470a237_4       bioconda/linux-64        Cached
+  + perl-mailtools                                 2.21  pl526_0               bioconda/noarch          Cached
+  + perl-math-cdf                                   0.1  pl526h14c3975_5       bioconda/linux-64        Cached
+  + perl-math-derivative                           1.01  pl526_0               bioconda/linux-64        Cached
+  + perl-math-random                               0.72  pl526h14c3975_2       bioconda/linux-64        Cached
+  + perl-math-spline                               0.02  pl526_2               bioconda/linux-64        Cached
+  + perl-mime-base64                               3.15  pl526_1               bioconda/linux-64        Cached
+  + perl-mime-lite                                3.030  pl526_1               bioconda/linux-64        Cached
+  + perl-mime-tools                               5.508  pl526_1               bioconda/linux-64        Cached
+  + perl-mime-types                                2.17  pl526_0               bioconda/linux-64        Cached
+  + perl-mldbm                                     2.05  pl526_1               bioconda/linux-64        Cached
+  + perl-module-implementation                     0.09  pl526_2               bioconda/linux-64        Cached
+  + perl-module-runtime                           0.016  pl526_1               bioconda/linux-64        Cached
+  + perl-module-runtime-conflicts                 0.003  pl526_0               bioconda/linux-64        Cached
+  + perl-moo                                   2.003004  pl526_0               bioconda/linux-64        Cached
+  + perl-moose                                   2.2011  pl526hf484d3e_1       bioconda/linux-64        Cached
+  + perl-mozilla-ca                            20180117  pl526_1               bioconda/linux-64        Cached
+  + perl-mro-compat                                0.13  pl526_0               bioconda/linux-64        Cached
+  + perl-net-http                                  6.19  pl526_0               bioconda/noarch          Cached
+  + perl-net-ssleay                                1.88  pl526h90d6eec_0       bioconda/linux-64        Cached
+  + perl-ntlm                                      1.09  pl526_4               bioconda/linux-64        Cached
+  + perl-ole-storage_lite                          0.19  pl526_3               bioconda/linux-64        Cached
+  + perl-package-deprecationmanager                0.17  pl526_0               bioconda/linux-64        Cached
+  + perl-package-stash                             0.38  pl526hf484d3e_1       bioconda/linux-64        Cached
+  + perl-package-stash-xs                          0.28  pl526hf484d3e_1       bioconda/linux-64        Cached
+  + perl-params-util                               1.07  pl526h6bb024c_4       bioconda/linux-64        Cached
+  + perl-parent                                   0.236  pl526_1               bioconda/linux-64        Cached
+  + perl-parse-recdescent                      1.967015  pl526_0               bioconda/linux-64        Cached
+  + perl-pathtools                                 3.75  pl526h14c3975_1       bioconda/linux-64        Cached
+  + perl-pdf-api2                                 2.035  pl526_0               bioconda/noarch          Cached
+  + perl-perlio-gzip                               0.20  pl526h84994c4_1       bioconda/linux-64        Cached
+  + perl-pod-escapes                               1.07  pl526_1               bioconda/linux-64        Cached
+  + perl-pod-usage                                 1.69  pl526_1               bioconda/linux-64        Cached
+  + perl-postscript                                0.06  pl526_2               bioconda/linux-64        Cached
+  + perl-role-tiny                             2.000008  pl526_0               bioconda/noarch          Cached
+  + perl-scalar-list-utils                         1.52  pl526h516909a_0       bioconda/linux-64        Cached
+  + perl-sereal                                   4.007  pl526_0               bioconda/noarch          Cached
+  + perl-sereal-decoder                           4.007  pl526h14c3975_0       bioconda/linux-64        Cached
+  + perl-sereal-encoder                           4.007  pl526h14c3975_0       bioconda/linux-64        Cached
+  + perl-set-intervaltree                          0.12  pl526he1b5a44_0       bioconda/linux-64        Cached
+  + perl-set-scalar                                1.29  pl526_2               bioconda/linux-64        Cached
+  + perl-soap-lite                                 1.19  pl526_1               bioconda/linux-64        Cached
+  + perl-socket                                   2.027  pl526_1               bioconda/linux-64        Cached
+  + perl-sort-naturally                            1.03  pl526_2               bioconda/linux-64        Cached
+  + perl-spreadsheet-parseexcel                    0.65  pl526_2               bioconda/linux-64        Cached
+  + perl-spreadsheet-writeexcel                    2.40  pl526_2               bioconda/linux-64        Cached
+  + perl-statistics-descriptive                  3.0702  pl526_0               bioconda/linux-64        Cached
+  + perl-storable                                  3.15  pl526h14c3975_0       bioconda/linux-64        Cached
+  + perl-sub-exporter                             0.987  pl526_2               bioconda/linux-64        Cached
+  + perl-sub-exporter-progressive              0.001013  pl526_0               bioconda/linux-64        Cached
+  + perl-sub-identify                              0.14  pl526h14c3975_0       bioconda/linux-64        Cached
+  + perl-sub-install                              0.928  pl526_2               bioconda/linux-64        Cached
+  + perl-sub-name                                  0.21  pl526_1               bioconda/linux-64        Cached
+  + perl-sub-quote                             2.006003  pl526_1               bioconda/linux-64        Cached
+  + perl-sub-uplevel                             0.2800  pl526h14c3975_2       bioconda/linux-64        Cached
+  + perl-svg                                       2.84  pl526_0               bioconda/linux-64        Cached
+  + perl-svg-graph                                 0.02  pl526_3               bioconda/linux-64        Cached
+  + perl-task-weaken                               1.06  pl526_0               bioconda/linux-64        Cached
+  + perl-template-toolkit                          2.26  pl526_1               bioconda/linux-64        Cached
+  + perl-test                                      1.26  pl526_1               bioconda/linux-64        Cached
+  + perl-test-deep                                1.128  pl526_1               bioconda/linux-64        Cached
+  + perl-test-differences                          0.67  pl526_0               bioconda/noarch          Cached
+  + perl-test-exception                            0.43  pl526_2               bioconda/linux-64        Cached
+  + perl-test-harness                              3.42  pl526_0               bioconda/linux-64        Cached
+  + perl-test-leaktrace                            0.16  pl526h14c3975_2       bioconda/linux-64        Cached
+  + perl-test-most                                 0.35  pl526_0               bioconda/linux-64        Cached
+  + perl-test-requiresinternet                     0.05  pl526_0               bioconda/linux-64        Cached
+  + perl-test-warn                                 0.36  pl526_1               bioconda/linux-64        Cached
+  + perl-text-csv                                  2.00  pl526_0               bioconda/noarch          Cached
+  + perl-text-diff                                 1.45  pl526_0               bioconda/linux-64        Cached
+  + perl-tie-ixhash                                1.23  pl526_2               bioconda/linux-64        Cached
+  + perl-time-hires                              1.9760  pl526h14c3975_1       bioconda/linux-64        Cached
+  + perl-time-local                                1.28  pl526_1               bioconda/linux-64        Cached
+  + perl-timedate                                  2.30  pl526_1               bioconda/linux-64        Cached
+  + perl-tree-dag_node                             1.31  pl526_0               bioconda/linux-64        Cached
+  + perl-try-tiny                                  0.30  pl526_1               bioconda/linux-64        Cached
+  + perl-type-tiny                             1.004004  pl526_0               bioconda/linux-64        Cached
+  + perl-types-serialiser                           1.0  pl526_2               bioconda/linux-64        Cached
+  + perl-unicode-map                              0.112  pl526h6bb024c_3       bioconda/linux-64        Cached
+  + perl-uri                                       1.76  pl526_0               bioconda/linux-64        Cached
+  + perl-www-robotrules                            6.02  pl526_3               bioconda/linux-64        Cached
+  + perl-xml-dom                                   1.46  pl526_0               bioconda/linux-64        Cached
+  + perl-xml-dom-xpath                             0.14  pl526_1               bioconda/linux-64        Cached
+  + perl-xml-filter-buffertext                     1.01  pl526_2               bioconda/linux-64        Cached
+  + perl-xml-libxml                              2.0132  pl526h7ec2d77_1       bioconda/linux-64        Cached
+  + perl-xml-libxslt                               1.94  pl526_1               bioconda/linux-64        Cached
+  + perl-xml-namespacesupport                      1.12  pl526_0               bioconda/linux-64        Cached
+  + perl-xml-parser                                2.44  pl526h4e0c4b3_7       bioconda/linux-64        Cached
+  + perl-xml-regexp                                0.04  pl526_2               bioconda/linux-64        Cached
+  + perl-xml-sax                                   1.02  pl526_0               bioconda/noarch          Cached
+  + perl-xml-sax-base                              1.09  pl526_0               bioconda/linux-64        Cached
+  + perl-xml-sax-expat                             0.51  pl526_3               bioconda/linux-64        Cached
+  + perl-xml-sax-writer                            0.57  pl526_0               bioconda/linux-64        Cached
+  + perl-xml-simple                                2.25  pl526_1               bioconda/linux-64        Cached
+  + perl-xml-twig                                  3.52  pl526_2               bioconda/linux-64        Cached
+  + perl-xml-writer                               0.625  pl526_2               bioconda/linux-64        Cached
+  + perl-xml-xpath                                 1.44  pl526_0               bioconda/linux-64        Cached
+  + perl-xml-xpathengine                           0.14  pl526_2               bioconda/linux-64        Cached
+  + perl-xsloader                                  0.24  pl526_0               bioconda/linux-64        Cached
+  + perl-yaml                                      1.29  pl526_0               bioconda/noarch          Cached
+  + pip                                          22.3.1  pyhd8ed1ab_0          conda-forge/noarch       Cached
+  + pixman                                       0.40.0  h36c2ea0_0            conda-forge/linux-64     Cached
+  + pthread-stubs                                   0.4  h36c2ea0_1001         conda-forge/linux-64     Cached
+  + python                                       3.7.12  hb7a2778_100_cpython  conda-forge/linux-64     Cached
+  + readline                                      8.1.2  h0f457ee_0            conda-forge/linux-64     Cached
+  + setuptools                                   65.5.1  pyhd8ed1ab_0          conda-forge/noarch       Cached
+  + sqlite                                       3.39.4  h4ff8645_0            conda-forge/linux-64     Cached
+  + t_coffee                                     11.0.8  py37hea885bf_8        bioconda/linux-64        Cached
+  + tidyp                                          1.04  hec16e2b_4            bioconda/linux-64        Cached
+  + tk                                           8.6.12  h27826a3_0            conda-forge/linux-64     Cached
+  + unzip                                           6.0  h7f98852_3            conda-forge/linux-64     Cached
+  + wheel                                        0.38.3  pyhd8ed1ab_0          conda-forge/noarch       Cached
+  + xorg-kbproto                                  1.0.7  h7f98852_1002         conda-forge/linux-64     Cached
+  + xorg-libice                                  1.0.10  h7f98852_0            conda-forge/linux-64     Cached
+  + xorg-libsm                                    1.2.3  hd9c2040_1000         conda-forge/linux-64     Cached
+  + xorg-libx11                                   1.7.2  h7f98852_0            conda-forge/linux-64     Cached
+  + xorg-libxau                                   1.0.9  h7f98852_0            conda-forge/linux-64     Cached
+  + xorg-libxdmcp                                 1.1.3  h7f98852_0            conda-forge/linux-64     Cached
+  + xorg-libxext                                  1.3.4  h7f98852_1            conda-forge/linux-64     Cached
+  + xorg-libxpm                                  3.5.13  h7f98852_0            conda-forge/linux-64     Cached
+  + xorg-libxrender                              0.9.10  h7f98852_1003         conda-forge/linux-64     Cached
+  + xorg-libxt                                    1.2.1  h7f98852_2            conda-forge/linux-64     Cached
+  + xorg-renderproto                             0.11.1  h7f98852_1002         conda-forge/linux-64     Cached
+  + xorg-xextproto                                7.3.0  h7f98852_1002         conda-forge/linux-64     Cached
+  + xorg-xproto                                  7.0.31  h7f98852_1007         conda-forge/linux-64     Cached
+  + xz                                            5.2.6  h166bdaf_0            conda-forge/linux-64     Cached
+  + zlib                                         1.2.13  h166bdaf_4            conda-forge/linux-64     Cached
+  + zstd                                          1.4.9  ha95c52a_0            conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 298 packages
+
+  Total download: 0 B
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['bioconda::ensembl-vep=99.2']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... This package installs only the variant effect predictor (VEP) library
+code. To install data libraries, you can use the 'vep_install' command
+installed along with it. For example, to install the VEP library for human
+GRCh38 to a directory
+
+vep_install -a cf -s homo_sapiens -y GRCh38 -c /output/path/to/GRCh38/vep --CONVERT
+
+(note that vep_install is renamed from INSTALL.pl
+ to avoid having generic script names in the PATH)
+
+The --CONVERT flag is not required but improves lookup speeds during
+runs. See the VEP documentation for more details
+
+http://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate vep
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Annotating with vep
+
+Possible precedence issue with control flow operator at /home/lkemp/miniconda3/envs/vep/lib/site_perl/5.26.2/Bio/DB/IndexedBase.pm line 805.
+WARNING: Chromosome hs37d5 not found in annotation sources or synonyms on line 360830
+
+Creating conda environment with genmod installed
+
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/genmod
+
+  Updating specs:
+
+   - conda-forge::pip=20.2.2
+
+
+  Package               Version  Build               Channel                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge         conda-forge/linux-64     Cached
+  + _openmp_mutex           4.5  2_gnu               conda-forge/linux-64     Cached
+  + bzip2                 1.0.8  h7f98852_4          conda-forge/linux-64     Cached
+  + ca-certificates   2022.9.24  ha878542_0          conda-forge/linux-64     Cached
+  + ld_impl_linux-64       2.39  hc81fddc_0          conda-forge/linux-64     Cached
+  + libffi                3.4.2  h7f98852_5          conda-forge/linux-64     Cached
+  + libgcc-ng            12.2.0  h65d4601_19         conda-forge/linux-64     Cached
+  + libgomp              12.2.0  h65d4601_19         conda-forge/linux-64     Cached
+  + libnsl                2.0.0  h7f98852_0          conda-forge/linux-64     Cached
+  + libsqlite            3.39.4  h753d276_0          conda-forge/linux-64     Cached
+  + libuuid              2.32.1  h7f98852_1000       conda-forge/linux-64     Cached
+  + libzlib              1.2.13  h166bdaf_4          conda-forge/linux-64     Cached
+  + ncurses                 6.3  h27087fc_1          conda-forge/linux-64     Cached
+  + openssl               3.0.7  h166bdaf_0          conda-forge/linux-64     Cached
+  + pip                  20.2.2  py_0                conda-forge/noarch       Cached
+  + python               3.11.0  ha86cf86_0_cpython  conda-forge/linux-64     Cached
+  + readline              8.1.2  h0f457ee_0          conda-forge/linux-64     Cached
+  + setuptools           65.5.1  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + tk                   8.6.12  h27826a3_0          conda-forge/linux-64     Cached
+  + tzdata                2022f  h191b570_0          conda-forge/noarch       Cached
+  + wheel                0.38.3  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + xz                    5.2.6  h166bdaf_0          conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 0 B
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['conda-forge::pip=20.2.2']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Installing pip dependencies: ...working... Ran pip subprocess with arguments:
+['/home/lkemp/miniconda3/envs/genmod/bin/python', '-m', 'pip', 'install', '-U', '-r', '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/scripts/envs/condaenv.p7oagqcu.requirements.txt']
+Pip subprocess output:
+Collecting genmod==3.7.3
+  Using cached genmod-3.7.3-py3-none-any.whl (1.5 MB)
+Processing /home/lkemp/.cache/pip/wheels/64/b2/97/303787ddf91270a2322b44060c5e2d8a776e15e966b9ae2e09/configobj-5.0.6-py3-none-any.whl
+Processing /home/lkemp/.cache/pip/wheels/31/d7/d9/eec6891f78cac19a693bd40ecb8365d2f4613318c145ec9816/intervaltree-3.1.0-py2.py3-none-any.whl
+Collecting pytest
+  Using cached pytest-7.2.0-py3-none-any.whl (316 kB)
+Processing /home/lkemp/.cache/pip/wheels/bb/9f/9c/8dc29f616443036df3ef2788d33f82228af3859a063977e63f/extract_vcf-0.5-py3-none-any.whl
+Collecting ped-parser>=1.6.2
+  Using cached ped_parser-1.6.6-py2.py3-none-any.whl (15 kB)
+Collecting pytabix
+  Using cached pytabix-0.1.tar.gz (45 kB)
+Processing /home/lkemp/.cache/pip/wheels/06/72/a3/6105036d56a85b334de6b35eb2d1c142078346b873c91c6cbf/interval_tree-0.3.4-py3-none-any.whl
+Collecting click<7
+  Using cached click-6.7-py2.py3-none-any.whl (71 kB)
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sortedcontainers<3.0,>=2.0
+  Using cached sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Collecting attrs>=19.2.0
+  Using cached attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+Collecting packaging
+  Using cached packaging-21.3-py3-none-any.whl (40 kB)
+Collecting pluggy<2.0,>=0.12
+  Using cached pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Collecting iniconfig
+  Using cached iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting pyparsing!=3.0.5,>=2.0.2
+  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Building wheels for collected packages: pytabix
+  Building wheel for pytabix (setup.py): started
+  Building wheel for pytabix (setup.py): finished with status 'done'
+  Created wheel for pytabix: filename=pytabix-0.1-cp311-cp311-linux_x86_64.whl size=42229 sha256=485a2de2e4e2ce31c0377801a730256d40e12f997984667ac53ccebe600acce9
+  Stored in directory: /home/lkemp/.cache/pip/wheels/22/5f/74/4d0bab16240c1db3d1802598a32c20222c514e0b9ced436835
+Successfully built pytabix
+Installing collected packages: six, configobj, sortedcontainers, intervaltree, attrs, pyparsing, packaging, pluggy, iniconfig, pytest, extract-vcf, click, ped-parser, pytabix, interval-tree, genmod
+Successfully installed attrs-22.1.0 click-6.7 configobj-5.0.6 extract-vcf-0.5 genmod-3.7.3 iniconfig-1.1.1 interval-tree-0.3.4 intervaltree-3.1.0 packaging-21.3 ped-parser-1.6.6 pluggy-1.0.0 pyparsing-3.0.9 pytabix-0.1 pytest-7.2.0 six-1.16.0 sortedcontainers-2.4.0
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate genmod
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Annotating with CADD
+
+
+Annotating with dbSNP
+
+
+Compressing and indexing vcf
+

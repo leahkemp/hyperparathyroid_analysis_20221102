@@ -1,0 +1,7 @@
+name: vcftools
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bioconda::vcftools=0.1.16

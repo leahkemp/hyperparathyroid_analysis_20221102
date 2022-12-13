@@ -1,0 +1,98 @@
+
+Configuring conda
+
+no change     /home/lkemp/miniconda3/condabin/conda
+no change     /home/lkemp/miniconda3/bin/conda
+no change     /home/lkemp/miniconda3/bin/conda-env
+no change     /home/lkemp/miniconda3/bin/activate
+no change     /home/lkemp/miniconda3/bin/deactivate
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.sh
+no change     /home/lkemp/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/lkemp/miniconda3/shell/condabin/Conda.psm1
+no change     /home/lkemp/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/lkemp/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.csh
+no change     /home/lkemp/.bashrc
+No action taken.
+ERROR: Unable to locate a modulefile for 'null'
+
+Creating conda environment with bcftools installed
+
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/bcftools
+
+  Updating specs:
+
+   - bioconda::bcftools=1.16
+
+
+  Package                 Version  Build                Channel                    Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge          conda-forge/linux-64     Cached
+  + _openmp_mutex             4.5  2_gnu                conda-forge/linux-64     Cached
+  + bcftools                 1.16  hfe4b78e_1           bioconda/linux-64        Cached
+  + bzip2                   1.0.8  h7f98852_4           conda-forge/linux-64     Cached
+  + c-ares                 1.18.1  h7f98852_0           conda-forge/linux-64     Cached
+  + ca-certificates     2022.9.24  ha878542_0           conda-forge/linux-64     Cached
+  + gsl                       2.7  he838d99_0           conda-forge/linux-64     Cached
+  + htslib                   1.16  h6bc39ce_0           bioconda/linux-64        Cached
+  + keyutils                1.6.1  h166bdaf_0           conda-forge/linux-64     Cached
+  + krb5                   1.19.3  h3790be6_0           conda-forge/linux-64     Cached
+  + libblas                 3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
+  + libcblas                3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
+  + libcurl                7.86.0  h7bff187_1           conda-forge/linux-64     Cached
+  + libdeflate               1.13  h166bdaf_0           conda-forge/linux-64     Cached
+  + libedit          3.1.20191231  he28a2e2_2           conda-forge/linux-64     Cached
+  + libev                    4.33  h516909a_1           conda-forge/linux-64     Cached
+  + libgcc-ng              12.2.0  h65d4601_19          conda-forge/linux-64     Cached
+  + libgfortran-ng         12.2.0  h69a702a_19          conda-forge/linux-64     Cached
+  + libgfortran5           12.2.0  h337968e_19          conda-forge/linux-64     Cached
+  + libgomp                12.2.0  h65d4601_19          conda-forge/linux-64     Cached
+  + libnghttp2             1.47.0  hdcd2b5c_1           conda-forge/linux-64     Cached
+  + libnsl                  2.0.0  h7f98852_0           conda-forge/linux-64     Cached
+  + libopenblas            0.3.21  pthreads_h78a6416_3  conda-forge/linux-64     Cached
+  + libssh2                1.10.0  haa6b8db_3           conda-forge/linux-64     Cached
+  + libstdcxx-ng           12.2.0  h46fd767_19          conda-forge/linux-64     Cached
+  + libzlib                1.2.13  h166bdaf_4           conda-forge/linux-64     Cached
+  + ncurses                   6.3  h27087fc_1           conda-forge/linux-64     Cached
+  + openssl                1.1.1s  h0b41bf4_1           conda-forge/linux-64     Cached
+  + perl                   5.32.1  2_h7f98852_perl5     conda-forge/linux-64     Cached
+  + xz                      5.2.6  h166bdaf_0           conda-forge/linux-64     Cached
+  + zlib                   1.2.13  h166bdaf_4           conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 31 packages
+
+  Total download: 0 B
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['bioconda::bcftools=1.16']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate bcftools
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Extracting clinvar variants
+

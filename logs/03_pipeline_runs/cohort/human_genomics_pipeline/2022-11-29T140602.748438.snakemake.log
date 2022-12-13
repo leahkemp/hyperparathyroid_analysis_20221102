@@ -1,0 +1,1814 @@
+Building DAG of jobs...
+Creating conda environment envs/trim_galore.yaml...
+Downloading and installing remote packages.
+Environment for envs/trim_galore.yaml created (location: .snakemake/conda/b779d30c)
+Creating conda environment envs/gatk4.yaml...
+Downloading and installing remote packages.
+Environment for envs/gatk4.yaml created (location: .snakemake/conda/f60ec0b7)
+Creating conda environment envs/multiqc.yaml...
+Downloading and installing remote packages.
+Environment for envs/multiqc.yaml created (location: .snakemake/conda/8774b8e4)
+Creating conda environment envs/fastqc.yaml...
+Downloading and installing remote packages.
+Environment for envs/fastqc.yaml created (location: .snakemake/conda/ae59ca93)
+Using shell: /usr/bin/bash
+Provided cluster nodes: 32
+Provided resources: gpu=2
+Job counts:
+	count	jobs
+	1	all
+	63	fastqc
+	1	gatk_GenotypeGVCFs
+	1	multiqc
+	63	pbrun_germline
+	1	pbrun_triocombinegvcf
+	63	trim_galore_pe
+	193
+
+[Tue Nov 29 14:17:00 2022]
+Job 92: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0045_1.fastq.gz ../../fastq/21CG0045_2.fastq.gz
+
+Submitted job 92 with external jobid 'Submitted batch job 79975'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 135: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG010_1.fastq.gz ../../fastq/22CG010_2.fastq.gz
+
+Submitted job 135 with external jobid 'Submitted batch job 79976'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 163: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG027_1.fastq.gz ../../fastq/22CG027_2.fastq.gz
+
+Submitted job 163 with external jobid 'Submitted batch job 79977'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 136: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0043_1.fastq.gz ../../fastq/21CG0043_2.fastq.gz
+
+Submitted job 136 with external jobid 'Submitted batch job 79978'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 164: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG024_1.fastq.gz ../../fastq/22CG024_2.fastq.gz
+
+Submitted job 164 with external jobid 'Submitted batch job 79979'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 165: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0046_1.fastq.gz ../../fastq/21CG0046_2.fastq.gz
+
+Submitted job 165 with external jobid 'Submitted batch job 79980'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 152: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG017_1.fastq.gz ../../fastq/22CG017_2.fastq.gz
+
+Submitted job 152 with external jobid 'Submitted batch job 79981'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 70: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0048_1.fastq.gz ../../fastq/21CG0048_2.fastq.gz
+
+Submitted job 70 with external jobid 'Submitted batch job 79982'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 154: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG025_1.fastq.gz ../../fastq/22CG025_2.fastq.gz
+
+Submitted job 154 with external jobid 'Submitted batch job 79983'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 168: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG026_1.fastq.gz ../../fastq/22CG026_2.fastq.gz
+
+Submitted job 168 with external jobid 'Submitted batch job 79984'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 155: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0045_1.fastq.gz ../../fastq/21CG0045_2.fastq.gz
+
+Submitted job 155 with external jobid 'Submitted batch job 79985'.
+
+[Tue Nov 29 14:17:00 2022]
+Job 72: Undertaking quality control checks on raw sequence data for ../../fastq/22CG010_1.fastq.gz ../../fastq/22CG010_2.fastq.gz
+
+Submitted job 72 with external jobid 'Submitted batch job 79986'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 100: Undertaking quality control checks on raw sequence data for ../../fastq/22CG027_1.fastq.gz ../../fastq/22CG027_2.fastq.gz
+
+Submitted job 100 with external jobid 'Submitted batch job 79987'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 170: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG003_1.fastq.gz ../../fastq/22CG003_2.fastq.gz
+
+Submitted job 170 with external jobid 'Submitted batch job 79988'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 73: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0043_1.fastq.gz ../../fastq/21CG0043_2.fastq.gz
+
+Submitted job 73 with external jobid 'Submitted batch job 79989'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 101: Undertaking quality control checks on raw sequence data for ../../fastq/22CG024_1.fastq.gz ../../fastq/22CG024_2.fastq.gz
+
+Submitted job 101 with external jobid 'Submitted batch job 79990'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 171: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG022_1.fastq.gz ../../fastq/22CG022_2.fastq.gz
+
+Submitted job 171 with external jobid 'Submitted batch job 79991'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 102: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0046_1.fastq.gz ../../fastq/21CG0046_2.fastq.gz
+
+Submitted job 102 with external jobid 'Submitted batch job 79992'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 172: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG021_1.fastq.gz ../../fastq/22CG021_2.fastq.gz
+
+Submitted job 172 with external jobid 'Submitted batch job 79993'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 173: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0014_1.fastq.gz ../../fastq/21CG0014_2.fastq.gz
+
+Submitted job 173 with external jobid 'Submitted batch job 79994'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 174: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG011_1.fastq.gz ../../fastq/22CG011_2.fastq.gz
+
+Submitted job 174 with external jobid 'Submitted batch job 79995'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 105: Undertaking quality control checks on raw sequence data for ../../fastq/22CG026_1.fastq.gz ../../fastq/22CG026_2.fastq.gz
+
+Submitted job 105 with external jobid 'Submitted batch job 79996'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 175: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG012_1.fastq.gz ../../fastq/22CG012_2.fastq.gz
+
+Submitted job 175 with external jobid 'Submitted batch job 79997'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 107: Undertaking quality control checks on raw sequence data for ../../fastq/22CG003_1.fastq.gz ../../fastq/22CG003_2.fastq.gz
+
+Submitted job 107 with external jobid 'Submitted batch job 79998'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 108: Undertaking quality control checks on raw sequence data for ../../fastq/22CG022_1.fastq.gz ../../fastq/22CG022_2.fastq.gz
+
+Submitted job 108 with external jobid 'Submitted batch job 79999'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 109: Undertaking quality control checks on raw sequence data for ../../fastq/22CG021_1.fastq.gz ../../fastq/22CG021_2.fastq.gz
+
+Submitted job 109 with external jobid 'Submitted batch job 80000'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 110: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0014_1.fastq.gz ../../fastq/21CG0014_2.fastq.gz
+
+Submitted job 110 with external jobid 'Submitted batch job 80001'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 111: Undertaking quality control checks on raw sequence data for ../../fastq/22CG011_1.fastq.gz ../../fastq/22CG011_2.fastq.gz
+
+Submitted job 111 with external jobid 'Submitted batch job 80002'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 112: Undertaking quality control checks on raw sequence data for ../../fastq/22CG012_1.fastq.gz ../../fastq/22CG012_2.fastq.gz
+
+Submitted job 112 with external jobid 'Submitted batch job 80003'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 89: Undertaking quality control checks on raw sequence data for ../../fastq/22CG017_1.fastq.gz ../../fastq/22CG017_2.fastq.gz
+
+Submitted job 89 with external jobid 'Submitted batch job 80004'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 91: Undertaking quality control checks on raw sequence data for ../../fastq/22CG025_1.fastq.gz ../../fastq/22CG025_2.fastq.gz
+
+Submitted job 91 with external jobid 'Submitted batch job 80005'.
+
+[Tue Nov 29 14:17:01 2022]
+Job 133: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0048_1.fastq.gz ../../fastq/21CG0048_2.fastq.gz
+
+Submitted job 133 with external jobid 'Submitted batch job 80006'.
+[Tue Nov 29 14:37:48 2022]
+Finished job 110.
+1 of 193 steps (0.52%) done
+
+[Tue Nov 29 14:37:48 2022]
+Job 150: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG016_1.fastq.gz ../../fastq/22CG016_2.fastq.gz
+
+[Tue Nov 29 14:37:48 2022]
+Finished job 112.
+Submitted job 150 with external jobid 'Submitted batch job 80007'.
+2 of 193 steps (1%) done
+
+[Tue Nov 29 14:37:48 2022]
+Job 87: Undertaking quality control checks on raw sequence data for ../../fastq/22CG016_1.fastq.gz ../../fastq/22CG016_2.fastq.gz
+
+Submitted job 87 with external jobid 'Submitted batch job 80008'.
+[Tue Nov 29 14:38:40 2022]
+Finished job 108.
+3 of 193 steps (2%) done
+
+[Tue Nov 29 14:38:40 2022]
+Job 94: Undertaking quality control checks on raw sequence data for ../../fastq/22CG023_1.fastq.gz ../../fastq/22CG023_2.fastq.gz
+
+Submitted job 94 with external jobid 'Submitted batch job 80009'.
+[Tue Nov 29 14:39:32 2022]
+Finished job 100.
+4 of 193 steps (2%) done
+
+[Tue Nov 29 14:39:32 2022]
+Job 157: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG023_1.fastq.gz ../../fastq/22CG023_2.fastq.gz
+
+Submitted job 157 with external jobid 'Submitted batch job 80010'.
+[Tue Nov 29 14:39:33 2022]
+Finished job 102.
+5 of 193 steps (3%) done
+
+[Tue Nov 29 14:39:33 2022]
+Job 66: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0020_1.fastq.gz ../../fastq/21CG0020_2.fastq.gz
+
+Submitted job 66 with external jobid 'Submitted batch job 80011'.
+[Tue Nov 29 14:39:33 2022]
+Finished job 109.
+6 of 193 steps (3%) done
+
+[Tue Nov 29 14:39:33 2022]
+Job 129: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0020_1.fastq.gz ../../fastq/21CG0020_2.fastq.gz
+
+Submitted job 129 with external jobid 'Submitted batch job 80012'.
+[Tue Nov 29 14:39:33 2022]
+Finished job 111.
+7 of 193 steps (4%) done
+
+[Tue Nov 29 14:39:33 2022]
+Job 68: Undertaking quality control checks on raw sequence data for ../../fastq/22CG020_1.fastq.gz ../../fastq/22CG020_2.fastq.gz
+
+Submitted job 68 with external jobid 'Submitted batch job 80013'.
+[Tue Nov 29 14:39:33 2022]
+Finished job 89.
+8 of 193 steps (4%) done
+
+[Tue Nov 29 14:39:33 2022]
+Job 131: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG020_1.fastq.gz ../../fastq/22CG020_2.fastq.gz
+
+Submitted job 131 with external jobid 'Submitted batch job 80014'.
+[Tue Nov 29 14:39:34 2022]
+Finished job 91.
+9 of 193 steps (5%) done
+
+[Tue Nov 29 14:39:34 2022]
+Job 121: Undertaking quality control checks on raw sequence data for ../../fastq/22CG008_1.fastq.gz ../../fastq/22CG008_2.fastq.gz
+
+Submitted job 121 with external jobid 'Submitted batch job 80015'.
+[Tue Nov 29 14:39:46 2022]
+Finished job 105.
+10 of 193 steps (5%) done
+
+[Tue Nov 29 14:39:46 2022]
+Job 184: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG008_1.fastq.gz ../../fastq/22CG008_2.fastq.gz
+
+Submitted job 184 with external jobid 'Submitted batch job 80016'.
+[Tue Nov 29 14:40:23 2022]
+Finished job 92.
+11 of 193 steps (6%) done
+
+[Tue Nov 29 14:40:23 2022]
+Job 138: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0012_1.fastq.gz ../../fastq/21CG0012_2.fastq.gz
+
+Submitted job 138 with external jobid 'Submitted batch job 80017'.
+[Tue Nov 29 14:41:16 2022]
+Finished job 70.
+12 of 193 steps (6%) done
+
+[Tue Nov 29 14:41:16 2022]
+Job 75: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0012_1.fastq.gz ../../fastq/21CG0012_2.fastq.gz
+
+Submitted job 75 with external jobid 'Submitted batch job 80018'.
+[Tue Nov 29 14:41:17 2022]
+Finished job 72.
+13 of 193 steps (7%) done
+
+[Tue Nov 29 14:41:17 2022]
+Job 120: Undertaking quality control checks on raw sequence data for ../../fastq/22CG007_1.fastq.gz ../../fastq/22CG007_2.fastq.gz
+
+Submitted job 120 with external jobid 'Submitted batch job 80019'.
+[Tue Nov 29 14:41:17 2022]
+Finished job 107.
+14 of 193 steps (7%) done
+
+[Tue Nov 29 14:41:17 2022]
+Job 183: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG007_1.fastq.gz ../../fastq/22CG007_2.fastq.gz
+
+Submitted job 183 with external jobid 'Submitted batch job 80020'.
+[Tue Nov 29 14:42:09 2022]
+Finished job 101.
+15 of 193 steps (8%) done
+
+[Tue Nov 29 14:42:09 2022]
+Job 191: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0018_1.fastq.gz ../../fastq/21CG0018_2.fastq.gz
+
+Submitted job 191 with external jobid 'Submitted batch job 80021'.
+[Tue Nov 29 14:43:01 2022]
+Finished job 73.
+16 of 193 steps (8%) done
+
+[Tue Nov 29 14:43:01 2022]
+Job 128: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0018_1.fastq.gz ../../fastq/21CG0018_2.fastq.gz
+
+Submitted job 128 with external jobid 'Submitted batch job 80022'.
+[Tue Nov 29 14:57:58 2022]
+Finished job 94.
+17 of 193 steps (9%) done
+
+[Tue Nov 29 14:57:58 2022]
+Job 176: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0019_1.fastq.gz ../../fastq/21CG0019_2.fastq.gz
+
+Submitted job 176 with external jobid 'Submitted batch job 80023'.
+[Tue Nov 29 14:57:58 2022]
+Finished job 87.
+18 of 193 steps (9%) done
+
+[Tue Nov 29 14:57:58 2022]
+Job 113: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0019_1.fastq.gz ../../fastq/21CG0019_2.fastq.gz
+
+Submitted job 113 with external jobid 'Submitted batch job 80024'.
+[Tue Nov 29 14:58:50 2022]
+Finished job 68.
+19 of 193 steps (10%) done
+
+[Tue Nov 29 14:58:50 2022]
+Job 162: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0040_1.fastq.gz ../../fastq/21CG0040_2.fastq.gz
+
+Submitted job 162 with external jobid 'Submitted batch job 80025'.
+[Tue Nov 29 14:58:52 2022]
+Finished job 121.
+20 of 193 steps (10%) done
+
+[Tue Nov 29 14:58:52 2022]
+Job 99: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0040_1.fastq.gz ../../fastq/21CG0040_2.fastq.gz
+
+Submitted job 99 with external jobid 'Submitted batch job 80026'.
+[Tue Nov 29 14:59:30 2022]
+Finished job 66.
+21 of 193 steps (11%) done
+
+[Tue Nov 29 14:59:30 2022]
+Job 149: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG019_1.fastq.gz ../../fastq/22CG019_2.fastq.gz
+
+Submitted job 149 with external jobid 'Submitted batch job 80027'.
+[Tue Nov 29 14:59:42 2022]
+Finished job 120.
+22 of 193 steps (11%) done
+
+[Tue Nov 29 14:59:42 2022]
+Job 86: Undertaking quality control checks on raw sequence data for ../../fastq/22CG019_1.fastq.gz ../../fastq/22CG019_2.fastq.gz
+
+Submitted job 86 with external jobid 'Submitted batch job 80028'.
+[Tue Nov 29 14:59:55 2022]
+Finished job 75.
+23 of 193 steps (12%) done
+
+[Tue Nov 29 14:59:55 2022]
+Job 140: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG013_1.fastq.gz ../../fastq/22CG013_2.fastq.gz
+
+Submitted job 140 with external jobid 'Submitted batch job 80029'.
+[Tue Nov 29 15:03:23 2022]
+Finished job 128.
+24 of 193 steps (12%) done
+
+[Tue Nov 29 15:03:23 2022]
+Job 77: Undertaking quality control checks on raw sequence data for ../../fastq/22CG013_1.fastq.gz ../../fastq/22CG013_2.fastq.gz
+
+Submitted job 77 with external jobid 'Submitted batch job 80030'.
+[Tue Nov 29 15:18:22 2022]
+Finished job 86.
+25 of 193 steps (13%) done
+
+[Tue Nov 29 15:18:22 2022]
+Job 179: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0010_1.fastq.gz ../../fastq/21CG0010_2.fastq.gz
+
+Submitted job 179 with external jobid 'Submitted batch job 80031'.
+[Tue Nov 29 15:18:22 2022]
+Finished job 113.
+26 of 193 steps (13%) done
+
+[Tue Nov 29 15:18:22 2022]
+Job 116: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0010_1.fastq.gz ../../fastq/21CG0010_2.fastq.gz
+
+Submitted job 116 with external jobid 'Submitted batch job 80032'.
+[Tue Nov 29 15:18:24 2022]
+Finished job 99.
+27 of 193 steps (14%) done
+
+[Tue Nov 29 15:18:24 2022]
+Job 122: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0017_1.fastq.gz ../../fastq/21CG0017_2.fastq.gz
+
+Submitted job 122 with external jobid 'Submitted batch job 80033'.
+[Tue Nov 29 15:22:55 2022]
+Finished job 77.
+28 of 193 steps (15%) done
+
+[Tue Nov 29 15:22:55 2022]
+Job 185: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0017_1.fastq.gz ../../fastq/21CG0017_2.fastq.gz
+
+Submitted job 185 with external jobid 'Submitted batch job 80034'.
+[Tue Nov 29 15:35:43 2022]
+Finished job 116.
+29 of 193 steps (15%) done
+
+[Tue Nov 29 15:35:43 2022]
+Job 182: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG015_1.fastq.gz ../../fastq/22CG015_2.fastq.gz
+
+Submitted job 182 with external jobid 'Submitted batch job 80035'.
+[Tue Nov 29 15:35:46 2022]
+Finished job 122.
+30 of 193 steps (16%) done
+
+[Tue Nov 29 15:35:46 2022]
+Job 119: Undertaking quality control checks on raw sequence data for ../../fastq/22CG015_1.fastq.gz ../../fastq/22CG015_2.fastq.gz
+
+Submitted job 119 with external jobid 'Submitted batch job 80036'.
+[Tue Nov 29 15:53:20 2022]
+Finished job 119.
+31 of 193 steps (16%) done
+
+[Tue Nov 29 15:53:20 2022]
+Job 125: Undertaking quality control checks on raw sequence data for ../../fastq/22CG009_1.fastq.gz ../../fastq/22CG009_2.fastq.gz
+
+Submitted job 125 with external jobid 'Submitted batch job 80037'.
+[Tue Nov 29 16:10:55 2022]
+Finished job 125.
+32 of 193 steps (17%) done
+
+[Tue Nov 29 16:10:55 2022]
+Job 188: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG009_1.fastq.gz ../../fastq/22CG009_2.fastq.gz
+
+Submitted job 188 with external jobid 'Submitted batch job 80039'.
+[Tue Nov 29 16:38:14 2022]
+Finished job 175.
+33 of 193 steps (17%) done
+
+[Tue Nov 29 16:38:14 2022]
+Job 48: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG012_1_val_1.fq.gz ../results/trimmed/22CG012_2_val_2.fq.gz
+
+[Tue Nov 29 16:46:42 2022]
+Finished job 173.
+34 of 193 steps (18%) done
+
+[Tue Nov 29 16:46:42 2022]
+Job 177: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0009_1.fastq.gz ../../fastq/21CG0009_2.fastq.gz
+
+Submitted job 177 with external jobid 'Submitted batch job 80040'.
+[Tue Nov 29 16:50:48 2022]
+Finished job 163.
+35 of 193 steps (18%) done
+
+[Tue Nov 29 16:50:48 2022]
+Job 114: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0009_1.fastq.gz ../../fastq/21CG0009_2.fastq.gz
+
+Submitted job 114 with external jobid 'Submitted batch job 80041'.
+[Tue Nov 29 16:50:49 2022]
+Finished job 171.
+36 of 193 steps (19%) done
+
+[Tue Nov 29 16:50:49 2022]
+Job 98: Undertaking quality control checks on raw sequence data for ../../fastq/22CG018_1.fastq.gz ../../fastq/22CG018_2.fastq.gz
+
+Submitted job 98 with external jobid 'Submitted batch job 80042'.
+[Tue Nov 29 16:52:46 2022]
+Finished job 172.
+37 of 193 steps (19%) done
+
+[Tue Nov 29 16:52:47 2022]
+Job 161: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG018_1.fastq.gz ../../fastq/22CG018_2.fastq.gz
+
+Submitted job 161 with external jobid 'Submitted batch job 80043'.
+[Tue Nov 29 17:00:10 2022]
+Finished job 152.
+38 of 193 steps (20%) done
+
+[Tue Nov 29 17:00:10 2022]
+Job 169: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG002_1.fastq.gz ../../fastq/22CG002_2.fastq.gz
+
+Submitted job 169 with external jobid 'Submitted batch job 80044'.
+[Tue Nov 29 17:00:10 2022]
+Finished job 174.
+39 of 193 steps (20%) done
+
+[Tue Nov 29 17:00:10 2022]
+Job 106: Undertaking quality control checks on raw sequence data for ../../fastq/22CG002_1.fastq.gz ../../fastq/22CG002_2.fastq.gz
+
+Submitted job 106 with external jobid 'Submitted batch job 80045'.
+[Tue Nov 29 17:02:07 2022]
+Finished job 191.
+40 of 193 steps (21%) done
+
+[Tue Nov 29 17:02:07 2022]
+Job 145: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0015_1.fastq.gz ../../fastq/21CG0015_2.fastq.gz
+
+Submitted job 145 with external jobid 'Submitted batch job 80046'.
+[Tue Nov 29 17:02:20 2022]
+Finished job 157.
+41 of 193 steps (21%) done
+
+[Tue Nov 29 17:02:20 2022]
+Job 82: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0015_1.fastq.gz ../../fastq/21CG0015_2.fastq.gz
+
+Submitted job 82 with external jobid 'Submitted batch job 80047'.
+[Tue Nov 29 17:02:21 2022]
+Finished job 165.
+42 of 193 steps (22%) done
+
+[Tue Nov 29 17:02:21 2022]
+Job 123: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0016_1.fastq.gz ../../fastq/21CG0016_2.fastq.gz
+
+Submitted job 123 with external jobid 'Submitted batch job 80048'.
+[Tue Nov 29 17:04:17 2022]
+Finished job 183.
+43 of 193 steps (22%) done
+[Tue Nov 29 17:04:17 2022]
+Finished job 138.
+44 of 193 steps (23%) done
+
+[Tue Nov 29 17:04:17 2022]
+Job 186: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0016_1.fastq.gz ../../fastq/21CG0016_2.fastq.gz
+
+Submitted job 186 with external jobid 'Submitted batch job 80049'.
+
+[Tue Nov 29 17:04:17 2022]
+Job 178: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0036_1.fastq.gz ../../fastq/21CG0036_2.fastq.gz
+
+Submitted job 178 with external jobid 'Submitted batch job 80050'.
+[Tue Nov 29 17:04:18 2022]
+Finished job 131.
+45 of 193 steps (23%) done
+
+[Tue Nov 29 17:04:18 2022]
+Job 115: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0036_1.fastq.gz ../../fastq/21CG0036_2.fastq.gz
+
+Submitted job 115 with external jobid 'Submitted batch job 80051'.
+[Tue Nov 29 17:04:18 2022]
+Finished job 154.
+46 of 193 steps (24%) done
+
+[Tue Nov 29 17:04:18 2022]
+Job 180: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0035_1.fastq.gz ../../fastq/21CG0035_2.fastq.gz
+
+Submitted job 180 with external jobid 'Submitted batch job 80052'.
+[Tue Nov 29 17:05:10 2022]
+Finished job 184.
+47 of 193 steps (24%) done
+[Tue Nov 29 17:05:10 2022]
+Finished job 150.
+48 of 193 steps (25%) done
+
+[Tue Nov 29 17:05:10 2022]
+Job 117: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0035_1.fastq.gz ../../fastq/21CG0035_2.fastq.gz
+
+Submitted job 117 with external jobid 'Submitted batch job 80053'.
+
+[Tue Nov 29 17:05:10 2022]
+Job 69: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0037_1.fastq.gz ../../fastq/21CG0037_2.fastq.gz
+
+Submitted job 69 with external jobid 'Submitted batch job 80054'.
+[Tue Nov 29 17:08:13 2022]
+Finished job 168.
+49 of 193 steps (25%) done
+
+[Tue Nov 29 17:08:13 2022]
+Job 132: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0037_1.fastq.gz ../../fastq/21CG0037_2.fastq.gz
+
+Submitted job 132 with external jobid 'Submitted batch job 80055'.
+Write-protecting output file ../results/mapped/22CG012_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG012_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG012_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG012_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG012_recal.txt.
+[Tue Nov 29 17:09:58 2022]
+Finished job 48.
+50 of 193 steps (26%) done
+
+[Tue Nov 29 17:09:58 2022]
+Job 41: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG026_1_val_1.fq.gz ../results/trimmed/22CG026_2_val_2.fq.gz
+
+[Tue Nov 29 17:10:11 2022]
+Finished job 129.
+51 of 193 steps (26%) done
+
+[Tue Nov 29 17:10:11 2022]
+Job 148: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG014_1.fastq.gz ../../fastq/22CG014_2.fastq.gz
+
+Submitted job 148 with external jobid 'Submitted batch job 80056'.
+[Tue Nov 29 17:10:11 2022]
+Finished job 155.
+52 of 193 steps (27%) done
+
+[Tue Nov 29 17:10:11 2022]
+Job 85: Undertaking quality control checks on raw sequence data for ../../fastq/22CG014_1.fastq.gz ../../fastq/22CG014_2.fastq.gz
+
+Submitted job 85 with external jobid 'Submitted batch job 80057'.
+[Tue Nov 29 17:11:03 2022]
+Finished job 170.
+53 of 193 steps (27%) done
+
+[Tue Nov 29 17:11:03 2022]
+Job 97: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0034_1.fastq.gz ../../fastq/21CG0034_2.fastq.gz
+
+Submitted job 97 with external jobid 'Submitted batch job 80058'.
+[Tue Nov 29 17:13:00 2022]
+Finished job 114.
+54 of 193 steps (28%) done
+[Tue Nov 29 17:13:00 2022]
+Finished job 98.
+55 of 193 steps (28%) done
+
+[Tue Nov 29 17:13:00 2022]
+Job 160: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0034_1.fastq.gz ../../fastq/21CG0034_2.fastq.gz
+
+Submitted job 160 with external jobid 'Submitted batch job 80059'.
+
+[Tue Nov 29 17:13:00 2022]
+Job 126: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0038_1.fastq.gz ../../fastq/21CG0038_2.fastq.gz
+
+Submitted job 126 with external jobid 'Submitted batch job 80060'.
+[Tue Nov 29 17:13:02 2022]
+Finished job 133.
+56 of 193 steps (29%) done
+
+[Tue Nov 29 17:13:02 2022]
+Job 189: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0038_1.fastq.gz ../../fastq/21CG0038_2.fastq.gz
+
+Submitted job 189 with external jobid 'Submitted batch job 80061'.
+[Tue Nov 29 17:16:29 2022]
+Finished job 140.
+57 of 193 steps (30%) done
+
+[Tue Nov 29 17:16:29 2022]
+Job 151: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0013_1.fastq.gz ../../fastq/21CG0013_2.fastq.gz
+
+Submitted job 151 with external jobid 'Submitted batch job 80062'.
+[Tue Nov 29 17:17:22 2022]
+Finished job 149.
+58 of 193 steps (30%) done
+
+[Tue Nov 29 17:17:22 2022]
+Job 88: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0013_1.fastq.gz ../../fastq/21CG0013_2.fastq.gz
+
+Submitted job 88 with external jobid 'Submitted batch job 80063'.
+[Tue Nov 29 17:18:14 2022]
+Finished job 162.
+59 of 193 steps (31%) done
+
+[Tue Nov 29 17:18:14 2022]
+Job 153: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0042_1.fastq.gz ../../fastq/21CG0042_2.fastq.gz
+
+Submitted job 153 with external jobid 'Submitted batch job 80064'.
+[Tue Nov 29 17:19:06 2022]
+Finished job 135.
+60 of 193 steps (31%) done
+
+[Tue Nov 29 17:19:06 2022]
+Job 90: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0042_1.fastq.gz ../../fastq/21CG0042_2.fastq.gz
+
+Submitted job 90 with external jobid 'Submitted batch job 80065'.
+[Tue Nov 29 17:21:03 2022]
+Finished job 176.
+61 of 193 steps (32%) done
+
+[Tue Nov 29 17:21:03 2022]
+Job 95: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0039_1.fastq.gz ../../fastq/21CG0039_2.fastq.gz
+
+Submitted job 95 with external jobid 'Submitted batch job 80066'.
+[Tue Nov 29 17:21:55 2022]
+Finished job 106.
+62 of 193 steps (32%) done
+
+[Tue Nov 29 17:21:55 2022]
+Job 158: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0039_1.fastq.gz ../../fastq/21CG0039_2.fastq.gz
+
+Submitted job 158 with external jobid 'Submitted batch job 80067'.
+[Tue Nov 29 17:23:51 2022]
+Finished job 82.
+63 of 193 steps (33%) done
+[Tue Nov 29 17:23:51 2022]
+Finished job 123.
+64 of 193 steps (33%) done
+
+[Tue Nov 29 17:23:51 2022]
+Job 190: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0041_1.fastq.gz ../../fastq/21CG0041_2.fastq.gz
+
+Submitted job 190 with external jobid 'Submitted batch job 80068'.
+
+[Tue Nov 29 17:23:52 2022]
+Job 127: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0041_1.fastq.gz ../../fastq/21CG0041_2.fastq.gz
+
+Submitted job 127 with external jobid 'Submitted batch job 80069'.
+[Tue Nov 29 17:25:49 2022]
+Finished job 115.
+65 of 193 steps (34%) done
+
+[Tue Nov 29 17:25:49 2022]
+Job 143: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0021_1.fastq.gz ../../fastq/21CG0021_2.fastq.gz
+
+Submitted job 143 with external jobid 'Submitted batch job 80070'.
+[Tue Nov 29 17:25:50 2022]
+Finished job 164.
+66 of 193 steps (34%) done
+
+[Tue Nov 29 17:25:50 2022]
+Job 80: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0021_1.fastq.gz ../../fastq/21CG0021_2.fastq.gz
+
+Submitted job 80 with external jobid 'Submitted batch job 80071'.
+[Tue Nov 29 17:26:44 2022]
+Finished job 117.
+67 of 193 steps (35%) done
+[Tue Nov 29 17:26:48 2022]
+Finished job 69.
+68 of 193 steps (35%) done
+
+[Tue Nov 29 17:26:49 2022]
+Job 67: Undertaking quality control checks on raw sequence data for ../../fastq/22CG006_1.fastq.gz ../../fastq/22CG006_2.fastq.gz
+
+Submitted job 67 with external jobid 'Submitted batch job 80072'.
+
+[Tue Nov 29 17:26:50 2022]
+Job 130: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG006_1.fastq.gz ../../fastq/22CG006_2.fastq.gz
+
+Submitted job 130 with external jobid 'Submitted batch job 80073'.
+[Tue Nov 29 17:28:08 2022]
+Finished job 136.
+69 of 193 steps (36%) done
+
+[Tue Nov 29 17:28:08 2022]
+Job 96: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0011_1.fastq.gz ../../fastq/21CG0011_2.fastq.gz
+
+Submitted job 96 with external jobid 'Submitted batch job 80074'.
+[Tue Nov 29 17:31:09 2022]
+Finished job 97.
+70 of 193 steps (36%) done
+[Tue Nov 29 17:31:09 2022]
+Finished job 85.
+71 of 193 steps (37%) done
+
+[Tue Nov 29 17:31:09 2022]
+Job 159: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0011_1.fastq.gz ../../fastq/21CG0011_2.fastq.gz
+
+Submitted job 159 with external jobid 'Submitted batch job 80075'.
+
+[Tue Nov 29 17:31:09 2022]
+Job 181: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0047_1.fastq.gz ../../fastq/21CG0047_2.fastq.gz
+
+Submitted job 181 with external jobid 'Submitted batch job 80076'.
+[Tue Nov 29 17:33:06 2022]
+Finished job 126.
+72 of 193 steps (37%) done
+
+[Tue Nov 29 17:33:06 2022]
+Job 118: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0047_1.fastq.gz ../../fastq/21CG0047_2.fastq.gz
+
+Submitted job 118 with external jobid 'Submitted batch job 80077'.
+[Tue Nov 29 17:36:08 2022]
+Finished job 88.
+73 of 193 steps (38%) done
+
+[Tue Nov 29 17:36:09 2022]
+Job 146: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG005_1.fastq.gz ../../fastq/22CG005_2.fastq.gz
+
+Submitted job 146 with external jobid 'Submitted batch job 80078'.
+[Tue Nov 29 17:38:06 2022]
+Finished job 90.
+74 of 193 steps (38%) done
+
+[Tue Nov 29 17:38:06 2022]
+Job 83: Undertaking quality control checks on raw sequence data for ../../fastq/22CG005_1.fastq.gz ../../fastq/22CG005_2.fastq.gz
+
+Submitted job 83 with external jobid 'Submitted batch job 80079'.
+[Tue Nov 29 17:38:07 2022]
+Finished job 179.
+75 of 193 steps (39%) done
+
+[Tue Nov 29 17:38:07 2022]
+Job 134: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG004_1.fastq.gz ../../fastq/22CG004_2.fastq.gz
+
+Submitted job 134 with external jobid 'Submitted batch job 80080'.
+[Tue Nov 29 17:38:58 2022]
+Finished job 95.
+76 of 193 steps (39%) done
+
+[Tue Nov 29 17:38:58 2022]
+Job 71: Undertaking quality control checks on raw sequence data for ../../fastq/22CG004_1.fastq.gz ../../fastq/22CG004_2.fastq.gz
+
+Submitted job 71 with external jobid 'Submitted batch job 80081'.
+[Tue Nov 29 17:40:56 2022]
+Finished job 185.
+77 of 193 steps (40%) done
+
+[Tue Nov 29 17:40:56 2022]
+Job 166: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0006_1.fastq.gz ../../fastq/21CG0006_2.fastq.gz
+
+Submitted job 166 with external jobid 'Submitted batch job 80082'.
+[Tue Nov 29 17:41:47 2022]
+Finished job 127.
+78 of 193 steps (40%) done
+
+[Tue Nov 29 17:41:47 2022]
+Job 103: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0006_1.fastq.gz ../../fastq/21CG0006_2.fastq.gz
+
+Submitted job 103 with external jobid 'Submitted batch job 80083'.
+[Tue Nov 29 17:42:39 2022]
+Finished job 67.
+79 of 193 steps (41%) done
+
+[Tue Nov 29 17:42:40 2022]
+Job 124: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0001_1.fastq.gz ../../fastq/21CG0001_2.fastq.gz
+
+Submitted job 124 with external jobid 'Submitted batch job 80084'.
+Write-protecting output file ../results/mapped/22CG026_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG026_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG026_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG026_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG026_recal.txt.
+[Tue Nov 29 17:42:47 2022]
+Finished job 41.
+80 of 193 steps (41%) done
+
+[Tue Nov 29 17:42:47 2022]
+Job 9: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0043_1_val_1.fq.gz ../results/trimmed/21CG0043_2_val_2.fq.gz
+
+[Tue Nov 29 17:42:52 2022]
+Finished job 80.
+81 of 193 steps (42%) done
+
+[Tue Nov 29 17:42:52 2022]
+Job 187: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0001_1.fastq.gz ../../fastq/21CG0001_2.fastq.gz
+
+Submitted job 187 with external jobid 'Submitted batch job 80085'.
+[Tue Nov 29 17:43:05 2022]
+Finished job 96.
+82 of 193 steps (42%) done
+
+[Tue Nov 29 17:43:05 2022]
+Job 147: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0002_1.fastq.gz ../../fastq/21CG0002_2.fastq.gz
+
+Submitted job 147 with external jobid 'Submitted batch job 80086'.
+[Tue Nov 29 17:47:12 2022]
+Finished job 118.
+83 of 193 steps (43%) done
+
+[Tue Nov 29 17:47:12 2022]
+Job 84: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0002_1.fastq.gz ../../fastq/21CG0002_2.fastq.gz
+
+Submitted job 84 with external jobid 'Submitted batch job 80087'.
+[Tue Nov 29 17:49:11 2022]
+Finished job 182.
+84 of 193 steps (44%) done
+
+[Tue Nov 29 17:49:11 2022]
+Job 93: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0007_1.fastq.gz ../../fastq/21CG0007_2.fastq.gz
+
+Submitted job 93 with external jobid 'Submitted batch job 80088'.
+[Tue Nov 29 17:52:11 2022]
+Finished job 71.
+85 of 193 steps (44%) done
+[Tue Nov 29 17:52:11 2022]
+Finished job 83.
+86 of 193 steps (45%) done
+
+[Tue Nov 29 17:52:11 2022]
+Job 156: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0007_1.fastq.gz ../../fastq/21CG0007_2.fastq.gz
+
+Submitted job 156 with external jobid 'Submitted batch job 80089'.
+
+[Tue Nov 29 17:52:11 2022]
+Job 167: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0004_1.fastq.gz ../../fastq/21CG0004_2.fastq.gz
+
+Submitted job 167 with external jobid 'Submitted batch job 80090'.
+[Tue Nov 29 17:54:08 2022]
+Finished job 103.
+87 of 193 steps (45%) done
+
+[Tue Nov 29 17:54:08 2022]
+Job 104: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0004_1.fastq.gz ../../fastq/21CG0004_2.fastq.gz
+
+Submitted job 104 with external jobid 'Submitted batch job 80091'.
+[Tue Nov 29 17:55:00 2022]
+Finished job 124.
+88 of 193 steps (46%) done
+
+[Tue Nov 29 17:55:00 2022]
+Job 144: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0003_1.fastq.gz ../../fastq/21CG0003_2.fastq.gz
+
+Submitted job 144 with external jobid 'Submitted batch job 80092'.
+[Tue Nov 29 17:59:08 2022]
+Finished job 84.
+89 of 193 steps (46%) done
+
+[Tue Nov 29 17:59:08 2022]
+Job 81: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0003_1.fastq.gz ../../fastq/21CG0003_2.fastq.gz
+
+Submitted job 81 with external jobid 'Submitted batch job 80093'.
+[Tue Nov 29 18:01:05 2022]
+Finished job 93.
+90 of 193 steps (47%) done
+
+[Tue Nov 29 18:01:05 2022]
+Job 137: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0008_1.fastq.gz ../../fastq/21CG0008_2.fastq.gz
+
+Submitted job 137 with external jobid 'Submitted batch job 80094'.
+[Tue Nov 29 18:05:12 2022]
+Finished job 104.
+91 of 193 steps (47%) done
+
+[Tue Nov 29 18:05:12 2022]
+Job 74: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0008_1.fastq.gz ../../fastq/21CG0008_2.fastq.gz
+
+Submitted job 74 with external jobid 'Submitted batch job 80095'.
+[Tue Nov 29 18:09:19 2022]
+Finished job 81.
+92 of 193 steps (48%) done
+
+[Tue Nov 29 18:09:19 2022]
+Job 139: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0044_1.fastq.gz ../../fastq/21CG0044_2.fastq.gz
+
+Submitted job 139 with external jobid 'Submitted batch job 80096'.
+Write-protecting output file ../results/mapped/21CG0043_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0043_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0043_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0043_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0043_recal.txt.
+[Tue Nov 29 18:12:49 2022]
+Finished job 9.
+93 of 193 steps (48%) done
+
+[Tue Nov 29 18:12:49 2022]
+Job 37: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG024_1_val_1.fq.gz ../results/trimmed/22CG024_2_val_2.fq.gz
+
+[Tue Nov 29 18:14:32 2022]
+Finished job 74.
+94 of 193 steps (49%) done
+
+[Tue Nov 29 18:14:32 2022]
+Job 76: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0044_1.fastq.gz ../../fastq/21CG0044_2.fastq.gz
+
+Submitted job 76 with external jobid 'Submitted batch job 80097'.
+[Tue Nov 29 18:24:04 2022]
+Finished job 76.
+95 of 193 steps (49%) done
+
+[Tue Nov 29 18:24:04 2022]
+Job 141: Applying quality and adapter trimming to input fastq files: ../../fastq/21CG0005_1.fastq.gz ../../fastq/21CG0005_2.fastq.gz
+
+Submitted job 141 with external jobid 'Submitted batch job 80098'.
+[Tue Nov 29 18:24:07 2022]
+Finished job 188.
+96 of 193 steps (50%) done
+
+[Tue Nov 29 18:24:07 2022]
+Job 78: Undertaking quality control checks on raw sequence data for ../../fastq/21CG0005_1.fastq.gz ../../fastq/21CG0005_2.fastq.gz
+
+Submitted job 78 with external jobid 'Submitted batch job 80099'.
+[Tue Nov 29 18:34:42 2022]
+Finished job 78.
+97 of 193 steps (50%) done
+
+[Tue Nov 29 18:34:42 2022]
+Job 142: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG001_1.fastq.gz ../../fastq/22CG001_2.fastq.gz
+
+Submitted job 142 with external jobid 'Submitted batch job 80100'.
+Write-protecting output file ../results/mapped/22CG024_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG024_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG024_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG024_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG024_recal.txt.
+[Tue Nov 29 18:53:58 2022]
+Finished job 37.
+98 of 193 steps (51%) done
+
+[Tue Nov 29 18:53:58 2022]
+Job 8: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG010_1_val_1.fq.gz ../results/trimmed/22CG010_2_val_2.fq.gz
+
+[Tue Nov 29 18:59:27 2022]
+Finished job 134.
+99 of 193 steps (51%) done
+
+[Tue Nov 29 18:59:27 2022]
+Job 79: Undertaking quality control checks on raw sequence data for ../../fastq/22CG001_1.fastq.gz ../../fastq/22CG001_2.fastq.gz
+
+Submitted job 79 with external jobid 'Submitted batch job 80101'.
+[Tue Nov 29 19:01:25 2022]
+Finished job 177.
+100 of 193 steps (52%) done
+[Tue Nov 29 19:02:15 2022]
+Finished job 147.
+101 of 193 steps (52%) done
+[Tue Nov 29 19:03:04 2022]
+Finished job 166.
+102 of 193 steps (53%) done
+[Tue Nov 29 19:03:06 2022]
+Finished job 161.
+103 of 193 steps (53%) done
+[Tue Nov 29 19:03:52 2022]
+Finished job 187.
+104 of 193 steps (54%) done
+[Tue Nov 29 19:03:54 2022]
+Finished job 169.
+105 of 193 steps (54%) done
+[Tue Nov 29 19:06:40 2022]
+Finished job 79.
+106 of 193 steps (55%) done
+[Tue Nov 29 19:06:40 2022]
+Finished job 146.
+107 of 193 steps (55%) done
+[Tue Nov 29 19:06:42 2022]
+Finished job 130.
+108 of 193 steps (56%) done
+[Tue Nov 29 19:07:16 2022]
+Finished job 181.
+109 of 193 steps (56%) done
+[Tue Nov 29 19:10:05 2022]
+Finished job 144.
+110 of 193 steps (57%) done
+[Tue Nov 29 19:10:05 2022]
+Finished job 156.
+111 of 193 steps (58%) done
+[Tue Nov 29 19:10:05 2022]
+Finished job 167.
+112 of 193 steps (58%) done
+[Tue Nov 29 19:10:06 2022]
+Finished job 148.
+113 of 193 steps (59%) done
+[Tue Nov 29 19:10:06 2022]
+Finished job 145.
+114 of 193 steps (59%) done
+[Tue Nov 29 19:10:18 2022]
+Finished job 186.
+115 of 193 steps (60%) done
+[Tue Nov 29 19:10:28 2022]
+Finished job 153.
+116 of 193 steps (60%) done
+[Tue Nov 29 19:11:13 2022]
+Finished job 178.
+117 of 193 steps (61%) done
+[Tue Nov 29 19:11:56 2022]
+Finished job 137.
+118 of 193 steps (61%) done
+[Tue Nov 29 19:11:57 2022]
+Finished job 180.
+119 of 193 steps (62%) done
+[Tue Nov 29 19:13:47 2022]
+Finished job 159.
+120 of 193 steps (62%) done
+[Tue Nov 29 19:13:49 2022]
+Finished job 151.
+121 of 193 steps (63%) done
+[Tue Nov 29 19:13:49 2022]
+Finished job 132.
+122 of 193 steps (63%) done
+[Tue Nov 29 19:13:50 2022]
+Finished job 189.
+123 of 193 steps (64%) done
+[Tue Nov 29 19:15:30 2022]
+Finished job 158.
+124 of 193 steps (64%) done
+[Tue Nov 29 19:15:30 2022]
+Finished job 160.
+125 of 193 steps (65%) done
+[Tue Nov 29 19:17:00 2022]
+Finished job 139.
+126 of 193 steps (65%) done
+[Tue Nov 29 19:17:00 2022]
+Finished job 190.
+127 of 193 steps (66%) done
+[Tue Nov 29 19:17:30 2022]
+Finished job 143.
+128 of 193 steps (66%) done
+[Tue Nov 29 19:22:01 2022]
+Finished job 142.
+129 of 193 steps (67%) done
+[Tue Nov 29 19:28:41 2022]
+Finished job 141.
+130 of 193 steps (67%) done
+
+[Tue Nov 29 19:28:41 2022]
+Job 1: Compiling a HTML report for quality control checks on raw sequence data
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/workflow/.snakemake/conda/8774b8e4
+[Tue Nov 29 19:29:34 2022]
+Finished job 1.
+131 of 193 steps (68%) done
+Write-protecting output file ../results/mapped/22CG010_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG010_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG010_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG010_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG010_recal.txt.
+[Tue Nov 29 19:34:59 2022]
+Finished job 8.
+132 of 193 steps (68%) done
+
+[Tue Nov 29 19:34:59 2022]
+Job 6: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0048_1_val_1.fq.gz ../results/trimmed/21CG0048_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0048_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0048_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0048_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0048_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0048_recal.txt.
+[Tue Nov 29 20:10:07 2022]
+Finished job 6.
+133 of 193 steps (69%) done
+
+[Tue Nov 29 20:10:07 2022]
+Job 43: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG003_1_val_1.fq.gz ../results/trimmed/22CG003_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG003_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG003_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG003_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG003_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG003_recal.txt.
+[Tue Nov 29 20:46:00 2022]
+Finished job 43.
+134 of 193 steps (69%) done
+
+[Tue Nov 29 20:46:00 2022]
+Job 28: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0045_1_val_1.fq.gz ../results/trimmed/21CG0045_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0045_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0045_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0045_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0045_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0045_recal.txt.
+[Tue Nov 29 21:21:59 2022]
+Finished job 28.
+135 of 193 steps (70%) done
+
+[Tue Nov 29 21:21:59 2022]
+Job 27: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG025_1_val_1.fq.gz ../results/trimmed/22CG025_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG025_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG025_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG025_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG025_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG025_recal.txt.
+[Tue Nov 29 22:01:51 2022]
+Finished job 27.
+136 of 193 steps (70%) done
+
+[Tue Nov 29 22:01:51 2022]
+Job 25: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG017_1_val_1.fq.gz ../results/trimmed/22CG017_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG017_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG017_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG017_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG017_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG017_recal.txt.
+[Tue Nov 29 22:41:55 2022]
+Finished job 25.
+137 of 193 steps (71%) done
+
+[Tue Nov 29 22:41:55 2022]
+Job 38: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0046_1_val_1.fq.gz ../results/trimmed/21CG0046_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0046_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0046_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0046_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0046_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0046_recal.txt.
+[Tue Nov 29 23:17:29 2022]
+Finished job 38.
+138 of 193 steps (72%) done
+
+[Tue Nov 29 23:17:29 2022]
+Job 47: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG011_1_val_1.fq.gz ../results/trimmed/22CG011_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG011_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG011_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG011_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG011_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG011_recal.txt.
+[Tue Nov 29 23:56:51 2022]
+Finished job 47.
+139 of 193 steps (72%) done
+
+[Tue Nov 29 23:56:51 2022]
+Job 45: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG021_1_val_1.fq.gz ../results/trimmed/22CG021_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG021_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG021_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG021_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG021_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG021_recal.txt.
+[Wed Nov 30 00:34:24 2022]
+Finished job 45.
+140 of 193 steps (73%) done
+
+[Wed Nov 30 00:34:24 2022]
+Job 36: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG027_1_val_1.fq.gz ../results/trimmed/22CG027_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG027_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG027_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG027_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG027_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG027_recal.txt.
+[Wed Nov 30 01:12:50 2022]
+Finished job 36.
+141 of 193 steps (73%) done
+
+[Wed Nov 30 01:12:50 2022]
+Job 44: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG022_1_val_1.fq.gz ../results/trimmed/22CG022_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG022_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG022_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG022_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG022_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG022_recal.txt.
+[Wed Nov 30 01:50:44 2022]
+Finished job 44.
+142 of 193 steps (74%) done
+
+[Wed Nov 30 01:50:44 2022]
+Job 46: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0014_1_val_1.fq.gz ../results/trimmed/21CG0014_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0014_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0014_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0014_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0014_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0014_recal.txt.
+[Wed Nov 30 02:27:02 2022]
+Finished job 46.
+143 of 193 steps (74%) done
+
+[Wed Nov 30 02:27:02 2022]
+Job 2: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0020_1_val_1.fq.gz ../results/trimmed/21CG0020_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0020_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0020_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0020_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0020_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0020_recal.txt.
+[Wed Nov 30 02:59:35 2022]
+Finished job 2.
+144 of 193 steps (75%) done
+
+[Wed Nov 30 02:59:35 2022]
+Job 23: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG016_1_val_1.fq.gz ../results/trimmed/22CG016_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG016_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG016_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG016_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG016_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG016_recal.txt.
+[Wed Nov 30 03:27:39 2022]
+Finished job 23.
+145 of 193 steps (75%) done
+
+[Wed Nov 30 03:27:39 2022]
+Job 30: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG023_1_val_1.fq.gz ../results/trimmed/22CG023_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG023_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG023_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG023_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG023_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG023_recal.txt.
+[Wed Nov 30 03:55:44 2022]
+Finished job 30.
+146 of 193 steps (76%) done
+
+[Wed Nov 30 03:55:44 2022]
+Job 57: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG008_1_val_1.fq.gz ../results/trimmed/22CG008_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG008_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG008_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG008_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG008_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG008_recal.txt.
+[Wed Nov 30 04:24:44 2022]
+Finished job 57.
+147 of 193 steps (76%) done
+
+[Wed Nov 30 04:24:44 2022]
+Job 4: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG020_1_val_1.fq.gz ../results/trimmed/22CG020_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG020_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG020_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG020_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG020_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG020_recal.txt.
+[Wed Nov 30 04:52:59 2022]
+Finished job 4.
+148 of 193 steps (77%) done
+
+[Wed Nov 30 04:52:59 2022]
+Job 11: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0012_1_val_1.fq.gz ../results/trimmed/21CG0012_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0012_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0012_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0012_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0012_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0012_recal.txt.
+[Wed Nov 30 05:20:26 2022]
+Finished job 11.
+149 of 193 steps (77%) done
+
+[Wed Nov 30 05:20:26 2022]
+Job 56: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG007_1_val_1.fq.gz ../results/trimmed/22CG007_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG007_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG007_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG007_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG007_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG007_recal.txt.
+[Wed Nov 30 05:48:50 2022]
+Finished job 56.
+150 of 193 steps (78%) done
+
+[Wed Nov 30 05:48:50 2022]
+Job 35: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0040_1_val_1.fq.gz ../results/trimmed/21CG0040_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0040_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0040_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0040_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0040_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0040_recal.txt.
+[Wed Nov 30 06:16:15 2022]
+Finished job 35.
+151 of 193 steps (78%) done
+
+[Wed Nov 30 06:16:15 2022]
+Job 64: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0018_1_val_1.fq.gz ../results/trimmed/21CG0018_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0018_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0018_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0018_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0018_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0018_recal.txt.
+[Wed Nov 30 06:43:34 2022]
+Finished job 64.
+152 of 193 steps (79%) done
+
+[Wed Nov 30 06:43:34 2022]
+Job 49: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0019_1_val_1.fq.gz ../results/trimmed/21CG0019_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0019_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0019_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0019_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0019_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0019_recal.txt.
+[Wed Nov 30 07:10:57 2022]
+Finished job 49.
+153 of 193 steps (79%) done
+
+[Wed Nov 30 07:10:57 2022]
+Job 52: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0010_1_val_1.fq.gz ../results/trimmed/21CG0010_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0010_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0010_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0010_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0010_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0010_recal.txt.
+[Wed Nov 30 07:37:08 2022]
+Finished job 52.
+154 of 193 steps (80%) done
+
+[Wed Nov 30 07:37:08 2022]
+Job 58: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0017_1_val_1.fq.gz ../results/trimmed/21CG0017_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0017_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0017_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0017_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0017_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0017_recal.txt.
+[Wed Nov 30 08:04:16 2022]
+Finished job 58.
+155 of 193 steps (80%) done
+
+[Wed Nov 30 08:04:16 2022]
+Job 22: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG019_1_val_1.fq.gz ../results/trimmed/22CG019_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG019_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG019_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG019_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG019_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG019_recal.txt.
+[Wed Nov 30 08:31:06 2022]
+Finished job 22.
+156 of 193 steps (81%) done
+
+[Wed Nov 30 08:31:06 2022]
+Job 13: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG013_1_val_1.fq.gz ../results/trimmed/22CG013_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG013_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG013_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG013_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG013_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG013_recal.txt.
+[Wed Nov 30 08:58:00 2022]
+Finished job 13.
+157 of 193 steps (81%) done
+
+[Wed Nov 30 08:58:00 2022]
+Job 50: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0009_1_val_1.fq.gz ../results/trimmed/21CG0009_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0009_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0009_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0009_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0009_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0009_recal.txt.
+[Wed Nov 30 09:24:25 2022]
+Finished job 50.
+158 of 193 steps (82%) done
+
+[Wed Nov 30 09:24:25 2022]
+Job 61: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG009_1_val_1.fq.gz ../results/trimmed/22CG009_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG009_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG009_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG009_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG009_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG009_recal.txt.
+[Wed Nov 30 09:51:39 2022]
+Finished job 61.
+159 of 193 steps (82%) done
+
+[Wed Nov 30 09:51:39 2022]
+Job 55: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG015_1_val_1.fq.gz ../results/trimmed/22CG015_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG015_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG015_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG015_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG015_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG015_recal.txt.
+[Wed Nov 30 10:18:30 2022]
+Finished job 55.
+160 of 193 steps (83%) done
+
+[Wed Nov 30 10:18:30 2022]
+Job 34: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG018_1_val_1.fq.gz ../results/trimmed/22CG018_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG018_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG018_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG018_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG018_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG018_recal.txt.
+[Wed Nov 30 10:44:36 2022]
+Finished job 34.
+161 of 193 steps (83%) done
+
+[Wed Nov 30 10:44:36 2022]
+Job 18: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0015_1_val_1.fq.gz ../results/trimmed/21CG0015_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0015_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0015_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0015_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0015_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0015_recal.txt.
+[Wed Nov 30 11:10:10 2022]
+Finished job 18.
+162 of 193 steps (84%) done
+
+[Wed Nov 30 11:10:10 2022]
+Job 53: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0035_1_val_1.fq.gz ../results/trimmed/21CG0035_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0035_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0035_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0035_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0035_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0035_recal.txt.
+[Wed Nov 30 11:36:40 2022]
+Finished job 53.
+163 of 193 steps (84%) done
+
+[Wed Nov 30 11:36:40 2022]
+Job 51: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0036_1_val_1.fq.gz ../results/trimmed/21CG0036_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0036_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0036_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0036_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0036_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0036_recal.txt.
+[Wed Nov 30 12:03:11 2022]
+Finished job 51.
+164 of 193 steps (85%) done
+
+[Wed Nov 30 12:03:12 2022]
+Job 59: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0016_1_val_1.fq.gz ../results/trimmed/21CG0016_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0016_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0016_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0016_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0016_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0016_recal.txt.
+[Wed Nov 30 12:29:00 2022]
+Finished job 59.
+165 of 193 steps (85%) done
+
+[Wed Nov 30 12:29:00 2022]
+Job 5: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0037_1_val_1.fq.gz ../results/trimmed/21CG0037_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0037_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0037_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0037_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0037_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0037_recal.txt.
+[Wed Nov 30 12:55:32 2022]
+Finished job 5.
+166 of 193 steps (86%) done
+
+[Wed Nov 30 12:55:33 2022]
+Job 33: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0034_1_val_1.fq.gz ../results/trimmed/21CG0034_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0034_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0034_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0034_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0034_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0034_recal.txt.
+[Wed Nov 30 13:21:31 2022]
+Finished job 33.
+167 of 193 steps (87%) done
+
+[Wed Nov 30 13:21:31 2022]
+Job 42: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG002_1_val_1.fq.gz ../results/trimmed/22CG002_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG002_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG002_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG002_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG002_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG002_recal.txt.
+[Wed Nov 30 13:45:39 2022]
+Finished job 42.
+168 of 193 steps (87%) done
+
+[Wed Nov 30 13:45:39 2022]
+Job 62: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0038_1_val_1.fq.gz ../results/trimmed/21CG0038_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0038_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0038_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0038_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0038_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0038_recal.txt.
+[Wed Nov 30 14:11:02 2022]
+Finished job 62.
+169 of 193 steps (88%) done
+
+[Wed Nov 30 14:11:02 2022]
+Job 21: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG014_1_val_1.fq.gz ../results/trimmed/22CG014_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG014_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG014_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG014_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG014_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG014_recal.txt.
+[Wed Nov 30 14:37:31 2022]
+Finished job 21.
+170 of 193 steps (88%) done
+
+[Wed Nov 30 14:37:31 2022]
+Job 24: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0013_1_val_1.fq.gz ../results/trimmed/21CG0013_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0013_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0013_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0013_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0013_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0013_recal.txt.
+[Wed Nov 30 15:02:33 2022]
+Finished job 24.
+171 of 193 steps (89%) done
+
+[Wed Nov 30 15:02:33 2022]
+Job 63: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0041_1_val_1.fq.gz ../results/trimmed/21CG0041_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0041_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0041_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0041_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0041_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0041_recal.txt.
+[Wed Nov 30 15:26:09 2022]
+Finished job 63.
+172 of 193 steps (89%) done
+
+[Wed Nov 30 15:26:09 2022]
+Job 31: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0039_1_val_1.fq.gz ../results/trimmed/21CG0039_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0039_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0039_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0039_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0039_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0039_recal.txt.
+[Wed Nov 30 15:51:20 2022]
+Finished job 31.
+173 of 193 steps (90%) done
+
+[Wed Nov 30 15:51:20 2022]
+Job 26: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0042_1_val_1.fq.gz ../results/trimmed/21CG0042_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0042_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0042_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0042_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0042_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0042_recal.txt.
+[Wed Nov 30 16:16:32 2022]
+Finished job 26.
+174 of 193 steps (90%) done
+
+[Wed Nov 30 16:16:32 2022]
+Job 16: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0021_1_val_1.fq.gz ../results/trimmed/21CG0021_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0021_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0021_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0021_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0021_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0021_recal.txt.
+[Wed Nov 30 16:45:03 2022]
+Finished job 16.
+175 of 193 steps (91%) done
+
+[Wed Nov 30 16:45:03 2022]
+Job 32: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0011_1_val_1.fq.gz ../results/trimmed/21CG0011_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0011_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0011_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0011_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0011_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0011_recal.txt.
+[Wed Nov 30 17:10:50 2022]
+Finished job 32.
+176 of 193 steps (91%) done
+
+[Wed Nov 30 17:10:50 2022]
+Job 3: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG006_1_val_1.fq.gz ../results/trimmed/22CG006_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG006_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG006_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG006_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/22CG006_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/22CG006_recal.txt.
+[Wed Nov 30 17:37:34 2022]
+Finished job 3.
+177 of 193 steps (92%) done
+
+[Wed Nov 30 17:37:34 2022]
+Job 54: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0047_1_val_1.fq.gz ../results/trimmed/21CG0047_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0047_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0047_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0047_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0047_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0047_recal.txt.
+[Wed Nov 30 18:02:03 2022]
+Finished job 54.
+178 of 193 steps (92%) done
+
+[Wed Nov 30 18:02:03 2022]
+Job 19: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG005_1_val_1.fq.gz ../results/trimmed/22CG005_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG005_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG005_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG005_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG005_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG005_recal.txt.
+[Wed Nov 30 18:27:36 2022]
+Finished job 19.
+179 of 193 steps (93%) done
+
+[Wed Nov 30 18:27:36 2022]
+Job 7: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG004_1_val_1.fq.gz ../results/trimmed/22CG004_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG004_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG004_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG004_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG004_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG004_recal.txt.
+[Wed Nov 30 18:49:32 2022]
+Finished job 7.
+180 of 193 steps (93%) done
+
+[Wed Nov 30 18:49:32 2022]
+Job 39: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0006_1_val_1.fq.gz ../results/trimmed/21CG0006_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0006_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0006_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0006_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0006_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0006_recal.txt.
+[Wed Nov 30 19:12:58 2022]
+Finished job 39.
+181 of 193 steps (94%) done
+
+[Wed Nov 30 19:12:58 2022]
+Job 60: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0001_1_val_1.fq.gz ../results/trimmed/21CG0001_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0001_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0001_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0001_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0001_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0001_recal.txt.
+[Wed Nov 30 19:36:12 2022]
+Finished job 60.
+182 of 193 steps (94%) done
+
+[Wed Nov 30 19:36:12 2022]
+Job 20: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0002_1_val_1.fq.gz ../results/trimmed/21CG0002_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0002_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0002_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0002_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0002_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0002_recal.txt.
+[Wed Nov 30 19:59:11 2022]
+Finished job 20.
+183 of 193 steps (95%) done
+
+[Wed Nov 30 19:59:11 2022]
+Job 29: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0007_1_val_1.fq.gz ../results/trimmed/21CG0007_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0007_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0007_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0007_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0007_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0007_recal.txt.
+[Wed Nov 30 20:19:29 2022]
+Finished job 29.
+184 of 193 steps (95%) done
+
+[Wed Nov 30 20:19:29 2022]
+Job 40: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0004_1_val_1.fq.gz ../results/trimmed/21CG0004_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0004_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0004_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0004_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0004_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0004_recal.txt.
+[Wed Nov 30 20:39:04 2022]
+Finished job 40.
+185 of 193 steps (96%) done
+
+[Wed Nov 30 20:39:04 2022]
+Job 17: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0003_1_val_1.fq.gz ../results/trimmed/21CG0003_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0003_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0003_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0003_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0003_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0003_recal.txt.
+[Wed Nov 30 20:58:40 2022]
+Finished job 17.
+186 of 193 steps (96%) done
+
+[Wed Nov 30 20:58:40 2022]
+Job 10: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0008_1_val_1.fq.gz ../results/trimmed/21CG0008_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0008_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0008_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0008_2_val_2.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0008_1_val_1.fq.gz.
+Removing temporary output file ../results/mapped/21CG0008_recal.txt.
+[Wed Nov 30 21:17:49 2022]
+Finished job 10.
+187 of 193 steps (97%) done
+
+[Wed Nov 30 21:17:49 2022]
+Job 12: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0044_1_val_1.fq.gz ../results/trimmed/21CG0044_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0044_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0044_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0044_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0044_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0044_recal.txt.
+[Wed Nov 30 21:35:56 2022]
+Finished job 12.
+188 of 193 steps (97%) done
+
+[Wed Nov 30 21:35:56 2022]
+Job 14: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/21CG0005_1_val_1.fq.gz ../results/trimmed/21CG0005_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/21CG0005_recalibrated.bam.
+Write-protecting output file ../results/mapped/21CG0005_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/21CG0005_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/21CG0005_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/21CG0005_recal.txt.
+[Wed Nov 30 21:54:13 2022]
+Finished job 14.
+189 of 193 steps (98%) done
+
+[Wed Nov 30 21:54:13 2022]
+Job 15: Running GPU accelerated germline variant pipeline workflow to generate BAM, vcf and recal output for ../results/trimmed/22CG001_1_val_1.fq.gz ../results/trimmed/22CG001_2_val_2.fq.gz
+
+Write-protecting output file ../results/mapped/22CG001_recalibrated.bam.
+Write-protecting output file ../results/mapped/22CG001_recalibrated.bam.bai.
+Removing temporary output file ../results/trimmed/22CG001_1_val_1.fq.gz.
+Removing temporary output file ../results/trimmed/22CG001_2_val_2.fq.gz.
+Removing temporary output file ../results/mapped/22CG001_recal.txt.
+[Wed Nov 30 22:09:29 2022]
+Finished job 15.
+190 of 193 steps (98%) done
+
+[Wed Nov 30 22:09:29 2022]
+Job 192: Merging one or more HaplotypeCaller GVCF files into a single GVCF
+
+[Wed Nov 30 22:09:30 2022]
+Error in rule pbrun_triocombinegvcf:
+    jobid: 192
+    output: ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf
+    log: logs/pbrun_triocombinegvcf/21CG0001.log (check log file(s) for error message)
+    shell:
+        pbrun triocombinegvcf --ref /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta --in-gvcf ../results/called/21CG0001_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0002_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0003_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0004_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0005_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0006_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0007_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0008_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0009_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0010_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0011_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0012_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0013_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0014_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0015_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0016_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0017_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0018_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0019_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0020_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0021_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0034_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0035_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0036_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0037_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0038_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0039_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0040_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0041_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0042_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0043_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0044_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0045_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0046_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0047_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/21CG0048_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG001_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG002_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG003_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG004_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG005_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG006_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG007_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG008_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG009_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG010_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG011_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG012_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG013_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG014_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG015_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG016_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG017_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG018_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG019_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG020_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG021_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG022_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG023_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG024_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG025_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG026_raw_snps_indels_tmp.g.vcf --in-gvcf ../results/called/22CG027_raw_snps_indels_tmp.g.vcf  --out-variants ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf &> logs/pbrun_triocombinegvcf/21CG0001.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/workflow/.snakemake/log/2022-11-29T140602.748438.snakemake.log

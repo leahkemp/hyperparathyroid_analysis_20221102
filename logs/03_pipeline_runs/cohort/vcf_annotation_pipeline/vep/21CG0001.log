@@ -1,0 +1,5 @@
+Possible precedence issue with control flow operator at /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/.snakemake/conda/cc795e77/lib/site_perl/5.26.2/Bio/DB/IndexedBase.pm line 805.
+WARNING: Chromosome GL000207.1 not found in annotation sources or synonyms on line 7503553
+WARNING: Chromosome GL000244.1 not found in annotation sources or synonyms on line 7504578
+WARNING: Chromosome NC_007605 not found in annotation sources or synonyms on line 7531984
+WARNING: Chromosome hs37d5 not found in annotation sources or synonyms on line 7531987

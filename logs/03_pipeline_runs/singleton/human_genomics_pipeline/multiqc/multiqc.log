@@ -1,0 +1,15 @@
+
+  /// MultiQC 🔍 | v1.11 (1a6f3d0)
+
+|           multiqc | MultiQC Version v1.13 now available!
+|           multiqc | Search path : /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/singleton/human_genomics_pipeline/results/qc/fastqc/22CG019_1_fastqc.zip
+|           multiqc | Search path : /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/singleton/human_genomics_pipeline/results/qc/fastqc/22CG019_2_fastqc.zip
+|           multiqc | Search path : /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/singleton/human_genomics_pipeline/results/trimmed/22CG019_1.fastq.gz_trimming_report.txt
+|           multiqc | Search path : /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/singleton/human_genomics_pipeline/results/trimmed/22CG019_2.fastq.gz_trimming_report.txt
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 4/4  
+|          cutadapt | Found 2 reports
+|            fastqc | Found 2 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : ../results/qc/multiqc_report.html
+|           multiqc | Data        : ../results/qc/multiqc_data
+|           multiqc | MultiQC complete

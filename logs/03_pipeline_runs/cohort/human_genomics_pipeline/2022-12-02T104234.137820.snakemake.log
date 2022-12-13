@@ -1,0 +1,42 @@
+localrules directive specifies rules that are not present in the Snakefile:
+	pbrun_triocombinegvcf
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 32
+Provided resources: gpu=2
+Job counts:
+	count	jobs
+	1	all
+	1	gatk_CombineGVCFs
+	1	gatk_GenotypeGVCFs
+	3
+
+[Fri Dec  2 10:42:36 2022]
+Job 192: Merging one or more HaplotypeCaller GVCF files into a single GVCF
+
+Submitted job 192 with external jobid 'Submitted batch job 80582'.
+Removing temporary output file ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf.idx.
+[Sat Dec  3 09:53:00 2022]
+Finished job 192.
+1 of 3 steps (33%) done
+
+[Sat Dec  3 09:53:00 2022]
+Job 65: Performing joint genotyping on one or more samples pre-called with HaplotypeCaller for ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf
+
+Submitted job 65 with external jobid 'Submitted batch job 82432'.
+Write-protecting output file ../results/called/21CG0001_raw_snps_indels.vcf.
+Removing temporary output file ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf.
+[Sun Dec  4 07:57:28 2022]
+Finished job 65.
+2 of 3 steps (67%) done
+
+[Sun Dec  4 07:57:29 2022]
+localrule all:
+    input: ../results/qc/multiqc_report.html, ../results/mapped/21CG0020_recalibrated.bam, ../results/mapped/22CG006_recalibrated.bam, ../results/mapped/22CG020_recalibrated.bam, ../results/mapped/21CG0037_recalibrated.bam, ../results/mapped/21CG0048_recalibrated.bam, ../results/mapped/22CG004_recalibrated.bam, ../results/mapped/22CG010_recalibrated.bam, ../results/mapped/21CG0043_recalibrated.bam, ../results/mapped/21CG0008_recalibrated.bam, ../results/mapped/21CG0012_recalibrated.bam, ../results/mapped/21CG0044_recalibrated.bam, ../results/mapped/22CG013_recalibrated.bam, ../results/mapped/21CG0005_recalibrated.bam, ../results/mapped/22CG001_recalibrated.bam, ../results/mapped/21CG0021_recalibrated.bam, ../results/mapped/21CG0003_recalibrated.bam, ../results/mapped/21CG0015_recalibrated.bam, ../results/mapped/22CG005_recalibrated.bam, ../results/mapped/21CG0002_recalibrated.bam, ../results/mapped/22CG014_recalibrated.bam, ../results/mapped/22CG019_recalibrated.bam, ../results/mapped/22CG016_recalibrated.bam, ../results/mapped/21CG0013_recalibrated.bam, ../results/mapped/22CG017_recalibrated.bam, ../results/mapped/21CG0042_recalibrated.bam, ../results/mapped/22CG025_recalibrated.bam, ../results/mapped/21CG0045_recalibrated.bam, ../results/mapped/21CG0007_recalibrated.bam, ../results/mapped/22CG023_recalibrated.bam, ../results/mapped/21CG0039_recalibrated.bam, ../results/mapped/21CG0011_recalibrated.bam, ../results/mapped/21CG0034_recalibrated.bam, ../results/mapped/22CG018_recalibrated.bam, ../results/mapped/21CG0040_recalibrated.bam, ../results/mapped/22CG027_recalibrated.bam, ../results/mapped/22CG024_recalibrated.bam, ../results/mapped/21CG0046_recalibrated.bam, ../results/mapped/21CG0006_recalibrated.bam, ../results/mapped/21CG0004_recalibrated.bam, ../results/mapped/22CG026_recalibrated.bam, ../results/mapped/22CG002_recalibrated.bam, ../results/mapped/22CG003_recalibrated.bam, ../results/mapped/22CG022_recalibrated.bam, ../results/mapped/22CG021_recalibrated.bam, ../results/mapped/21CG0014_recalibrated.bam, ../results/mapped/22CG011_recalibrated.bam, ../results/mapped/22CG012_recalibrated.bam, ../results/mapped/21CG0019_recalibrated.bam, ../results/mapped/21CG0009_recalibrated.bam, ../results/mapped/21CG0036_recalibrated.bam, ../results/mapped/21CG0010_recalibrated.bam, ../results/mapped/21CG0035_recalibrated.bam, ../results/mapped/21CG0047_recalibrated.bam, ../results/mapped/22CG015_recalibrated.bam, ../results/mapped/22CG007_recalibrated.bam, ../results/mapped/22CG008_recalibrated.bam, ../results/mapped/21CG0017_recalibrated.bam, ../results/mapped/21CG0016_recalibrated.bam, ../results/mapped/21CG0001_recalibrated.bam, ../results/mapped/22CG009_recalibrated.bam, ../results/mapped/21CG0038_recalibrated.bam, ../results/mapped/21CG0041_recalibrated.bam, ../results/mapped/21CG0018_recalibrated.bam, ../results/called/21CG0001_raw_snps_indels.vcf
+    jobid: 0
+
+[Sun Dec  4 07:57:29 2022]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/workflow/.snakemake/log/2022-12-02T104234.137820.snakemake.log

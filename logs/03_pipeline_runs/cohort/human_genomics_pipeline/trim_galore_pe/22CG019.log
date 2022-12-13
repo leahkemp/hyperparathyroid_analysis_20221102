@@ -1,0 +1,457 @@
+Proceeding with single-core trimming (user-defined)
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 4.1
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/
+Writing report to '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/22CG019_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../../fastq/22CG019_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.4_dev
+Cutadapt version: 4.1
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.1). Setting -j 1
+Writing final adapter and quality trimmed output to 22CG019_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file ../../fastq/22CG019_1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+This is cutadapt 4.1 with Python 3.10.8
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ../../fastq/22CG019_1.fastq.gz
+Processing single-end reads on 1 core ...
+Finished in 2639.65 s (42 µs/read; 1.44 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              63,287,423
+Reads with adapters:                31,659,982 (50.0%)
+Reads written (passing filters):    63,287,423 (100.0%)
+
+Total basepairs processed: 9,556,400,873 bp
+Quality-trimmed:              57,564,731 bp (0.6%)
+Total written (filtered):  8,973,313,967 bp (93.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 31659982 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 30.7%
+  C: 27.7%
+  G: 21.5%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	10536415	15821855.8	0	10536415
+2	3543082	3955463.9	0	3543082
+3	1299192	988866.0	0	1299192
+4	590082	247216.5	0	590082
+5	337279	61804.1	0	337279
+6	290650	15451.0	0	290650
+7	391467	3862.8	0	391467
+8	282970	965.7	0	282970
+9	433543	241.4	0	431256 2287
+10	388690	60.4	1	375672 13018
+11	246155	15.1	1	232797 13358
+12	278729	3.8	1	266865 11864
+13	496718	0.9	1	478302 18416
+14	175295	0.9	1	162571 12724
+15	529847	0.9	1	511191 18656
+16	106588	0.9	1	95929 10659
+17	457095	0.9	1	435225 21870
+18	270230	0.9	1	257957 12273
+19	302381	0.9	1	290528 11853
+20	305685	0.9	1	291804 13881
+21	271302	0.9	1	260378 10924
+22	362676	0.9	1	349432 13244
+23	253004	0.9	1	241005 11999
+24	304671	0.9	1	289760 14911
+25	415054	0.9	1	400388 14666
+26	156730	0.9	1	148237 8493
+27	294316	0.9	1	282205 12111
+28	381795	0.9	1	366158 15637
+29	262528	0.9	1	248436 14092
+30	218338	0.9	1	209571 8767
+31	297702	0.9	1	285707 11995
+32	346194	0.9	1	334962 11232
+33	167622	0.9	1	157059 10563
+34	394985	0.9	1	381409 13576
+35	123251	0.9	1	115651 7600
+36	328515	0.9	1	316629 11886
+37	221730	0.9	1	213895 7835
+38	227393	0.9	1	217830 9563
+39	194379	0.9	1	186532 7847
+40	264180	0.9	1	252371 11809
+41	281371	0.9	1	270457 10914
+42	276706	0.9	1	264501 12205
+43	306467	0.9	1	293465 13002
+44	261495	0.9	1	254257 7238
+45	36879	0.9	1	33851 3028
+46	136152	0.9	1	131294 4858
+47	173340	0.9	1	166216 7124
+48	215179	0.9	1	207997 7182
+49	257442	0.9	1	250718 6724
+50	80307	0.9	1	73942 6365
+51	202250	0.9	1	194685 7565
+52	212079	0.9	1	206597 5482
+53	105589	0.9	1	100743 4846
+54	182330	0.9	1	175285 7045
+55	217511	0.9	1	211841 5670
+56	147063	0.9	1	142750 4313
+57	82171	0.9	1	78748 3423
+58	76390	0.9	1	72909 3481
+59	211378	0.9	1	206409 4969
+60	56705	0.9	1	54468 2237
+61	54169	0.9	1	51387 2782
+62	177954	0.9	1	174378 3576
+63	52978	0.9	1	50739 2239
+64	43602	0.9	1	41731 1871
+65	101889	0.9	1	98745 3144
+66	102175	0.9	1	100029 2146
+67	26287	0.9	1	24749 1538
+68	67592	0.9	1	65222 2370
+69	69305	0.9	1	66862 2443
+70	68993	0.9	1	66428 2565
+71	74182	0.9	1	71467 2715
+72	108772	0.9	1	105747 3025
+73	76537	0.9	1	74081 2456
+74	51379	0.9	1	49502 1877
+75	24730	0.9	1	23526 1204
+76	4369	0.9	1	3862 507
+77	4172	0.9	1	3834 338
+78	18906	0.9	1	18345 561
+79	25972	0.9	1	25240 732
+80	26914	0.9	1	26155 759
+81	25119	0.9	1	24402 717
+82	23338	0.9	1	22575 763
+83	20790	0.9	1	20153 637
+84	18703	0.9	1	18087 616
+85	16253	0.9	1	15771 482
+86	14915	0.9	1	14407 508
+87	13365	0.9	1	12873 492
+88	11719	0.9	1	11286 433
+89	10281	0.9	1	9897 384
+90	8715	0.9	1	8384 331
+91	7477	0.9	1	7176 301
+92	6419	0.9	1	6165 254
+93	5440	0.9	1	5191 249
+94	4744	0.9	1	4540 204
+95	4014	0.9	1	3842 172
+96	3413	0.9	1	3234 179
+97	2793	0.9	1	2663 130
+98	2346	0.9	1	2182 164
+99	1851	0.9	1	1714 137
+100	1582	0.9	1	1444 138
+101	1233	0.9	1	1128 105
+102	1016	0.9	1	923 93
+103	845	0.9	1	762 83
+104	764	0.9	1	676 88
+105	568	0.9	1	514 54
+106	469	0.9	1	386 83
+107	329	0.9	1	264 65
+108	240	0.9	1	175 65
+109	218	0.9	1	154 64
+110	172	0.9	1	101 71
+111	128	0.9	1	68 60
+112	89	0.9	1	29 60
+113	93	0.9	1	22 71
+114	85	0.9	1	20 65
+115	120	0.9	1	13 107
+116	94	0.9	1	9 85
+117	78	0.9	1	7 71
+118	83	0.9	1	1 82
+119	81	0.9	1	3 78
+120	60	0.9	1	0 60
+121	71	0.9	1	1 70
+122	66	0.9	1	2 64
+123	58	0.9	1	1 57
+124	76	0.9	1	1 75
+125	74	0.9	1	0 74
+126	79	0.9	1	0 79
+127	61	0.9	1	1 60
+128	68	0.9	1	4 64
+129	89	0.9	1	0 89
+130	51	0.9	1	0 51
+131	67	0.9	1	0 67
+132	59	0.9	1	0 59
+133	59	0.9	1	1 58
+134	52	0.9	1	2 50
+135	84	0.9	1	2 82
+136	75	0.9	1	0 75
+137	64	0.9	1	4 60
+138	71	0.9	1	5 66
+139	64	0.9	1	5 59
+140	77	0.9	1	0 77
+141	87	0.9	1	1 86
+142	100	0.9	1	3 97
+143	78	0.9	1	3 75
+144	60	0.9	1	5 55
+145	38	0.9	1	0 38
+146	19	0.9	1	2 17
+147	27	0.9	1	0 27
+148	5	0.9	1	0 5
+149	16	0.9	1	0 16
+150	3	0.9	1	0 3
+151	3	0.9	1	0 3
+
+RUN STATISTICS FOR INPUT FILE: ../../fastq/22CG019_1.fastq.gz
+=============================================
+63287423 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/22CG019_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../../fastq/22CG019_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.4_dev
+Cutadapt version: 4.1
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 4.1). Setting -j -j 1
+Writing final adapter and quality trimmed output to 22CG019_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file ../../fastq/22CG019_2.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+60000000 sequences processed
+This is cutadapt 4.1 with Python 3.10.8
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ../../fastq/22CG019_2.fastq.gz
+Processing single-end reads on 1 core ...
+Finished in 2648.45 s (42 µs/read; 1.43 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              63,287,423
+Reads with adapters:                31,745,540 (50.2%)
+Reads written (passing filters):    63,287,423 (100.0%)
+
+Total basepairs processed: 9,556,400,873 bp
+Quality-trimmed:              66,129,089 bp (0.7%)
+Total written (filtered):  8,966,957,614 bp (93.8%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 31745540 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 30.9%
+  C: 26.2%
+  G: 21.7%
+  T: 21.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	10834370	15821855.8	0	10834370
+2	3296417	3955463.9	0	3296417
+3	1352196	988866.0	0	1352196
+4	515185	247216.5	0	515185
+5	398151	61804.1	0	398151
+6	289939	15451.0	0	289939
+7	348658	3862.8	0	348658
+8	320528	965.7	0	320528
+9	465651	241.4	0	464327 1324
+10	380995	60.4	1	370553 10442
+11	255043	15.1	1	244177 10866
+12	295177	3.8	1	286182 8995
+13	346819	0.9	1	333648 13171
+14	372356	0.9	1	360006 12350
+15	284874	0.9	1	275600 9274
+16	303789	0.9	1	292271 11518
+17	393785	0.9	1	381740 12045
+18	260148	0.9	1	250205 9943
+19	448974	0.9	1	435514 13460
+20	399820	0.9	1	389659 10161
+21	214138	0.9	1	204031 10107
+22	148070	0.9	1	143243 4827
+23	305732	0.9	1	295726 10006
+24	483362	0.9	1	470493 12869
+25	118773	0.9	1	112756 6017
+26	324647	0.9	1	311644 13003
+27	593569	0.9	1	572862 20707
+28	146548	0.9	1	140991 5557
+29	318479	0.9	1	306692 11787
+30	165681	0.9	1	160171 5510
+31	349820	0.9	1	340978 8842
+32	209643	0.9	1	202526 7117
+33	410052	0.9	1	399840 10212
+34	180427	0.9	1	175415 5012
+35	186457	0.9	1	180945 5512
+36	362175	0.9	1	353965 8210
+37	106100	0.9	1	100589 5511
+38	372900	0.9	1	366147 6753
+39	52361	0.9	1	49175 3186
+40	224807	0.9	1	217267 7540
+41	441674	0.9	1	428334 13340
+42	53218	0.9	1	49690 3528
+43	290479	0.9	1	284058 6421
+44	126051	0.9	1	121522 4529
+45	335100	0.9	1	327800 7300
+46	242188	0.9	1	234418 7770
+47	154465	0.9	1	150953 3512
+48	140672	0.9	1	135149 5523
+49	275154	0.9	1	269650 5504
+50	93586	0.9	1	90758 2828
+51	127187	0.9	1	124128 3059
+52	105554	0.9	1	102994 2560
+53	96084	0.9	1	93569 2515
+54	232131	0.9	1	227620 4511
+55	80206	0.9	1	77312 2894
+56	126871	0.9	1	123557 3314
+57	230484	0.9	1	225432 5052
+58	138317	0.9	1	134944 3373
+59	56624	0.9	1	54749 1875
+60	126590	0.9	1	124287 2303
+61	68801	0.9	1	66488 2313
+62	156868	0.9	1	153159 3709
+63	104504	0.9	1	102246 2258
+64	82570	0.9	1	80900 1670
+65	51852	0.9	1	49782 2070
+66	111870	0.9	1	110030 1840
+67	19651	0.9	1	18616 1035
+68	95362	0.9	1	93277 2085
+69	45793	0.9	1	44448 1345
+70	99593	0.9	1	97973 1620
+71	23658	0.9	1	22617 1041
+72	52747	0.9	1	51430 1317
+73	51937	0.9	1	50643 1294
+74	48072	0.9	1	46791 1281
+75	43937	0.9	1	42737 1200
+76	42759	0.9	1	41585 1174
+77	66079	0.9	1	64604 1475
+78	71393	0.9	1	69849 1544
+79	26515	0.9	1	25618 897
+80	5127	0.9	1	4687 440
+81	1489	0.9	1	1318 171
+82	9669	0.9	1	9442 227
+83	16258	0.9	1	15971 287
+84	16960	0.9	1	16551 409
+85	15394	0.9	1	15050 344
+86	14538	0.9	1	14214 324
+87	13099	0.9	1	12750 349
+88	11632	0.9	1	11337 295
+89	10393	0.9	1	10130 263
+90	8736	0.9	1	8489 247
+91	7546	0.9	1	7326 220
+92	6463	0.9	1	6292 171
+93	5529	0.9	1	5323 206
+94	4826	0.9	1	4643 183
+95	4080	0.9	1	3951 129
+96	3406	0.9	1	3270 136
+97	2847	0.9	1	2717 130
+98	2361	0.9	1	2243 118
+99	1847	0.9	1	1737 110
+100	1567	0.9	1	1473 94
+101	1272	0.9	1	1176 96
+102	1054	0.9	1	972 82
+103	863	0.9	1	786 77
+104	731	0.9	1	665 66
+105	584	0.9	1	522 62
+106	493	0.9	1	422 71
+107	332	0.9	1	250 82
+108	282	0.9	1	205 77
+109	187	0.9	1	134 53
+110	179	0.9	1	115 64
+111	141	0.9	1	68 73
+112	98	0.9	1	28 70
+113	85	0.9	1	28 57
+114	74	0.9	1	22 52
+115	86	0.9	1	11 75
+116	91	0.9	1	13 78
+117	93	0.9	1	7 86
+118	109	0.9	1	12 97
+119	63	0.9	1	5 58
+120	49	0.9	1	1 48
+121	60	0.9	1	0 60
+122	67	0.9	1	1 66
+123	70	0.9	1	0 70
+124	61	0.9	1	4 57
+125	62	0.9	1	2 60
+126	82	0.9	1	1 81
+127	75	0.9	1	1 74
+128	57	0.9	1	1 56
+129	79	0.9	1	0 79
+130	80	0.9	1	4 76
+131	68	0.9	1	0 68
+132	71	0.9	1	2 69
+133	57	0.9	1	0 57
+134	79	0.9	1	3 76
+135	77	0.9	1	1 76
+136	46	0.9	1	0 46
+137	61	0.9	1	1 60
+138	53	0.9	1	0 53
+139	65	0.9	1	0 65
+140	70	0.9	1	1 69
+141	69	0.9	1	4 65
+142	70	0.9	1	2 68
+143	72	0.9	1	3 69
+144	37	0.9	1	2 35
+145	28	0.9	1	0 28
+146	34	0.9	1	1 33
+147	14	0.9	1	0 14
+148	9	0.9	1	0 9
+149	17	0.9	1	0 17
+150	5	0.9	1	0 5
+
+RUN STATISTICS FOR INPUT FILE: ../../fastq/22CG019_2.fastq.gz
+=============================================
+63287423 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 22CG019_1_trimmed.fq.gz and 22CG019_2_trimmed.fq.gz
+file_1: 22CG019_1_trimmed.fq.gz, file_2: 22CG019_2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 22CG019_1_trimmed.fq.gz and 22CG019_2_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to 22CG019_1_val_1.fq.gz
+Writing validated paired-end Read 2 reads to 22CG019_2_val_2.fq.gz
+
+Total number of sequences analysed: 63287423
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 28780 (0.05%)
+
+Deleting both intermediate output files 22CG019_1_trimmed.fq.gz and 22CG019_2_trimmed.fq.gz
+
+====================================================================================================
+

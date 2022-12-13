@@ -1,0 +1,16 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 64
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	fastqc
+	1
+
+[Tue Nov 29 14:39:36 2022]
+Job 0: Undertaking quality control checks on raw sequence data for ../../fastq/22CG008_1.fastq.gz ../../fastq/22CG008_2.fastq.gz
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/workflow/.snakemake/conda/ae59ca93
+[Tue Nov 29 14:58:35 2022]
+Finished job 0.
+1 of 1 steps (100%) done

@@ -1,0 +1,114 @@
+02:31:50.459 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/.snakemake/conda/35073b0d/share/gatk4-4.1.6.0-0/gatk-package-4.1.6.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Dec 06, 2022 2:31:51 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+02:31:51.240 INFO  CalculateGenotypePosteriors - ------------------------------------------------------------
+02:31:51.241 INFO  CalculateGenotypePosteriors - The Genome Analysis Toolkit (GATK) v4.1.6.0
+02:31:51.241 INFO  CalculateGenotypePosteriors - For support and documentation go to https://software.broadinstitute.org/gatk/
+02:31:51.241 INFO  CalculateGenotypePosteriors - Executing as lkemp@kscprod-bio8 on Linux v3.10.0-1127.8.2.el7.x86_64 amd64
+02:31:51.241 INFO  CalculateGenotypePosteriors - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_332-b09
+02:31:51.241 INFO  CalculateGenotypePosteriors - Start Date/Time: 6 December 2022 2:31:50 AM
+02:31:51.241 INFO  CalculateGenotypePosteriors - ------------------------------------------------------------
+02:31:51.241 INFO  CalculateGenotypePosteriors - ------------------------------------------------------------
+02:31:51.242 INFO  CalculateGenotypePosteriors - HTSJDK Version: 2.21.2
+02:31:51.242 INFO  CalculateGenotypePosteriors - Picard Version: 2.21.9
+02:31:51.242 INFO  CalculateGenotypePosteriors - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+02:31:51.242 INFO  CalculateGenotypePosteriors - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+02:31:51.242 INFO  CalculateGenotypePosteriors - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+02:31:51.242 INFO  CalculateGenotypePosteriors - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+02:31:51.243 INFO  CalculateGenotypePosteriors - Deflater: IntelDeflater
+02:31:51.243 INFO  CalculateGenotypePosteriors - Inflater: IntelInflater
+02:31:51.243 INFO  CalculateGenotypePosteriors - GCS max retries/reopens: 20
+02:31:51.243 INFO  CalculateGenotypePosteriors - Requester pays: disabled
+02:31:51.243 INFO  CalculateGenotypePosteriors - Initializing engine
+02:31:55.224 INFO  FeatureManager - Using codec VCFCodec to read file file:///NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp.vcf
+02:31:55.267 INFO  CalculateGenotypePosteriors - Done initializing engine
+02:31:55.278 INFO  PedReader - Reading PED file ../../pedigrees/21CG0001_pedigree.ped with missing fields: []
+02:31:55.295 INFO  PedReader - Phenotype is other? false
+02:31:55.304 WARN  CalculateGenotypePosteriors - No PED file passed or no *non-skipped* trios found in PED file. Skipping family priors.
+02:31:55.343 INFO  ProgressMeter - Starting traversal
+02:31:55.344 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+02:32:05.405 INFO  ProgressMeter -           1:19590627              0.2                 76000         453280.3
+02:32:15.476 INFO  ProgressMeter -           1:41344603              0.3                156000         464931.5
+02:32:25.539 INFO  ProgressMeter -           1:72844525              0.5                239000         474913.1
+02:32:35.734 INFO  ProgressMeter -          1:114888412              0.7                334000         496174.7
+02:32:45.817 INFO  ProgressMeter -          1:161580969              0.8                412000         489766.8
+02:32:55.922 INFO  ProgressMeter -          1:186244788              1.0                474000         469477.4
+02:33:05.977 INFO  ProgressMeter -          1:209823970              1.2                530000         450220.9
+02:33:16.069 INFO  ProgressMeter -          1:236708357              1.3                605000         449674.8
+02:33:26.143 INFO  ProgressMeter -           2:24024376              1.5                699000         461899.4
+02:33:36.199 INFO  ProgressMeter -           2:50793469              1.7                781000         464632.0
+02:33:46.223 INFO  ProgressMeter -           2:97829420              1.8                880000         476194.8
+02:33:56.265 INFO  ProgressMeter -          2:141473931              2.0                981000         486764.1
+02:34:06.281 INFO  ProgressMeter -          2:183953465              2.2               1075000         492603.3
+02:34:16.323 INFO  ProgressMeter -          2:227775223              2.3               1177000         500925.7
+02:34:26.362 INFO  ProgressMeter -           3:16866908              2.5               1279000         508151.3
+02:34:36.409 INFO  ProgressMeter -           3:55480431              2.7               1378000         513333.1
+02:34:46.440 INFO  ProgressMeter -          3:111329739              2.9               1486000         521111.0
+02:34:56.530 INFO  ProgressMeter -          3:152157531              3.0               1588000         525868.4
+02:35:06.595 INFO  ProgressMeter -          3:190930559              3.2               1673000         524860.0
+02:35:16.690 INFO  ProgressMeter -           4:27882716              3.4               1776000         529238.2
+02:35:26.697 INFO  ProgressMeter -           4:77135736              3.5               1881000         533988.2
+02:35:36.744 INFO  ProgressMeter -          4:120374439              3.7               1971000         534146.3
+02:35:46.819 INFO  ProgressMeter -          4:173784731              3.9               2080000         539151.1
+02:35:56.875 INFO  ProgressMeter -           5:25106249              4.0               2185000         542787.5
+02:36:06.931 INFO  ProgressMeter -           5:70888904              4.2               2277000         543032.8
+02:36:16.951 INFO  ProgressMeter -          5:125869575              4.4               2385000         547003.7
+02:36:26.986 INFO  ProgressMeter -          5:167398497              4.5               2485000         548884.2
+02:36:36.997 INFO  ProgressMeter -           6:17417644              4.7               2577000         548973.4
+02:36:47.010 INFO  ProgressMeter -           6:39551422              4.9               2671000         549464.1
+02:36:57.018 INFO  ProgressMeter -           6:90368380              5.0               2779000         552717.7
+02:37:07.080 INFO  ProgressMeter -          6:138611312              5.2               2877000         553737.8
+02:37:17.189 INFO  ProgressMeter -            7:4785129              5.4               2981000         555748.9
+02:37:27.210 INFO  ProgressMeter -           7:44589784              5.5               3083000         557393.6
+02:37:37.210 INFO  ProgressMeter -           7:83389273              5.7               3185000         558990.9
+02:37:47.253 INFO  ProgressMeter -          7:128749858              5.9               3287000         560429.0
+02:37:57.312 INFO  ProgressMeter -            8:2003384              6.0               3382000         560602.0
+02:38:07.330 INFO  ProgressMeter -           8:36653202              6.2               3487000         562440.5
+02:38:17.343 INFO  ProgressMeter -           8:94621954              6.4               3597000         564975.3
+02:38:27.437 INFO  ProgressMeter -          8:142074768              6.5               3702000         566498.3
+02:38:37.494 INFO  ProgressMeter -           9:35943177              6.7               3805000         567698.6
+02:38:47.529 INFO  ProgressMeter -          9:103418290              6.9               3910000         569161.9
+02:38:57.599 INFO  ProgressMeter -          9:134690985              7.0               4001000         568520.4
+02:39:07.666 INFO  ProgressMeter -          10:24951893              7.2               4103000         569436.7
+02:39:17.666 INFO  ProgressMeter -          10:68067711              7.4               4199000         569585.1
+02:39:27.683 INFO  ProgressMeter -         10:105128457              7.5               4307000         571297.2
+02:39:37.739 INFO  ProgressMeter -           11:5426910              7.7               4412000         572497.5
+02:39:47.767 INFO  ProgressMeter -          11:43373525              7.9               4506000         572283.7
+02:39:57.837 INFO  ProgressMeter -          11:75297167              8.0               4601000         572153.4
+02:40:07.845 INFO  ProgressMeter -         11:115608900              8.2               4692000         571613.1
+02:40:17.886 INFO  ProgressMeter -          12:12210881              8.4               4791000         572011.9
+02:40:27.990 INFO  ProgressMeter -          12:53645780              8.5               4898000         573261.1
+02:40:37.993 INFO  ProgressMeter -          12:93815234              8.7               4986000         572392.9
+02:40:48.080 INFO  ProgressMeter -         12:124552017              8.9               5088000         573041.8
+02:40:58.146 INFO  ProgressMeter -          13:43694764              9.0               5192000         573910.9
+02:41:08.224 INFO  ProgressMeter -          13:95854144              9.2               5289000         573976.3
+02:41:18.259 INFO  ProgressMeter -          14:38218733              9.4               5392000         574722.6
+02:41:28.301 INFO  ProgressMeter -          14:77169227              9.5               5493000         575227.4
+02:41:38.353 INFO  ProgressMeter -          15:20499426              9.7               5584000         574673.8
+02:41:48.402 INFO  ProgressMeter -          15:56997664              9.9               5687000         575356.9
+02:41:58.446 INFO  ProgressMeter -          15:89699859             10.1               5785000         575524.5
+02:42:08.453 INFO  ProgressMeter -           16:8719695             10.2               5863000         573764.2
+02:42:18.509 INFO  ProgressMeter -          16:51826981             10.4               5967000         574519.7
+02:42:28.596 INFO  ProgressMeter -          16:85066158             10.6               6072000         575316.0
+02:42:38.623 INFO  ProgressMeter -          17:15288433             10.7               6161000         574649.6
+02:42:48.686 INFO  ProgressMeter -          17:43704557             10.9               6255000         574431.2
+02:42:58.797 INFO  ProgressMeter -          17:73757251             11.1               6352000         574449.1
+02:43:08.837 INFO  ProgressMeter -          18:24613851             11.2               6450000         574616.2
+02:43:18.911 INFO  ProgressMeter -          18:75107552             11.4               6559000         575715.3
+02:43:28.996 INFO  ProgressMeter -          19:15634875             11.6               6654000         575562.4
+02:43:39.041 INFO  ProgressMeter -          19:40692045             11.7               6744000         575020.2
+02:43:49.053 INFO  ProgressMeter -          19:58233196             11.9               6835000         574603.9
+02:43:59.075 INFO  ProgressMeter -          20:40813434             12.1               6944000         575683.5
+02:44:09.139 INFO  ProgressMeter -          21:22595249             12.2               7041000         575719.4
+02:44:19.189 INFO  ProgressMeter -          22:22973384             12.4               7142000         576088.5
+02:44:29.221 INFO  ProgressMeter -          22:49638323             12.6               7243000         576460.1
+02:44:39.306 INFO  ProgressMeter -           X:47968351             12.7               7342000         576626.3
+02:44:49.310 INFO  ProgressMeter -          X:129100422             12.9               7455000         577933.1
+02:44:56.491 INFO  ProgressMeter -    GL000225.1:188827             13.0               7531954         578530.3
+02:44:56.491 INFO  ProgressMeter - Traversal complete. Processed 7531954 total variants in 13.0 minutes.
+02:44:57.882 INFO  CalculateGenotypePosteriors - Shutting down engine
+[6 December 2022 2:44:57 AM] org.broadinstitute.hellbender.tools.walkers.variantutils.CalculateGenotypePosteriors done. Elapsed time: 13.13 minutes.
+Runtime.totalMemory()=8938586112
+Using GATK jar /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/.snakemake/conda/35073b0d/share/gatk4-4.1.6.0-0/gatk-package-4.1.6.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx80g -jar /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/.snakemake/conda/35073b0d/share/gatk4-4.1.6.0-0/gatk-package-4.1.6.0-local.jar CalculateGenotypePosteriors -R /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta -V ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp.vcf -O ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp_posteriors.vcf --pedigree ../../pedigrees/21CG0001_pedigree.ped --skip-population-priors

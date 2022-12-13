@@ -1,0 +1,8 @@
+{
+    "__default__" :
+    {
+        "account" : "lkemp",
+        "partition" : "prod",
+        "output" : "logs/slurm-%j_{rule}_{wildcards.sample}.out"
+    }
+}

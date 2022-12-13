@@ -1,0 +1,127 @@
+localrules directive specifies rules that are not present in the Snakefile:
+	pbrun_cnnscorevariants
+
+Building DAG of jobs...
+Creating conda environment envs/vep.yaml...
+Downloading and installing remote packages.
+Environment for envs/vep.yaml created (location: .snakemake/conda/cc795e77)
+Creating conda environment envs/genmod.yaml...
+Downloading and installing remote packages.
+Environment for envs/genmod.yaml created (location: .snakemake/conda/7991754e)
+Creating conda environment envs/SnpSift.yaml...
+Downloading and installing remote packages.
+Environment for envs/SnpSift.yaml created (location: .snakemake/conda/d2579d00)
+Creating conda environment envs/gatk4.yaml...
+Downloading and installing remote packages.
+Environment for envs/gatk4.yaml created (location: .snakemake/conda/35073b0d)
+Creating conda environment envs/bgzip.yaml...
+Downloading and installing remote packages.
+Environment for envs/bgzip.yaml created (location: .snakemake/conda/b4589d7f)
+Using shell: /usr/bin/bash
+Provided cluster nodes: 32
+Provided resources: gpu=2
+Job counts:
+	count	jobs
+	1	SnpSift_annotate_dbSNP_cohort
+	1	SnpSift_dbnsfp
+	1	bgzip
+	1	gatk_CalculateGenotypePosteriors
+	1	gatk_VariantAnnotator_PossibleDeNovo
+	1	genmod_annotate_CADD
+	1	pbrun_vqsr_indel
+	1	pbrun_vqsr_snp
+	1	tabix
+	1	vep
+	10
+
+[Mon Dec  5 11:30:49 2022]
+Job 9: Building a recalibration model to score variant quality in ../../human_genomics_pipeline/results/called/21CG0001_raw_snps_indels.vcf and apply a score cutoff to filter variants (indels).
+
+Removing temporary output file ../results/filtered/21CG0001_recal_indels.
+Removing temporary output file ../results/filtered/21CG0001_tranches_indels.
+[Mon Dec  5 12:16:44 2022]
+Finished job 9.
+1 of 10 steps (10%) done
+
+[Mon Dec  5 12:16:44 2022]
+Job 8: Building a recalibration model to score variant quality in ../results/filtered/21CG0001_tmp_vqsr_recal_indels.vcf and apply a score cutoff to filter variants (snp's).
+
+Write-protecting output file ../results/filtered/21CG0001_filtered.vcf.
+Removing temporary output file ../results/filtered/21CG0001_tmp_vqsr_recal_indels.vcf.
+Removing temporary output file ../results/filtered/21CG0001_recal_snps.
+Removing temporary output file ../results/filtered/21CG0001_tranches_snps.
+[Mon Dec  5 13:13:32 2022]
+Finished job 8.
+2 of 10 steps (20%) done
+
+[Mon Dec  5 13:13:32 2022]
+Job 7: Using the dbNSFP database to annotate ../results/filtered/21CG0001_filtered.vcf with functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.)
+
+Submitted job 7 with external jobid 'Submitted batch job 83864'.
+[Mon Dec  5 14:19:09 2022]
+Finished job 7.
+3 of 10 steps (30%) done
+
+[Mon Dec  5 14:19:09 2022]
+Job 5: Bgzipping ../results/annotated/21CG0001_filtered_dbnsfp.vcf
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/.snakemake/conda/b4589d7f
+Removing temporary output file ../results/annotated/21CG0001_filtered_dbnsfp.vcf.
+[Mon Dec  5 14:22:18 2022]
+Finished job 5.
+4 of 10 steps (40%) done
+
+[Mon Dec  5 14:22:18 2022]
+Job 6: Tabix indexing ../results/annotated/21CG0001_filtered_dbnsfp.vcf.gz
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/.snakemake/conda/b4589d7f
+[Mon Dec  5 14:23:18 2022]
+Finished job 6.
+5 of 10 steps (50%) done
+
+[Mon Dec  5 14:23:18 2022]
+Job 4: Using the VEP database to determine the effect of the variants in ../results/annotated/21CG0001_filtered_dbnsfp.vcf.gz
+
+Submitted job 4 with external jobid 'Submitted batch job 83870'.
+Removing temporary output file ../results/annotated/21CG0001_filtered_dbnsfp.vcf.gz.
+Removing temporary output file ../results/annotated/21CG0001_filtered_dbnsfp.vcf.gz.tbi.
+[Mon Dec  5 16:23:58 2022]
+Finished job 4.
+6 of 10 steps (60%) done
+
+[Mon Dec  5 16:23:58 2022]
+Job 3: Using genmod to annotate ../results/annotated/21CG0001_filtered_dbnsfp_vep.vcf.gz with CADD
+
+Submitted job 3 with external jobid 'Submitted batch job 83890'.
+Removing temporary output file ../results/annotated/21CG0001_filtered_dbnsfp_vep.vcf.gz.
+[Tue Dec  6 02:25:36 2022]
+Finished job 3.
+7 of 10 steps (70%) done
+
+[Tue Dec  6 02:25:36 2022]
+Job 2: Using SnpSift to annotate ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd.vcf with dbSNP
+
+Submitted job 2 with external jobid 'Submitted batch job 83891'.
+Removing temporary output file ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd.vcf.
+[Tue Dec  6 02:31:37 2022]
+Finished job 2.
+8 of 10 steps (80%) done
+
+[Tue Dec  6 02:31:37 2022]
+Job 1: Calculating genotype posterior probabilities given family and/or known population genotypes for ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp.vcf
+
+Submitted job 1 with external jobid 'Submitted batch job 83892'.
+Removing temporary output file ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp_posteriors.vcf.idx.
+[Tue Dec  6 02:45:38 2022]
+Finished job 1.
+9 of 10 steps (90%) done
+
+[Tue Dec  6 02:45:38 2022]
+Job 0: Marking variants in ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp_posteriors.vcf that are possible denovo mutations
+
+Submitted job 0 with external jobid 'Submitted batch job 83893'.
+Removing temporary output file ../results/annotated/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp_posteriors.vcf.
+[Tue Dec  6 03:11:39 2022]
+Finished job 0.
+10 of 10 steps (100%) done
+Complete log: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/workflow/.snakemake/log/2022-12-05T111520.165268.snakemake.log

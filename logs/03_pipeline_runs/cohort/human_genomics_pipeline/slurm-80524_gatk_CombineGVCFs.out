@@ -1,0 +1,28 @@
+localrules directive specifies rules that are not present in the Snakefile:
+	pbrun_triocombinegvcf
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 72
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	gatk_CombineGVCFs
+	1
+
+[Thu Dec  1 10:19:47 2022]
+Job 0: Merging one or more HaplotypeCaller GVCF files into a single GVCF
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/workflow/.snakemake/conda/f60ec0b7
+[Fri Dec  2 10:42:25 2022]
+Error in rule gatk_CombineGVCFs:
+    jobid: 0
+    output: ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf, ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf.idx
+    log: logs/gatk_CombineGVCFs/21CG0001.log (check log file(s) for error message)
+    conda-env: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/workflow/.snakemake/conda/f60ec0b7
+    shell:
+        gatk CombineGVCFs -R /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta -V ../results/called/21CG0001_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0002_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0003_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0004_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0005_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0006_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0007_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0008_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0009_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0010_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0011_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0012_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0013_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0014_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0015_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0016_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0017_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0018_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0019_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0020_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0021_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0034_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0035_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0036_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0037_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0038_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0039_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0040_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0041_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0042_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0043_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0044_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0045_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0046_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0047_raw_snps_indels_tmp.g.vcf -V ../results/called/21CG0048_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG001_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG002_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG003_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG004_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG005_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG006_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG007_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG008_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG009_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG010_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG011_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG012_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG013_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG014_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG015_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG016_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG017_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG018_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG019_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG020_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG021_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG022_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG023_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG024_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG025_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG026_raw_snps_indels_tmp.g.vcf -V ../results/called/22CG027_raw_snps_indels_tmp.g.vcf  -O ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf --tmp-dir /NGS/humangenomics/active/tmp/ -G StandardAnnotation -G AS_StandardAnnotation &> logs/gatk_CombineGVCFs/21CG0001.log
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message

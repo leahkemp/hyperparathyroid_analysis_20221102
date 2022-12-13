@@ -1,0 +1,19 @@
+localrules directive specifies rules that are not present in the Snakefile:
+	pbrun_triocombinegvcf
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 64
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	fastqc
+	1
+
+[Fri Nov  4 12:17:57 2022]
+Job 0: Undertaking quality control checks on raw sequence data for ../../fastq/22CG019_1.fastq.gz ../../fastq/22CG019_2.fastq.gz
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/singleton/human_genomics_pipeline/workflow/.snakemake/conda/92625bf2
+[Fri Nov  4 12:27:10 2022]
+Finished job 0.
+1 of 1 steps (100%) done

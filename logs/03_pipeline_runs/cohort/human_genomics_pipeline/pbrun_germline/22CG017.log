@@ -1,0 +1,742 @@
+Please visit https://docs.nvidia.com/clara/#parabricks for detailed documentation
+
+
+[Parabricks Options Mesg]: Automatically generating ID prefix
+[Parabricks Options Mesg]: Read group created for /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/
+results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/22CG017_1_val_1.fq.gz and /NGS/humangenomics/act
+ive/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/
+22CG017_2_val_2.fq.gz
+[Parabricks Options Mesg]: @RG\tID:H23MJBGXK.1\tLB:lib1\tPL:bar\tSM:22CG017\tPU:H23MJBGXK.1
+
+[Parabricks Options Mesg]: Checking argument compatibility
+[Parabricks Options Mesg]: Read group created for /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/
+results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/22CG017_1_val_1.fq.gz and /NGS/humangenomics/act
+ive/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/
+22CG017_2_val_2.fq.gz
+[Parabricks Options Mesg]: @RG\tID:H23MJBGXK.1\tLB:lib1\tPL:bar\tSM:22CG017\tPU:H23MJBGXK.1
+[PB Info 2022-Nov-29 22:01:54] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:01:54] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2022-Nov-29 22:01:54] ||                              Version 3.8.0-1                             ||
+[PB Info 2022-Nov-29 22:01:54] ||                       GPU-BWA mem, Sorting Phase-I                       ||
+[PB Info 2022-Nov-29 22:01:54] ||                  Contact: Parabricks-Support@nvidia.com                  ||
+[PB Info 2022-Nov-29 22:01:54] ------------------------------------------------------------------------------
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[PB Info 2022-Nov-29 22:02:04] GPU-BWA mem
+[PB Info 2022-Nov-29 22:02:04] ProgressMeter	Reads		Base Pairs Aligned
+[PB Info 2022-Nov-29 22:02:15] [M::runCPUThreads] read 70492 sequences (10000097 bp)...
+[PB Info 2022-Nov-29 22:02:42] 5013452		870000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30705, 3, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (191.49, 74.40)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:02:44] [M::mem_process_seqs_cpp] Processed 70492 reads in 437.769 CPU sec, 29.441 real sec
+[PB Info 2022-Nov-29 22:02:44] [M::runCPUThreads] read 70536 sequences (20000115 bp)...
+[PB Info 2022-Nov-29 22:03:01] 10024628	1520000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30732, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 442)
+[M::mem_pestat] mean and std.dev: (191.62, 74.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 544)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:03:08] [M::mem_process_seqs_cpp] Processed 70536 reads in 363.947 CPU sec, 23.785 real sec
+[PB Info 2022-Nov-29 22:03:08] [M::runCPUThreads] read 70510 sequences (30000318 bp)...
+[PB Info 2022-Nov-29 22:03:30] 15035820	2280000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30788, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (191.10, 73.85)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:03:33] [M::mem_process_seqs_cpp] Processed 70510 reads in 376.415 CPU sec, 25.220 real sec
+[PB Info 2022-Nov-29 22:03:33] [M::runCPUThreads] read 70552 sequences (40000380 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30713, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 444)
+[M::mem_pestat] mean and std.dev: (191.13, 74.85)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 547)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:03:55] [M::mem_process_seqs_cpp] Processed 70552 reads in 328.722 CPU sec, 22.152 real sec
+[PB Info 2022-Nov-29 22:03:55] [M::runCPUThreads] read 70586 sequences (50000571 bp)...
+[PB Info 2022-Nov-29 22:03:59] 20049986	3010000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30816, 4, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 441)
+[M::mem_pestat] mean and std.dev: (190.33, 73.87)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 543)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:04:17] [M::mem_process_seqs_cpp] Processed 70586 reads in 330.923 CPU sec, 21.710 real sec
+[PB Info 2022-Nov-29 22:04:17] 25065238	170000000
+[PB Info 2022-Nov-29 22:04:17] [M::runCPUThreads] read 70572 sequences (60000641 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30803, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (191.12, 74.10)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:04:40] [M::mem_process_seqs_cpp] Processed 70572 reads in 334.177 CPU sec, 22.495 real sec
+[PB Info 2022-Nov-29 22:04:40] [M::runCPUThreads] read 70642 sequences (70000697 bp)...
+[PB Info 2022-Nov-29 22:04:46] 30078450	4450000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30767, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 180, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 444)
+[M::mem_pestat] mean and std.dev: (191.16, 74.92)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 547)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:05:03] [M::mem_process_seqs_cpp] Processed 70642 reads in 338.814 CPU sec, 23.064 real sec
+[PB Info 2022-Nov-29 22:05:03] [M::runCPUThreads] read 70606 sequences (80000737 bp)...
+[PB Info 2022-Nov-29 22:05:17] 35093122	5140000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30846, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 441)
+[M::mem_pestat] mean and std.dev: (190.71, 74.39)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 543)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:05:25] [M::mem_process_seqs_cpp] Processed 70606 reads in 336.958 CPU sec, 22.864 real sec
+[PB Info 2022-Nov-29 22:05:26] [M::runCPUThreads] read 70636 sequences (90000802 bp)...
+[PB Info 2022-Nov-29 22:05:41] 40108150	5780000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30797, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 444)
+[M::mem_pestat] mean and std.dev: (191.09, 75.02)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 547)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:05:50] [M::mem_process_seqs_cpp] Processed 70636 reads in 362.422 CPU sec, 24.002 real sec
+[PB Info 2022-Nov-29 22:05:50] [M::runCPUThreads] read 70642 sequences (100001079 bp)...
+[PB Info 2022-Nov-29 22:06:07] 45119366	6550000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30705, 3, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 180, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 444)
+[M::mem_pestat] mean and std.dev: (191.14, 74.46)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 547)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:06:13] [M::mem_process_seqs_cpp] Processed 70642 reads in 342.827 CPU sec, 23.046 real sec
+[PB Info 2022-Nov-29 22:06:13] [M::runCPUThreads] read 70608 sequences (110001126 bp)...
+[PB Info 2022-Nov-29 22:06:34] 50131068	7260000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30633, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 441)
+[M::mem_pestat] mean and std.dev: (191.02, 74.38)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 543)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:06:36] [M::mem_process_seqs_cpp] Processed 70608 reads in 348.035 CPU sec, 23.419 real sec
+[PB Info 2022-Nov-29 22:06:36] [M::runCPUThreads] read 70588 sequences (120001290 bp)...
+[PB Info 2022-Nov-29 22:06:54] 55141570	7910000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30742, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 444)
+[M::mem_pestat] mean and std.dev: (191.17, 74.80)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 547)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:06:57] [M::mem_process_seqs_cpp] Processed 70588 reads in 316.823 CPU sec, 20.890 real sec
+[PB Info 2022-Nov-29 22:06:57] [M::runCPUThreads] read 70430 sequences (130001458 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30682, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 442)
+[M::mem_pestat] mean and std.dev: (191.93, 74.32)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 544)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:07:19] [M::mem_process_seqs_cpp] Processed 70430 reads in 333.608 CPU sec, 22.565 real sec
+[PB Info 2022-Nov-29 22:07:19] [M::runCPUThreads] read 70632 sequences (140001579 bp)...
+[PB Info 2022-Nov-29 22:07:21] 60152408	8690000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30723, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 180, 236)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 438)
+[M::mem_pestat] mean and std.dev: (190.38, 73.60)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 539)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:07:41] [M::mem_process_seqs_cpp] Processed 70632 reads in 321.203 CPU sec, 21.572 real sec
+[PB Info 2022-Nov-29 22:07:41] [M::runCPUThreads] read 70582 sequences (150001736 bp)...
+[PB Info 2022-Nov-29 22:07:50] 65166334	9400000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30693, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 181, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (190.99, 73.75)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:08:04] [M::mem_process_seqs_cpp] Processed 70582 reads in 340.796 CPU sec, 22.731 real sec
+[PB Info 2022-Nov-29 22:08:04] [M::runCPUThreads] read 70560 sequences (160001996 bp)...
+[PB Info 2022-Nov-29 22:08:10] 70179512	10030000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30714, 4, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (191.08, 73.97)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:08:27] [M::mem_process_seqs_cpp] Processed 70560 reads in 347.035 CPU sec, 23.009 real sec
+[PB Info 2022-Nov-29 22:08:27] [M::runCPUThreads] read 70656 sequences (170002142 bp)...
+[PB Info 2022-Nov-29 22:08:36] 75193598	10820000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30827, 4, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 441)
+[M::mem_pestat] mean and std.dev: (190.99, 74.50)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 543)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:08:48] [M::mem_process_seqs_cpp] Processed 70656 reads in 315.544 CPU sec, 21.294 real sec
+[PB Info 2022-Nov-29 22:08:48] [M::runCPUThreads] read 70532 sequences (180002329 bp)...
+[PB Info 2022-Nov-29 22:09:05] 80207586	11490000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30694, 3, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 442)
+[M::mem_pestat] mean and std.dev: (191.23, 74.35)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 544)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:09:10] [M::mem_process_seqs_cpp] Processed 70532 reads in 332.551 CPU sec, 22.321 real sec
+[PB Info 2022-Nov-29 22:09:10] [M::runCPUThreads] read 70638 sequences (190002360 bp)...
+[PB Info 2022-Nov-29 22:09:28] 85221296	12180000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30688, 2, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (190.93, 74.07)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:09:33] [M::mem_process_seqs_cpp] Processed 70638 reads in 342.002 CPU sec, 22.582 real sec
+[PB Info 2022-Nov-29 22:09:33] [M::runCPUThreads] read 70556 sequences (200002550 bp)...
+[PB Info 2022-Nov-29 22:09:52] 90232896	12950000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30746, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 236)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 436)
+[M::mem_pestat] mean and std.dev: (190.64, 73.81)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 536)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:09:55] [M::mem_process_seqs_cpp] Processed 70556 reads in 325.819 CPU sec, 21.822 real sec
+[PB Info 2022-Nov-29 22:09:55] [M::runCPUThreads] read 70648 sequences (210002716 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30761, 5, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 444)
+[M::mem_pestat] mean and std.dev: (191.07, 75.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 547)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:10:18] [M::mem_process_seqs_cpp] Processed 70648 reads in 341.591 CPU sec, 22.861 real sec
+[PB Info 2022-Nov-29 22:10:18] [M::runCPUThreads] read 70730 sequences (220002733 bp)...
+[PB Info 2022-Nov-29 22:10:19] 95248270	13630000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30817, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (134, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 443)
+[M::mem_pestat] mean and std.dev: (190.38, 74.78)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 546)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:10:40] 100264088	14300000000
+[PB Info 2022-Nov-29 22:10:41] [M::mem_process_seqs_cpp] Processed 70730 reads in 345.499 CPU sec, 22.875 real sec
+[PB Info 2022-Nov-29 22:10:41] [M::runCPUThreads] read 70658 sequences (230002772 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30732, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 178, 236)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 438)
+[M::mem_pestat] mean and std.dev: (189.91, 74.03)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 539)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:11:03] [M::mem_process_seqs_cpp] Processed 70658 reads in 335.777 CPU sec, 22.519 real sec
+[PB Info 2022-Nov-29 22:11:03] [M::runCPUThreads] read 70590 sequences (240002833 bp)...
+[PB Info 2022-Nov-29 22:11:07] 105279552	15070000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30626, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 441)
+[M::mem_pestat] mean and std.dev: (190.72, 73.99)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 543)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:11:26] [M::mem_process_seqs_cpp] Processed 70590 reads in 343.948 CPU sec, 23.260 real sec
+[PB Info 2022-Nov-29 22:11:26] [M::runCPUThreads] read 70700 sequences (250002851 bp)...
+[PB Info 2022-Nov-29 22:11:37] 110294804	15810000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30721, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (134, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 443)
+[M::mem_pestat] mean and std.dev: (190.52, 74.50)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 546)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:11:48] [M::mem_process_seqs_cpp] Processed 70700 reads in 322.926 CPU sec, 21.852 real sec
+[PB Info 2022-Nov-29 22:11:48] [M::runCPUThreads] read 70416 sequences (260002920 bp)...
+[PB Info 2022-Nov-29 22:12:03] 115310192	16440000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30597, 5, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (137, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 437)
+[M::mem_pestat] mean and std.dev: (191.31, 73.78)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 537)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:12:10] [M::mem_process_seqs_cpp] Processed 70416 reads in 324.997 CPU sec, 21.665 real sec
+[PB Info 2022-Nov-29 22:12:10] [M::runCPUThreads] read 70658 sequences (270003212 bp)...
+[PB Info 2022-Nov-29 22:12:29] 120321746	17190000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30655, 3, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 442)
+[M::mem_pestat] mean and std.dev: (191.47, 74.41)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 544)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:12:33] [M::mem_process_seqs_cpp] Processed 70658 reads in 344.900 CPU sec, 23.237 real sec
+[PB Info 2022-Nov-29 22:12:33] [M::runCPUThreads] read 70650 sequences (280003333 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30670, 3, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 178, 236)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 438)
+[M::mem_pestat] mean and std.dev: (189.99, 74.02)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 539)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:12:55] 125332316	17690000000
+[PB Info 2022-Nov-29 22:12:55] [M::mem_process_seqs_cpp] Processed 70650 reads in 332.887 CPU sec, 22.274 real sec
+[PB Info 2022-Nov-29 22:12:56] [M::runCPUThreads] read 70620 sequences (290003501 bp)...
+[PB Info 2022-Nov-29 22:13:15] 130345162	18570000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30857, 4, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 180, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 444)
+[M::mem_pestat] mean and std.dev: (191.60, 74.77)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 547)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:13:18] [M::mem_process_seqs_cpp] Processed 70620 reads in 341.811 CPU sec, 22.583 real sec
+[PB Info 2022-Nov-29 22:13:18] [M::runCPUThreads] read 70474 sequences (300003709 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30785, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 181, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 442)
+[M::mem_pestat] mean and std.dev: (192.16, 74.66)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 544)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:13:39] [M::mem_process_seqs_cpp] Processed 70474 reads in 314.007 CPU sec, 21.245 real sec
+[PB Info 2022-Nov-29 22:13:39] [M::runCPUThreads] read 70688 sequences (310003860 bp)...
+[PB Info 2022-Nov-29 22:13:43] 135358708	19330000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30786, 3, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 178, 235)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 435)
+[M::mem_pestat] mean and std.dev: (189.55, 73.19)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 535)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:14:02] [M::mem_process_seqs_cpp] Processed 70688 reads in 333.833 CPU sec, 22.388 real sec
+[PB Info 2022-Nov-29 22:14:02] [M::runCPUThreads] read 70584 sequences (320003996 bp)...
+[PB Info 2022-Nov-29 22:14:11] 140372800	20060000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30574, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 441)
+[M::mem_pestat] mean and std.dev: (190.77, 73.97)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 543)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:14:25] [M::mem_process_seqs_cpp] Processed 70584 reads in 346.549 CPU sec, 22.901 real sec
+[PB Info 2022-Nov-29 22:14:25] [M::runCPUThreads] read 70606 sequences (330004100 bp)...
+[PB Info 2022-Nov-29 22:14:30] 145387642	20680000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30737, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 444)
+[M::mem_pestat] mean and std.dev: (191.37, 74.78)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 547)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:14:47] [M::mem_process_seqs_cpp] Processed 70606 reads in 335.150 CPU sec, 22.357 real sec
+[PB Info 2022-Nov-29 22:14:47] [M::runCPUThreads] read 70650 sequences (340004305 bp)...
+[PB Info 2022-Nov-29 22:15:00] 150402886	21030000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30747, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 236)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 438)
+[M::mem_pestat] mean and std.dev: (189.98, 73.69)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 539)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:15:09] [M::mem_process_seqs_cpp] Processed 70650 reads in 327.559 CPU sec, 22.118 real sec
+[PB Info 2022-Nov-29 22:15:09] [M::runCPUThreads] read 70632 sequences (350004400 bp)...
+[PB Info 2022-Nov-29 22:15:29] 155421184	21920000000
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30761, 4, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (190.73, 73.97)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:15:31] [M::mem_process_seqs_cpp] Processed 70632 reads in 322.650 CPU sec, 21.850 real sec
+[PB Info 2022-Nov-29 22:15:31] [M::runCPUThreads] read 70686 sequences (360004572 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30921, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (134, 178, 235)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 437)
+[M::mem_pestat] mean and std.dev: (189.45, 73.39)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 538)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:15:51] [M::mem_process_seqs_cpp] Processed 70686 reads in 257.191 CPU sec, 19.704 real sec
+[PB Info 2022-Nov-29 22:15:51] [M::runCPUThreads] read 70556 sequences (370004780 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (1, 30591, 3, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (190.82, 74.08)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:16:12] [M::mem_process_seqs_cpp] Processed 70556 reads in 274.600 CPU sec, 21.179 real sec
+[PB Info 2022-Nov-29 22:16:12] [M::runCPUThreads] read 70592 sequences (380004840 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30745, 2, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 238)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 442)
+[M::mem_pestat] mean and std.dev: (191.19, 74.67)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 544)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:16:33] [M::mem_process_seqs_cpp] Processed 70592 reads in 269.725 CPU sec, 20.803 real sec
+[PB Info 2022-Nov-29 22:16:33] [M::runCPUThreads] read 70600 sequences (390004933 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30652, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (190.90, 73.95)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:16:53] [M::mem_process_seqs_cpp] Processed 70600 reads in 268.019 CPU sec, 20.675 real sec
+[PB Info 2022-Nov-29 22:16:53] [M::runCPUThreads] read 70656 sequences (400005114 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30865, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (134, 178, 236)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 440)
+[M::mem_pestat] mean and std.dev: (189.94, 74.14)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 542)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:17:12] [M::mem_process_seqs_cpp] Processed 70656 reads in 240.248 CPU sec, 18.530 real sec
+[PB Info 2022-Nov-29 22:17:12] [M::runCPUThreads] read 70714 sequences (410005295 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30758, 1, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (134, 179, 236)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 440)
+[M::mem_pestat] mean and std.dev: (189.91, 74.02)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 542)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:17:32] [M::mem_process_seqs_cpp] Processed 70714 reads in 259.857 CPU sec, 20.042 real sec
+[PB Info 2022-Nov-29 22:17:32] [M::runCPUThreads] read 70632 sequences (420005492 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30767, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 179, 236)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 436)
+[M::mem_pestat] mean and std.dev: (190.07, 73.32)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 536)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:17:52] [M::mem_process_seqs_cpp] Processed 70632 reads in 263.914 CPU sec, 20.362 real sec
+[PB Info 2022-Nov-29 22:17:52] [M::runCPUThreads] read 70506 sequences (430005708 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30537, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (191.09, 73.73)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:18:12] [M::mem_process_seqs_cpp] Processed 70506 reads in 254.650 CPU sec, 19.639 real sec
+[PB Info 2022-Nov-29 22:18:12] [M::runCPUThreads] read 70720 sequences (440005909 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30680, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (135, 179, 235)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 435)
+[M::mem_pestat] mean and std.dev: (189.65, 73.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 535)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:18:32] [M::mem_process_seqs_cpp] Processed 70720 reads in 264.178 CPU sec, 20.376 real sec
+[PB Info 2022-Nov-29 22:18:32] [M::runCPUThreads] read 70604 sequences (450006063 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 30647, 1, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (136, 180, 237)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (190.90, 73.96)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 540)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[PB Info 2022-Nov-29 22:18:55] [M::mem_process_seqs_cpp] Processed 70604 reads in 140.699 CPU sec, 22.202 real sec
+[PB Info 2022-Nov-29 22:19:07] 
+GPU-BWA Mem time: 1022.614661 seconds
+[PB Info 2022-Nov-29 22:19:07] GPU-BWA Mem is finished.
+
+
+[main] CMD: PARABRICKS mem -Z ./pbOpts.txt /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/22CG017_1_val_1.fq.gz /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/22CG017_2_val_2.fq.gz @RG\tID:H23MJBGXK.1\tLB:lib1\tPL:bar\tSM:22CG017\tPU:H23MJBGXK.1
+[main] Real time: 1032.254 sec; CPU: 14501.710 sec
+[PB Info 2022-Nov-29 22:19:07] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:19:07] ||        Program:                      GPU-BWA mem, Sorting Phase-I        ||
+[PB Info 2022-Nov-29 22:19:07] ||        Version:                                           3.8.0-1        ||
+[PB Info 2022-Nov-29 22:19:07] ||        Start Time:                       Tue Nov 29 22:01:54 2022        ||
+[PB Info 2022-Nov-29 22:19:07] ||        End Time:                         Tue Nov 29 22:19:07 2022        ||
+[PB Info 2022-Nov-29 22:19:07] ||        Total Time:                          17 minutes 13 seconds        ||
+[PB Info 2022-Nov-29 22:19:07] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:19:10] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:19:10] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2022-Nov-29 22:19:10] ||                              Version 3.8.0-1                             ||
+[PB Info 2022-Nov-29 22:19:10] ||                             Sorting Phase-II                             ||
+[PB Info 2022-Nov-29 22:19:10] ||                  Contact: Parabricks-Support@nvidia.com                  ||
+[PB Info 2022-Nov-29 22:19:10] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:19:11] progressMeter - Percentage
+[PB Info 2022-Nov-29 22:19:11] 0.0	 0.00 GB
+[PB Info 2022-Nov-29 22:19:21] 52.2	 0.00 GB
+[PB Info 2022-Nov-29 22:19:31] Sorting and Marking: 20.001 seconds
+[PB Info 2022-Nov-29 22:19:31] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:19:31] ||        Program:                                  Sorting Phase-II        ||
+[PB Info 2022-Nov-29 22:19:31] ||        Version:                                           3.8.0-1        ||
+[PB Info 2022-Nov-29 22:19:31] ||        Start Time:                       Tue Nov 29 22:19:10 2022        ||
+[PB Info 2022-Nov-29 22:19:31] ||        End Time:                         Tue Nov 29 22:19:31 2022        ||
+[PB Info 2022-Nov-29 22:19:31] ||        Total Time:                                     21 seconds        ||
+[PB Info 2022-Nov-29 22:19:31] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:19:31] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:19:31] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2022-Nov-29 22:19:31] ||                              Version 3.8.0-1                             ||
+[PB Info 2022-Nov-29 22:19:31] ||                         Marking Duplicates, BQSR                         ||
+[PB Info 2022-Nov-29 22:19:31] ||                  Contact: Parabricks-Support@nvidia.com                  ||
+[PB Info 2022-Nov-29 22:19:31] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:19:32] progressMeter -	Percentage
+[PB Info 2022-Nov-29 22:19:42] 0.0	 18.57 GB
+[PB Info 2022-Nov-29 22:19:52] 0.0	 36.28 GB
+[PB Info 2022-Nov-29 22:20:02] 0.0	 48.46 GB
+[PB Info 2022-Nov-29 22:20:12] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:20:22] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:20:32] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:20:42] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:20:52] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:21:02] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:21:12] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:21:22] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:21:32] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:21:42] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:21:52] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:22:02] 0.0	 63.47 GB
+[PB Info 2022-Nov-29 22:22:12] 4.7	 59.79 GB
+[PB Info 2022-Nov-29 22:22:22] 16.9	 51.10 GB
+[PB Info 2022-Nov-29 22:22:32] 33.1	 42.62 GB
+[PB Info 2022-Nov-29 22:22:42] 48.1	 34.08 GB
+[PB Info 2022-Nov-29 22:22:52] 60.6	 25.90 GB
+[PB Info 2022-Nov-29 22:23:02] 74.6	 17.16 GB
+[PB Info 2022-Nov-29 22:23:12] 83.9	 8.53 GB
+[PB Info 2022-Nov-29 22:23:22] 100.0	 0.00 GB
+[PB Info 2022-Nov-29 22:23:22] BQSR and writing final BAM:  230.131 seconds
+[PB Info 2022-Nov-29 22:23:22] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:23:22] ||        Program:                          Marking Duplicates, BQSR        ||
+[PB Info 2022-Nov-29 22:23:22] ||        Version:                                           3.8.0-1        ||
+[PB Info 2022-Nov-29 22:23:22] ||        Start Time:                       Tue Nov 29 22:19:31 2022        ||
+[PB Info 2022-Nov-29 22:23:22] ||        End Time:                         Tue Nov 29 22:23:22 2022        ||
+[PB Info 2022-Nov-29 22:23:22] ||        Total Time:                           3 minutes 51 seconds        ||
+[PB Info 2022-Nov-29 22:23:22] ------------------------------------------------------------------------------
+Namespace(append=None, bwa_options=None, fix_mate=None, fq_list=None, gpu_devices='all', in_fq=[['/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/22CG017_1_val_1.fq.gz', '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/trimmed/22CG017_2_val_2.fq.gz', '@RG\\tID:H23MJBGXK.1\\tLB:lib1\\tPL:bar\\tSM:22CG017\\tPU:H23MJBGXK.1']], in_fq_list=None, in_se_fq=None, interval=None, interval_file=None, interval_padding=None, keep_tmp=None, knownSites=['/NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf', '/NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/Mills_and_1000G_gold_standard.indels.b37.vcf', '/NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/1000G_phase1.indels.b37.vcf'], license_file=None, logfile=None, markdups_assume_sortorder_queryname=None, markdups_picard_version_2182=None, memory_limit=251, no_markdups=None, no_seccomp_override=None, no_warnings=None, num_cpu_threads=1, num_gpus=2, optical_duplicate_pixel_distance=None, out_bam='/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/mapped/22CG017_recalibrated.bam', out_duplicate_metrics=None, out_qc_metrics_dir=None, out_recal_file='/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/mapped/22CG017_recal.txt', read_group_id_prefix=None, read_group_lb=None, read_group_pl=None, read_group_sm=None, ref='/NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta', standalone_bqsr=None, tmp_dir='/NGS/humangenomics/active/tmp/CR6SK4NL', verbose=None, version=None, with_petagene_dir=None, x1=None, x2=None, x3=None, x4=None, x5=None)
+[PB Info 2022-Nov-29 22:24:07] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:24:07] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2022-Nov-29 22:24:07] ||                              Version 3.8.0-1                             ||
+[PB Info 2022-Nov-29 22:24:07] ||                         GPU-GATK4 HaplotypeCaller                        ||
+[PB Info 2022-Nov-29 22:24:07] ||                  Contact: Parabricks-Support@nvidia.com                  ||
+[PB Info 2022-Nov-29 22:24:07] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:24:29] 0 /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/mapped/22CG017_recalibrated.bam/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/called/22CG017_raw_snps_indels_tmp.g.vcf
+[PB Info 2022-Nov-29 22:24:29] ProgressMeter -	Current-Locus	Elapsed-Minutes	Regions-Processed	Regions/Minute
+[PB Info 2022-Nov-29 22:24:39] 1:16358401	0.2	129536	777216
+[PB Info 2022-Nov-29 22:24:49] 1:17400001	0.3	233404	700212
+[PB Info 2022-Nov-29 22:24:59] 1:40267201	0.5	334065	668120
+[PB Info 2022-Nov-29 22:25:09] 1:62347201	0.7	471695	707542
+[PB Info 2022-Nov-29 22:25:19] 1:90177601	0.8	636597	763916
+[PB Info 2022-Nov-29 22:25:29] 1:115108801	1.0	729951	729951
+[PB Info 2022-Nov-29 22:25:39] 1:157915201	1.2	805774	690663
+[PB Info 2022-Nov-29 22:25:49] 1:192998401	1.3	1018890	764166
+[PB Info 2022-Nov-29 22:25:59] 1:220934401	1.5	1166103	777402
+[PB Info 2022-Nov-29 22:26:09] 1:247147201	1.7	1306296	783777
+[PB Info 2022-Nov-29 22:26:19] 2:26592001	1.8	1458256	795412
+[PB Info 2022-Nov-29 22:26:29] 2:48705601	2.0	1619956	809974
+[PB Info 2022-Nov-29 22:26:39] 2:85660801	2.2	1792691	827395
+[PB Info 2022-Nov-29 22:26:49] 2:132086401	2.3	2003637	858701
+[PB Info 2022-Nov-29 22:26:59] 2:178416001	2.5	2245463	898185
+[PB Info 2022-Nov-29 22:27:09] 2:204259201	2.7	2401762	900660
+[PB Info 2022-Nov-29 22:27:19] 2:234196801	2.8	2547792	899220
+[PB Info 2022-Nov-29 22:27:29] 3:26808001	3.0	2749009	916336
+[PB Info 2022-Nov-29 22:27:39] 3:48830401	3.2	2863783	904352
+[PB Info 2022-Nov-29 22:27:49] 3:73651201	3.3	3051256	915376
+[PB Info 2022-Nov-29 22:27:59] 3:124161601	3.5	3243416	926690
+[PB Info 2022-Nov-29 22:28:09] 3:171388801	3.7	3499300	954354
+[PB Info 2022-Nov-29 22:28:19] 4:8582401	3.8	3699531	965095
+[PB Info 2022-Nov-29 22:28:29] 4:42412801	4.0	3947444	986858
+[PB Info 2022-Nov-29 22:28:39] 4:79852801	4.2	4108616	986067
+[PB Info 2022-Nov-29 22:28:49] 4:110438401	4.3	4274118	986334
+[PB Info 2022-Nov-29 22:28:59] 4:144801601	4.5	4457147	990477
+[PB Info 2022-Nov-29 22:29:09] 4:187003201	4.7	4627387	991582
+[PB Info 2022-Nov-29 22:29:19] 5:60686401	4.8	4915150	1016927
+[PB Info 2022-Nov-29 22:29:29] 5:112137601	5.0	5176159	1035231
+[PB Info 2022-Nov-29 22:29:39] 5:133953601	5.2	5312828	1028288
+[PB Info 2022-Nov-29 22:29:49] 5:150499201	5.3	5454042	1022632
+[PB Info 2022-Nov-29 22:29:59] 5:176937601	5.5	5589336	1016242
+[PB Info 2022-Nov-29 22:30:09] 6:25478401	5.7	5706980	1007114
+[PB Info 2022-Nov-29 22:30:19] 6:31776001	5.8	5792660	993027
+[PB Info 2022-Nov-29 22:30:29] 6:82929601	6.0	5998936	999822
+[PB Info 2022-Nov-29 22:30:39] 6:134299201	6.2	6267668	1016378
+[PB Info 2022-Nov-29 22:30:49] 6:155544001	6.3	6404846	1011291
+[PB Info 2022-Nov-29 22:30:59] 7:4776001	6.5	6551398	1007907
+[PB Info 2022-Nov-29 22:31:09] 7:36552001	6.7	6689939	1003490
+[PB Info 2022-Nov-29 22:31:19] 7:64843201	6.8	6861215	1004080
+[PB Info 2022-Nov-29 22:31:29] 7:92025601	7.0	6970735	995819
+[PB Info 2022-Nov-29 22:31:39] 7:138849601	7.2	7187425	1002896
+[PB Info 2022-Nov-29 22:31:49] 8:9590401	7.3	7368201	1004754
+[PB Info 2022-Nov-29 22:31:59] 8:34296001	7.5	7514826	1001976
+[PB Info 2022-Nov-29 22:32:09] 8:76459201	7.7	7733058	1008659
+[PB Info 2022-Nov-29 22:32:19] 8:110491201	7.8	7928529	1012152
+[PB Info 2022-Nov-29 22:32:29] 8:144643201	8.0	8095792	1011973
+[PB Info 2022-Nov-29 22:32:39] 9:38174401	8.2	8286905	1014723
+[PB Info 2022-Nov-29 22:32:49] 9:113212801	8.3	8533080	1023969
+[PB Info 2022-Nov-29 22:32:59] 9:128688001	8.5	8658032	1018592
+[PB Info 2022-Nov-29 22:33:09] 9:141067201	8.7	8772936	1012261
+[PB Info 2022-Nov-29 22:33:19] 10:26059201	8.8	8923533	1010210
+[PB Info 2022-Nov-29 22:33:29] 10:51998401	9.0	9069326	1007702
+[PB Info 2022-Nov-29 22:33:39] 10:88819201	9.2	9213544	1005113
+[PB Info 2022-Nov-29 22:33:49] 10:132014401	9.3	9420639	1009354
+[PB Info 2022-Nov-29 22:33:59] 11:9048001	9.5	9519705	1002074
+[PB Info 2022-Nov-29 22:34:09] 11:46665601	9.7	9705972	1004066
+[PB Info 2022-Nov-29 22:34:19] 11:60892801	9.8	9772777	993841
+[PB Info 2022-Nov-29 22:34:29] 11:77884801	10.0	9912342	991234
+[PB Info 2022-Nov-29 22:34:39] 11:114576001	10.2	10062773	989780
+[PB Info 2022-Nov-29 22:34:49] 12:4920001	10.3	10193800	986496
+[PB Info 2022-Nov-29 22:34:59] 12:40872001	10.5	10389291	989456
+[PB Info 2022-Nov-29 22:35:09] 12:52771201	10.7	10456401	980287
+[PB Info 2022-Nov-29 22:35:19] 12:76444801	10.8	10630328	981261
+[PB Info 2022-Nov-29 22:35:29] 12:110472001	11.0	10774137	979467
+[PB Info 2022-Nov-29 22:35:39] 13:19252801	11.2	10909515	976971
+[PB Info 2022-Nov-29 22:35:49] 13:37560001	11.3	11043829	974455
+[PB Info 2022-Nov-29 22:35:59] 13:101289601	11.5	11352718	987192
+[PB Info 2022-Nov-29 22:36:09] 14:45484801	11.7	11550026	990002
+[PB Info 2022-Nov-29 22:36:19] 14:58905601	11.8	11676453	986742
+[PB Info 2022-Nov-29 22:36:29] 14:87988801	12.0	11819561	984963
+[PB Info 2022-Nov-29 22:36:39] 14:101145601	12.2	11886688	976988
+[PB Info 2022-Nov-29 22:36:49] 15:28353601	12.3	11994088	972493
+[PB Info 2022-Nov-29 22:36:59] 15:44049601	12.5	12087964	967037
+[PB Info 2022-Nov-29 22:37:09] 15:67526401	12.7	12208737	963847
+[PB Info 2022-Nov-29 22:37:19] 16:734401	12.8	12363442	963384
+[PB Info 2022-Nov-29 22:37:29] 16:16108801	13.0	12495527	961194
+[PB Info 2022-Nov-29 22:37:39] 16:47188801	13.2	12627791	959072
+[PB Info 2022-Nov-29 22:37:49] 16:70512001	13.3	12754161	956562
+[PB Info 2022-Nov-29 22:37:59] 17:1118401	13.5	12870318	953356
+[PB Info 2022-Nov-29 22:38:09] 17:12897601	13.7	12961884	948430
+[PB Info 2022-Nov-29 22:38:19] 17:40449601	13.8	13085761	945958
+[PB Info 2022-Nov-29 22:38:29] 17:62486401	14.0	13252359	946597
+[PB Info 2022-Nov-29 22:38:39] 17:73804801	14.2	13338758	941559
+[PB Info 2022-Nov-29 22:38:49] 18:13099201	14.3	13481797	940590
+[PB Info 2022-Nov-29 22:38:59] 18:44102401	14.5	13655804	941779
+[PB Info 2022-Nov-29 22:39:09] 19:2078401	14.7	13782297	939702
+[PB Info 2022-Nov-29 22:39:19] 19:10425601	14.8	13843956	933300
+[PB Info 2022-Nov-29 22:39:29] 19:36028801	15.0	13974233	931615
+[PB Info 2022-Nov-29 22:39:39] 19:44352001	15.2	14051138	926448
+[PB Info 2022-Nov-29 22:39:49] 19:53054401	15.3	14113018	920414
+[PB Info 2022-Nov-29 22:39:59] 19:58636801	15.5	14206008	916516
+[PB Info 2022-Nov-29 22:40:09] 20:33777601	15.7	14353969	916210
+[PB Info 2022-Nov-29 22:40:19] 20:60787201	15.8	14497790	915649
+[PB Info 2022-Nov-29 22:40:29] 21:45729601	16.0	14670205	916887
+[PB Info 2022-Nov-29 22:40:39] 22:40704001	16.2	14836751	917737
+[PB Info 2022-Nov-29 22:40:49] 22:47059201	16.3	14967422	916372
+[PB Info 2022-Nov-29 22:40:59] X:24081601	16.5	15138852	917506
+[PB Info 2022-Nov-29 22:41:09] X:47923201	16.7	15246740	914804
+[PB Info 2022-Nov-29 22:41:19] X:99657601	16.8	15441834	917336
+[PB Info 2022-Nov-29 22:41:29] X:134184001	17.0	15622898	918994
+[PB Info 2022-Nov-29 22:41:39] hs37d5:28574401	17.2	15816631	921357
+[PB Info 2022-Nov-29 22:41:50] Total time taken: 1040.949296
+[PB Info 2022-Nov-29 22:41:50] ------------------------------------------------------------------------------
+[PB Info 2022-Nov-29 22:41:50] ||        Program:                         GPU-GATK4 HaplotypeCaller        ||
+[PB Info 2022-Nov-29 22:41:50] ||        Version:                                           3.8.0-1        ||
+[PB Info 2022-Nov-29 22:41:50] ||        Start Time:                       Tue Nov 29 22:24:07 2022        ||
+[PB Info 2022-Nov-29 22:41:50] ||        End Time:                         Tue Nov 29 22:41:50 2022        ||
+[PB Info 2022-Nov-29 22:41:50] ||        Total Time:                          17 minutes 43 seconds        ||
+[PB Info 2022-Nov-29 22:41:50] ------------------------------------------------------------------------------
+/usr/local/cuda/.pb/binaries//bin/htvc /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/mapped/22CG017_recalibrated.bam 2 -o /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/called/22CG017_raw_snps_indels_tmp.g.vcf -nt 5 -a /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/results/mapped/22CG017_recal.txt -g
+

@@ -1,0 +1,60 @@
+##############################
+###### Overall workflow ######
+##############################
+
+# Type of input data (either 'Single' or 'Cohort')
+DATA: "Cohort"
+
+# Should the pipeline be GPU accelerated where possible? (either 'Yes' or 'No')
+GPU_ACCELERATED: "Yes"
+
+# File path to the reference genome (.fasta)
+REFGENOME: "/NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta"
+
+# File path to dbSNP database
+dbSNP: "/NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf"
+
+# Temporary file directory
+TEMPDIR: "/NGS/humangenomics/active/tmp/"
+
+# Whole exome sequence settings (leave blank if analysing other data such as whole genome sequence data)
+WES:
+  # File path to the exome capture regions over which to operate
+  INTERVALS: ""
+  # Padding (in bp) to add to each region
+  PADDING: ""
+
+##############################
+##### Pipeline resources #####
+##############################
+
+# Number of threads to use per rule/sample for multithreaded rules, multithreading will significantly speed up these rules (diminishing speed gains beyond 8 threads)
+THREADS: 1
+
+# Maximum memory usage per rule/sample (eg. '40g' for 40 gigabytes, this should suffice for exomes)
+MAXMEMORY: "80g"
+
+# Maximum number of GPU's to be used per rule/sample for gpu-accelerated runs (eg `1` for 1 GPU)
+GPU: 2
+
+##############################
+########## Trimming ##########
+##############################
+
+# Whether or not to trim the raw fastq reads (either 'Yes' or 'No')
+TRIM: "Yes"
+
+# If trimming, choose the adapter sequence to be trimmed (eg. `--illumina`, `--nextera` or `--small_rna`) or pass adapter sequences to the `-a` and `-a2` flags
+TRIMMING:
+  ADAPTERS: "--illumina"
+
+##############################
+##### Base recalibration #####
+##############################
+
+# List of resources to used for base recalibration
+RECALIBRATION:
+  RESOURCES:
+    - /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf
+    - /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/Mills_and_1000G_gold_standard.indels.b37.vcf
+    - /NGS/clinicalgenomics/public_data/gatk_resource_bundle/b37/1000G_phase1.indels.b37.vcf

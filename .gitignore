@@ -1,0 +1,8 @@
+
+fastq/
+
+results/
+
+logs/03_pipeline_runs/cohort/human_genomics_pipeline/gatk_GenotypeGVCFs/21CG0001.log
+
+config/05_extract_variants/*.tsv

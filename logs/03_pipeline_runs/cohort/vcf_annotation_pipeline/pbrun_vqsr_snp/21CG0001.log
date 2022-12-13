@@ -1,0 +1,84 @@
+[PB Info 2022-Dec-05 12:16:48] -------VariantRecalibrator-------
+[W::bcf_hdr_check_sanity] GL should be declared as Number=G
+[PB Info 2022-Dec-05 12:16:48] Initializing engine...
+[PB Info 2022-Dec-05 12:16:48] Starting traversal...
+[PB Info 2022-Dec-05 12:18:21]   1: 200560853
+[PB Info 2022-Dec-05 12:19:51]   2: 152393966
+[PB Info 2022-Dec-05 12:21:22]   3: 117823764
+[PB Info 2022-Dec-05 12:22:52]   4: 135797218
+[PB Info 2022-Dec-05 12:24:22]   5: 172597059
+[PB Info 2022-Dec-05 12:25:53]   7: 9709900
+[PB Info 2022-Dec-05 12:27:25]   8: 41249300
+[PB Info 2022-Dec-05 12:28:55]   9: 134434917
+[PB Info 2022-Dec-05 12:30:28]   11: 39989043
+[PB Info 2022-Dec-05 12:32:00]   12: 98272860
+[PB Info 2022-Dec-05 12:33:31]   14: 78750864
+[PB Info 2022-Dec-05 12:35:05]   16: 64982800
+[PB Info 2022-Dec-05 12:36:39]   18: 49041290
+[PB Info 2022-Dec-05 12:38:13]   20: 59224926
+[PB Info 2022-Dec-05 12:39:45]   Y: 14596677
+[PB Info 2022-Dec-05 12:40:21] Processed 7676692 total variants.
+[PB Info 2022-Dec-05 12:40:27] Training with 1327168 variants after standard deviation thresholding.
+[PB Info 2022-Dec-05 12:40:27] Initializing model with 100 k-means iterations...
+[PB Info 2022-Dec-05 12:41:02]   Finished iteration 0
+[PB Info 2022-Dec-05 12:41:24]   Finished iteration 5. 	Current change in mixture coefficients = 0.51575
+[PB Info 2022-Dec-05 12:41:45]   Finished iteration 10. 	Current change in mixture coefficients = 0.54147
+[PB Info 2022-Dec-05 12:42:06]   Finished iteration 15. 	Current change in mixture coefficients = 0.21451
+[PB Info 2022-Dec-05 12:42:27]   Finished iteration 20. 	Current change in mixture coefficients = 0.10929
+[PB Info 2022-Dec-05 12:42:48]   Finished iteration 25. 	Current change in mixture coefficients = 0.03129
+[PB Info 2022-Dec-05 12:43:09]   Finished iteration 30. 	Current change in mixture coefficients = 0.01773
+[PB Info 2022-Dec-05 12:43:34]   Finished iteration 35. 	Current change in mixture coefficients = 0.01257
+[PB Info 2022-Dec-05 12:43:56]   Finished iteration 40. 	Current change in mixture coefficients = 0.00908
+[PB Info 2022-Dec-05 12:44:18]   Finished iteration 45. 	Current change in mixture coefficients = 0.00683
+[PB Info 2022-Dec-05 12:44:39]   Finished iteration 50. 	Current change in mixture coefficients = 0.00549
+[PB Info 2022-Dec-05 12:45:00]   Finished iteration 55. 	Current change in mixture coefficients = 0.00466
+[PB Info 2022-Dec-05 12:45:21]   Finished iteration 60. 	Current change in mixture coefficients = 0.00407
+[PB Info 2022-Dec-05 12:45:42]   Finished iteration 65. 	Current change in mixture coefficients = 0.00360
+[PB Info 2022-Dec-05 12:46:03]   Finished iteration 70. 	Current change in mixture coefficients = 0.00319
+[PB Info 2022-Dec-05 12:46:24]   Finished iteration 75. 	Current change in mixture coefficients = 0.00281
+[PB Info 2022-Dec-05 12:46:45]   Finished iteration 80. 	Current change in mixture coefficients = 0.00244
+[PB Info 2022-Dec-05 12:47:06]   Finished iteration 85. 	Current change in mixture coefficients = 0.00211
+[PB Info 2022-Dec-05 12:47:14] Convergence after 87 iterations!
+[PB Info 2022-Dec-05 12:47:16] Evaluating full set of 6046521 variants...
+[PB Info 2022-Dec-05 12:51:06] Selected worst 201425 scoring variants --> variants with LOD <= -5.0000.
+[PB Info 2022-Dec-05 12:51:06] Initializing model with 100 k-means iterations...
+[PB Info 2022-Dec-05 12:51:09]   Finished iteration 0
+[PB Info 2022-Dec-05 12:51:10]   Finished iteration 5. 	Current change in mixture coefficients = 0.00080
+[PB Info 2022-Dec-05 12:51:10] Convergence after 5 iterations!
+[PB Info 2022-Dec-05 12:51:10] Evaluating full set of 6046521 variants...
+[PB Info 2022-Dec-05 12:53:00] Finding 4 tranches for 6046521 variants
+[PB Info 2022-Dec-05 12:53:03]   TruthSensitivityTranche threshold 100.00 => selection metric threshold 0.000
+[PB Info 2022-Dec-05 12:53:03]   Found tranche for 100.000: 0.000 threshold starting with variant 0; running score is 0.000
+[PB Info 2022-Dec-05 12:53:03]   TruthSensitivityTranche threshold 99.90 => selection metric threshold 0.001
+[PB Info 2022-Dec-05 12:53:03]   Found tranche for 99.900: 0.001 threshold starting with variant 451680; running score is 0.001
+[PB Info 2022-Dec-05 12:53:03]   TruthSensitivityTranche threshold 99.00 => selection metric threshold 0.010
+[PB Info 2022-Dec-05 12:53:03]   Found tranche for 99.000: 0.010 threshold starting with variant 690868; running score is 0.010
+[PB Info 2022-Dec-05 12:53:04]   TruthSensitivityTranche threshold 90.00 => selection metric threshold 0.100
+[PB Info 2022-Dec-05 12:53:04]   Found tranche for 90.000: 0.100 threshold starting with variant 3569404; running score is 0.100
+[PB Info 2022-Dec-05 12:53:04] Writing out recalibration table...
+[PB Info 2022-Dec-05 12:53:26] VariantRecalibrator finished in 2198.144 seconds
+[PB Info 2022-Dec-05 12:53:26] 
+-------ApplyVQSR-------
+
+[PB Info 2022-Dec-05 12:53:26] Starting traversal...
+[PB Info 2022-Dec-05 12:54:45]   1: 200560853
+[PB Info 2022-Dec-05 12:56:01]   2: 152393966
+[PB Info 2022-Dec-05 12:57:17]   3: 117823764
+[PB Info 2022-Dec-05 12:58:31]   4: 135797218
+[PB Info 2022-Dec-05 12:59:46]   5: 172597059
+[PB Info 2022-Dec-05 13:01:03]   7: 9709900
+[PB Info 2022-Dec-05 13:02:35]   8: 41249300
+[PB Info 2022-Dec-05 13:03:52]   9: 134434917
+[PB Info 2022-Dec-05 13:05:10]   11: 39989043
+[PB Info 2022-Dec-05 13:06:30]   12: 98272860
+[PB Info 2022-Dec-05 13:07:46]   14: 78750864
+[PB Info 2022-Dec-05 13:09:04]   16: 64982800
+[PB Info 2022-Dec-05 13:10:22]   18: 49041290
+[PB Info 2022-Dec-05 13:11:41]   20: 59224926
+[PB Info 2022-Dec-05 13:12:57]   Y: 14596677
+[PB Info 2022-Dec-05 13:13:29] Processed 7676692 total variants.
+[PB Info 2022-Dec-05 13:13:29] ApplyVQSR finished in 1202.530 seconds
+[PB Info 2022-Dec-05 13:13:29] 
+VQSR finished, total time is 3400.674 seconds
+Please visit https://docs.nvidia.com/clara/#parabricks for detailed documentation
+

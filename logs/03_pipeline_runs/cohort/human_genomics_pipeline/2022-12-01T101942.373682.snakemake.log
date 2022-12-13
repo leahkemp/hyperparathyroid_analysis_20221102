@@ -1,0 +1,20 @@
+localrules directive specifies rules that are not present in the Snakefile:
+	pbrun_triocombinegvcf
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 32
+Provided resources: gpu=2
+Job counts:
+	count	jobs
+	1	all
+	1	gatk_CombineGVCFs
+	1	gatk_GenotypeGVCFs
+	3
+
+[Thu Dec  1 10:19:44 2022]
+Job 192: Merging one or more HaplotypeCaller GVCF files into a single GVCF
+
+Submitted job 192 with external jobid 'Submitted batch job 80524'.
+Terminating processes on user request, this might take some time.
+Will exit after finishing currently running jobs.

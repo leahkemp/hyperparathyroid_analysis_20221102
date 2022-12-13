@@ -1,0 +1,16 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 64
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	trim_galore_pe
+	1
+
+[Tue Nov 29 14:37:50 2022]
+Job 0: Applying quality and adapter trimming to input fastq files: ../../fastq/22CG016_1.fastq.gz ../../fastq/22CG016_2.fastq.gz
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/workflow/.snakemake/conda/b779d30c
+[Tue Nov 29 17:04:46 2022]
+Finished job 0.
+1 of 1 steps (100%) done

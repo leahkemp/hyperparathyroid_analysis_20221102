@@ -1,0 +1,193 @@
+
+Renaming fastq files
+
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0021_S1_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0021_S1_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0021_S1_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0021_S1_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0034_S2_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0034_S2_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0034_S2_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0034_S2_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0035_S3_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0035_S3_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0035_S3_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0035_S3_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0036_S4_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0036_S4_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0036_S4_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0036_S4_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0037_S5_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0037_S5_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0037_S5_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0037_S5_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0038_S6_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0038_S6_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0038_S6_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0038_S6_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0039_S7_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0039_S7_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0039_S7_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0039_S7_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0040_S8_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0040_S8_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0040_S8_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0040_S8_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0041_S1_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0041_S1_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0041_S1_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0041_S1_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0042_S2_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0042_S2_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0042_S2_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0042_S2_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0044_S3_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0044_S3_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0044_S3_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0044_S3_R2.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0047_S4_R1.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0047_S4_R1.fastq.gz' are the same file
+mv: '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0047_S4_R2.fastq.gz' and '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq/21CG0047_S4_R2.fastq.gz' are the same file
+
+Merge fastq files
+
+
+Merging R1 for sample:
+21CG0001
+
+
+Merging R2 for sample:
+21CG0001
+
+
+Merging R1 for sample:
+21CG0002
+
+
+Merging R2 for sample:
+21CG0002
+
+
+Merging R1 for sample:
+21CG0003
+
+
+Merging R2 for sample:
+21CG0003
+
+
+Merging R1 for sample:
+21CG0004
+
+
+Merging R2 for sample:
+21CG0004
+
+
+Merging R1 for sample:
+21CG0005
+
+
+Merging R2 for sample:
+21CG0005
+
+
+Merging R1 for sample:
+21CG0006
+
+
+Merging R2 for sample:
+21CG0006
+
+
+Merging R1 for sample:
+21CG0007
+
+
+Merging R2 for sample:
+21CG0007
+
+
+Merging R1 for sample:
+21CG0008
+
+
+Merging R2 for sample:
+21CG0008
+
+
+Merging R1 for sample:
+21CG0009
+
+
+Merging R2 for sample:
+21CG0009
+
+
+Merging R1 for sample:
+21CG0010
+
+
+Merging R2 for sample:
+21CG0010
+
+
+Merging R1 for sample:
+21CG0011
+
+
+Merging R2 for sample:
+21CG0011
+
+
+Merging R1 for sample:
+21CG0012
+
+
+Merging R2 for sample:
+21CG0012
+
+
+Merging R1 for sample:
+21CG0013
+
+
+Merging R2 for sample:
+21CG0013
+
+
+Merging R1 for sample:
+21CG0014
+
+
+Merging R2 for sample:
+21CG0014
+
+
+Merging R1 for sample:
+21CG0015
+
+
+Merging R2 for sample:
+21CG0015
+
+
+Merging R1 for sample:
+21CG0016
+
+
+Merging R2 for sample:
+21CG0016
+
+
+Merging R1 for sample:
+21CG0017
+
+
+Merging R2 for sample:
+21CG0017
+
+
+Merging R1 for sample:
+21CG0018
+
+
+Merging R2 for sample:
+21CG0018
+
+
+Merging R1 for sample:
+21CG0019
+
+
+Merging R2 for sample:
+21CG0019
+
+
+Merging R1 for sample:
+21CG0020
+
+
+Merging R2 for sample:
+21CG0020
+
+
+Cleaning up unmerged fastq files
+

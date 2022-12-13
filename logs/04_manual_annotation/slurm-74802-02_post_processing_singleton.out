@@ -1,0 +1,219 @@
+
+Configuring conda
+
+no change     /home/lkemp/miniconda3/condabin/conda
+no change     /home/lkemp/miniconda3/bin/conda
+no change     /home/lkemp/miniconda3/bin/conda-env
+no change     /home/lkemp/miniconda3/bin/activate
+no change     /home/lkemp/miniconda3/bin/deactivate
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.sh
+no change     /home/lkemp/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/lkemp/miniconda3/shell/condabin/Conda.psm1
+no change     /home/lkemp/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/lkemp/miniconda3/lib/python3.7/site-packages/xontrib/conda.xsh
+no change     /home/lkemp/miniconda3/etc/profile.d/conda.csh
+no change     /home/lkemp/.bashrc
+No action taken.
+
+Creating conda environment with bcftools installed
+
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/bcftools
+
+  Updating specs:
+
+   - bioconda::bcftools=1.16
+
+
+  Package                 Version  Build                Channel                    Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge          conda-forge/linux-64     Cached
+  + _openmp_mutex             4.5  2_gnu                conda-forge/linux-64     Cached
+  + bcftools                 1.16  hfe4b78e_1           bioconda/linux-64        Cached
+  + bzip2                   1.0.8  h7f98852_4           conda-forge/linux-64     Cached
+  + c-ares                 1.18.1  h7f98852_0           conda-forge/linux-64     Cached
+  + ca-certificates     2022.9.24  ha878542_0           conda-forge/linux-64     Cached
+  + gsl                       2.7  he838d99_0           conda-forge/linux-64     Cached
+  + htslib                   1.16  h6bc39ce_0           bioconda/linux-64        Cached
+  + keyutils                1.6.1  h166bdaf_0           conda-forge/linux-64     Cached
+  + krb5                   1.19.3  h3790be6_0           conda-forge/linux-64     Cached
+  + libblas                 3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
+  + libcblas                3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
+  + libcurl                7.86.0  h7bff187_1           conda-forge/linux-64     Cached
+  + libdeflate               1.13  h166bdaf_0           conda-forge/linux-64     Cached
+  + libedit          3.1.20191231  he28a2e2_2           conda-forge/linux-64     Cached
+  + libev                    4.33  h516909a_1           conda-forge/linux-64     Cached
+  + libgcc-ng              12.2.0  h65d4601_19          conda-forge/linux-64     Cached
+  + libgfortran-ng         12.2.0  h69a702a_19          conda-forge/linux-64     Cached
+  + libgfortran5           12.2.0  h337968e_19          conda-forge/linux-64     Cached
+  + libgomp                12.2.0  h65d4601_19          conda-forge/linux-64     Cached
+  + libnghttp2             1.47.0  hdcd2b5c_1           conda-forge/linux-64     Cached
+  + libnsl                  2.0.0  h7f98852_0           conda-forge/linux-64     Cached
+  + libopenblas            0.3.21  pthreads_h78a6416_3  conda-forge/linux-64     Cached
+  + libssh2                1.10.0  haa6b8db_3           conda-forge/linux-64     Cached
+  + libstdcxx-ng           12.2.0  h46fd767_19          conda-forge/linux-64     Cached
+  + libzlib                1.2.13  h166bdaf_4           conda-forge/linux-64     Cached
+  + ncurses                   6.3  h27087fc_1           conda-forge/linux-64     Cached
+  + openssl                1.1.1s  h166bdaf_0           conda-forge/linux-64     Cached
+  + perl                   5.32.1  2_h7f98852_perl5     conda-forge/linux-64     Cached
+  + xz                      5.2.6  h166bdaf_0           conda-forge/linux-64     Cached
+  + zlib                   1.2.13  h166bdaf_4           conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 31 packages
+
+  Total download: 0 B
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['bioconda::bcftools=1.16']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate bcftools
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Removing multiallelic sites
+
+
+Creating conda environment with genmod installed
+
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+Transaction
+
+  Prefix: /home/lkemp/miniconda3/envs/genmod
+
+  Updating specs:
+
+   - conda-forge::pip=20.2.2
+
+
+  Package               Version  Build               Channel                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge         conda-forge/linux-64     Cached
+  + _openmp_mutex           4.5  2_gnu               conda-forge/linux-64     Cached
+  + bzip2                 1.0.8  h7f98852_4          conda-forge/linux-64     Cached
+  + ca-certificates   2022.9.24  ha878542_0          conda-forge/linux-64     Cached
+  + ld_impl_linux-64       2.39  hc81fddc_0          conda-forge/linux-64     Cached
+  + libffi                3.4.2  h7f98852_5          conda-forge/linux-64     Cached
+  + libgcc-ng            12.2.0  h65d4601_19         conda-forge/linux-64     Cached
+  + libgomp              12.2.0  h65d4601_19         conda-forge/linux-64     Cached
+  + libnsl                2.0.0  h7f98852_0          conda-forge/linux-64     Cached
+  + libsqlite            3.40.0  h753d276_0          conda-forge/linux-64     Cached
+  + libuuid              2.32.1  h7f98852_1000       conda-forge/linux-64     Cached
+  + libzlib              1.2.13  h166bdaf_4          conda-forge/linux-64     Cached
+  + ncurses                 6.3  h27087fc_1          conda-forge/linux-64     Cached
+  + openssl               3.0.7  h166bdaf_0          conda-forge/linux-64     Cached
+  + pip                  20.2.2  py_0                conda-forge/noarch       Cached
+  + python               3.11.0  ha86cf86_0_cpython  conda-forge/linux-64     Cached
+  + readline              8.1.2  h0f457ee_0          conda-forge/linux-64     Cached
+  + setuptools           65.5.1  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + tk                   8.6.12  h27826a3_0          conda-forge/linux-64     Cached
+  + tzdata                2022f  h191b570_0          conda-forge/noarch       Cached
+  + wheel                0.38.4  pyhd8ed1ab_0        conda-forge/noarch       Cached
+  + xz                    5.2.6  h166bdaf_0          conda-forge/linux-64     Cached
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 0 B
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Looking for: ['conda-forge::pip=20.2.2']
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Installing pip dependencies: ...working... Ran pip subprocess with arguments:
+['/home/lkemp/miniconda3/envs/genmod/bin/python', '-m', 'pip', 'install', '-U', '-r', '/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/scripts/envs/condaenv.h3q6t2t1.requirements.txt']
+Pip subprocess output:
+Collecting genmod==3.7.3
+  Using cached genmod-3.7.3-py3-none-any.whl (1.5 MB)
+Collecting click<7
+  Using cached click-6.7-py2.py3-none-any.whl (71 kB)
+Collecting pytest
+  Using cached pytest-7.2.0-py3-none-any.whl (316 kB)
+Processing /home/lkemp/.cache/pip/wheels/06/72/a3/6105036d56a85b334de6b35eb2d1c142078346b873c91c6cbf/interval_tree-0.3.4-py3-none-any.whl
+Processing /home/lkemp/.cache/pip/wheels/64/b2/97/303787ddf91270a2322b44060c5e2d8a776e15e966b9ae2e09/configobj-5.0.6-py3-none-any.whl
+Processing /home/lkemp/.cache/pip/wheels/31/d7/d9/eec6891f78cac19a693bd40ecb8365d2f4613318c145ec9816/intervaltree-3.1.0-py2.py3-none-any.whl
+Processing /home/lkemp/.cache/pip/wheels/bb/9f/9c/8dc29f616443036df3ef2788d33f82228af3859a063977e63f/extract_vcf-0.5-py3-none-any.whl
+Collecting ped-parser>=1.6.2
+  Using cached ped_parser-1.6.6-py2.py3-none-any.whl (15 kB)
+Collecting pytabix
+  Using cached pytabix-0.1.tar.gz (45 kB)
+Collecting attrs>=19.2.0
+  Using cached attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+Collecting iniconfig
+  Using cached iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting packaging
+  Using cached packaging-21.3-py3-none-any.whl (40 kB)
+Collecting pluggy<2.0,>=0.12
+  Using cached pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sortedcontainers<3.0,>=2.0
+  Using cached sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Collecting pyparsing!=3.0.5,>=2.0.2
+  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Building wheels for collected packages: pytabix
+  Building wheel for pytabix (setup.py): started
+  Building wheel for pytabix (setup.py): finished with status 'done'
+  Created wheel for pytabix: filename=pytabix-0.1-cp311-cp311-linux_x86_64.whl size=42228 sha256=2ab014ec11d9a6d35fb8a3e2f0ec2b847ba0dc3dba508fc7e7ed03f6e08313cb
+  Stored in directory: /home/lkemp/.cache/pip/wheels/22/5f/74/4d0bab16240c1db3d1802598a32c20222c514e0b9ced436835
+Successfully built pytabix
+Installing collected packages: click, attrs, iniconfig, pyparsing, packaging, pluggy, pytest, interval-tree, six, configobj, sortedcontainers, intervaltree, extract-vcf, ped-parser, pytabix, genmod
+Successfully installed attrs-22.1.0 click-6.7 configobj-5.0.6 extract-vcf-0.5 genmod-3.7.3 iniconfig-1.1.1 interval-tree-0.3.4 intervaltree-3.1.0 packaging-21.3 ped-parser-1.6.6 pluggy-1.0.0 pyparsing-3.0.9 pytabix-0.1 pytest-7.2.0 six-1.16.0 sortedcontainers-2.4.0
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate genmod
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+Scoring variants
+
+
+Sorting by chromosome
+
+
+Fix rankscoring issue
+
+
+Compressing and indexing vcf
+

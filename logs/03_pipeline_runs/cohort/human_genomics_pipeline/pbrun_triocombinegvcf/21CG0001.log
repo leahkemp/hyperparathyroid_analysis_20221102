@@ -1,0 +1,7 @@
+[Parabricks Options Error]: triocombinegvcf can combine either 2 or 3 gvcfs. Please use --in-gvcf options 2 or 3 times
+[Parabricks Options Error]: Run with -h to see help
+Please visit https://docs.nvidia.com/clara/#parabricks for detailed documentation
+
+
+Could not run triocombinegvcf
+Exiting pbrun ...

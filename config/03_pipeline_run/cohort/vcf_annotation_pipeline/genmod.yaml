@@ -1,0 +1,9 @@
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::pip =20.2.2
+  - python=3.7
+  - pip:
+    - genmod==3.7.3

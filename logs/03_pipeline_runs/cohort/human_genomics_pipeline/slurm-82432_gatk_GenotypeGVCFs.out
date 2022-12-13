@@ -1,0 +1,20 @@
+localrules directive specifies rules that are not present in the Snakefile:
+	pbrun_triocombinegvcf
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 64
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	gatk_GenotypeGVCFs
+	1
+
+[Sat Dec  3 09:53:12 2022]
+Job 0: Performing joint genotyping on one or more samples pre-called with HaplotypeCaller for ../results/called/21CG0001_raw_snps_indels_tmp_combined.g.vcf
+
+Activating conda environment: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/03_pipeline_runs/cohort/human_genomics_pipeline/workflow/.snakemake/conda/f60ec0b7
+Write-protecting output file ../results/called/21CG0001_raw_snps_indels.vcf.
+[Sun Dec  4 07:57:27 2022]
+Finished job 0.
+1 of 1 steps (100%) done

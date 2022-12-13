@@ -1,0 +1,7 @@
+name: htslib
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bioconda::htslib=1.10.2
