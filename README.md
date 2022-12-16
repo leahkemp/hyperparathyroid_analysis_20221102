@@ -2,7 +2,7 @@
 
 ## General info
 
-This relates to the CCDHB exomes hyperparathyroid project undertaken by the human genomics group at ESR. Analysing illumina germline, human, whole exome sequence (WES) data.
+This relates to the CCDHB exomes hyperparathyroid project undertaken by the human genomics group at ESR. Analysing Illumina, germline, human, whole exome sequence (WES) data.
 
 *Note. find an older analysis of some of this data at https://github.com/ESR-NZ/hyperparathyroid_analysis_20220328*
 
