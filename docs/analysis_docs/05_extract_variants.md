@@ -1,7 +1,7 @@
 # 05 - Extract variants
 
 Created: 2022/11/07 12:12:45
-Last modified: 2023/01/16 10:42:16
+Last modified: 2023/01/16 11:02:40
 
 - **Aim:** This document documents/describes extracting various variants of interest
 - **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/), [singularity](https://docs.sylabs.io/guides/3.5/user-guide/index.html) v3.7.2-1.el7, [slurm](https://slurm.schedmd.com/overview.html) v20.11.6
@@ -113,7 +113,7 @@ sbatch ./scripts/05_extract_variants/15_extract_variants_of_interest_cohort.sh
 
 Extract variants in several lists of variants from [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/). See my script at [./scripts/05_extract_variants/16_extract_variants_clinvar_cohort.sh](https://github.com/ESR-NZ/hyperparathyroid_analysis_20221102/blob/main/scripts/05_extract_variants/16_extract_variants_clinvar_cohort.sh)
 
-*Note. the clinvar lists used in these scripts (and found in `./config/05_extract_variants/`) were manually downloaded from [clinvar](https://www.ncbi.nlm.nih.gov/clinvar/) (creating the .txt files). These were then converted to bed files using the `./scripts/general/convert_clinvar_list_to_bed.R` script*
+*Note. the clinvar lists used in these scripts (and found in `./config/05_extract_variants/`) were manually downloaded from [clinvar](https://www.ncbi.nlm.nih.gov/clinvar/) (creating the .txt files). These were then converted to .bed files using the `./scripts/general/convert_clinvar_list_to_bed.R` script. "genes of interest" refers to the list of gene the clinician we're collaborating with put together that relate to hyperparathyroidism.*
 
 ```bash
 sbatch ./scripts/05_extract_variants/16_extract_variants_clinvar_cohort.sh
