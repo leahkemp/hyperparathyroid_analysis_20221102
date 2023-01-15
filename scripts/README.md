@@ -7,3 +7,4 @@ All scripts used in this analysis
 - `./04_manual_annotation/`: manual annotation of [human_genomics_pipeline](https://github.com/ESR-NZ/human_genomics_pipeline) pipeline outputs
 - `./05_extract_variants/`: extract variants
 - `./envs/`: [conda](https://docs.conda.io/en/latest/) environments
+- `./general/`: other general scripts
