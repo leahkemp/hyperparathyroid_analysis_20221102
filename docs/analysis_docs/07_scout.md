@@ -1,7 +1,7 @@
 # 07 - Scout
 
 Created: 2022/11/09 15:14:29
-Last modified: 2023/01/19 13:44:08
+Last modified: 2023/01/19 14:30:55
 
 - **Aim:** This document documents/describes setting up a [scout](http://www.clinicalgenomics.se/scout/) database for the CCDHB hyperparathyroidism exomes data (**ccdhb-exomes-database**)
 - **Prerequisite software:** [rsync](https://rsync.samba.org/) v3.2.4, [Conda 4.12.0](https://docs.conda.io/projects/conda/en/latest/index.html), [Mamba 0.15.3](https://mamba.readthedocs.io/en/latest/index.html), [MonogDB v5.0.9](https://www.mongodb.com/)
@@ -1182,7 +1182,7 @@ samples:
     expected_coverage: 30
     bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG027_recalibrated.bam
 
-vcf_snv: /store/lkemp/hyperparathyroid_scout/data/vcf/21CG0001_genes_of_interest.vcf
+vcf_snv: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/vcf/21CG0001_genes_of_interest.vcf
 analysis_date: 2022-11-28 12:24:20
 human_genome_build: 37
 ```
