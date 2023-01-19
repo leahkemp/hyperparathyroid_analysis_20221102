@@ -18,6 +18,10 @@ ERROR: Unable to locate a modulefile for 'null'
 
 Creating conda environment with vcftools installed
 
+bioconda/linux-64                                           Using cache
+bioconda/noarch                                             Using cache
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
 Transaction
 
   Prefix: /home/lkemp/miniconda3/envs/vcftools
@@ -137,7 +141,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=culprit,Number=1,Type=Strin
 After filtering, kept 63 out of 63 Individuals
 Outputting VCF file...
 After filtering, kept 3585 out of a possible 5827321 Sites
-Run Time = 62.00 seconds
+Run Time = 61.00 seconds
 
 VCFtools - 0.1.16
 (C) Adam Auton and Anthony Marcketta 2009
@@ -270,7 +274,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=culprit,Number=1,Type=Strin
 After filtering, kept 63 out of 63 Individuals
 Outputting VCF file...
 After filtering, kept 445034 out of a possible 5827321 Sites
-Run Time = 121.00 seconds
+Run Time = 114.00 seconds
 
 VCFtools - 0.1.16
 (C) Adam Auton and Anthony Marcketta 2009
@@ -406,7 +410,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=culprit,Number=1,Type=Strin
 After filtering, kept 63 out of 63 Individuals
 Outputting VCF file...
 After filtering, kept 13154 out of a possible 5827321 Sites
-Run Time = 63.00 seconds
+Run Time = 62.00 seconds
 
 VCFtools - 0.1.16
 (C) Adam Auton and Anthony Marcketta 2009
@@ -539,7 +543,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=culprit,Number=1,Type=Strin
 After filtering, kept 63 out of 63 Individuals
 Outputting VCF file...
 After filtering, kept 445034 out of a possible 5827321 Sites
-Run Time = 115.00 seconds
+Run Time = 114.00 seconds
 
 VCFtools - 0.1.16
 (C) Adam Auton and Anthony Marcketta 2009
@@ -607,6 +611,9 @@ Outputting VCF file...
 After filtering, kept 200 out of a possible 1225 Sites
 Run Time = 0.00 seconds
 
+Merging vcf files
+
+
 Creating conda environment with htslib installed
 
 bioconda/linux-64                                           Using cache
@@ -631,17 +638,17 @@ Transaction
   + _openmp_mutex             4.5  2_gnu        conda-forge/linux-64     Cached
   + bzip2                   1.0.8  h7f98852_4   conda-forge/linux-64     Cached
   + c-ares                 1.18.1  h7f98852_0   conda-forge/linux-64     Cached
-  + ca-certificates     2022.9.24  ha878542_0   conda-forge/linux-64     Cached
+  + ca-certificates     2022.12.7  ha878542_0   conda-forge/linux-64     Cached
   + htslib                 1.10.2  hd3b49d5_1   bioconda/linux-64        Cached
   + keyutils                1.6.1  h166bdaf_0   conda-forge/linux-64     Cached
-  + krb5                   1.19.3  h3790be6_0   conda-forge/linux-64     Cached
-  + libcurl                7.86.0  h7bff187_1   conda-forge/linux-64     Cached
+  + krb5                   1.20.1  hf9c8cef_0   conda-forge/linux-64     Cached
+  + libcurl                7.87.0  h6312ad2_0   conda-forge/linux-64     Cached
   + libdeflate                1.6  h516909a_0   conda-forge/linux-64     Cached
   + libedit          3.1.20191231  he28a2e2_2   conda-forge/linux-64     Cached
   + libev                    4.33  h516909a_1   conda-forge/linux-64     Cached
   + libgcc-ng              12.2.0  h65d4601_19  conda-forge/linux-64     Cached
   + libgomp                12.2.0  h65d4601_19  conda-forge/linux-64     Cached
-  + libnghttp2             1.47.0  hdcd2b5c_1   conda-forge/linux-64     Cached
+  + libnghttp2             1.51.0  hdcd2b5c_0   conda-forge/linux-64     Cached
   + libssh2                1.10.0  haa6b8db_3   conda-forge/linux-64     Cached
   + libstdcxx-ng           12.2.0  h46fd767_19  conda-forge/linux-64     Cached
   + libzlib                1.2.13  h166bdaf_4   conda-forge/linux-64     Cached
@@ -677,4 +684,15 @@ Executing transaction: ...working... done
 
 
 Compressing and indexing vcf
+
+[E::hts_idx_push] Chromosome blocks not continuous
+tbx_index_build failed: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf.gz
+[E::hts_idx_push] Chromosome blocks not continuous
+tbx_index_build failed: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf.gz
+[E::hts_idx_push] Chromosome blocks not continuous
+tbx_index_build failed: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes.vcf.gz
+[E::hts_idx_push] Chromosome blocks not continuous
+tbx_index_build failed: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf.gz
+
+Cleanup
 

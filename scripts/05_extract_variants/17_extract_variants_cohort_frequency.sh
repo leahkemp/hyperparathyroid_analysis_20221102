@@ -106,6 +106,24 @@ vcftools \
 --max-missing 1 \
 --out $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_ref_no_missing_genotypes_genes_of_interest
 
+# Merge vcf files
+echo ""
+echo "Merging vcf files"
+echo ""
+
+cat $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_non_ref_no_missing_genotypes.recode.vcf > $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf
+grep -v "#" $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_ref_no_missing_genotypes.recode.vcf >> $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf
+
+cat $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_non_ref_no_missing_genotypes_genes_of_interest.recode.vcf > $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf
+grep -v "#" $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_ref_no_missing_genotypes_genes_of_interest.recode.vcf >> $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf
+
+cat $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_non_ref_no_missing_genotypes.recode.vcf > $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes.vcf
+grep -v "#" $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_ref_no_missing_genotypes.recode.vcf >> $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes.vcf
+
+cat $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_non_ref_no_missing_genotypes_genes_of_interest.recode.vcf > $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf
+grep -v "#" $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_ref_no_missing_genotypes_genes_of_interest.recode.vcf >> $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf
+
+
 # create conda environment with htslib installed
 echo ""
 echo "Creating conda environment with htslib installed"
@@ -119,11 +137,19 @@ echo ""
 echo "Compressing and indexing vcf"
 echo ""
 
-bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_non_ref_no_missing_genotypes.recode.vcf
-bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_non_ref_no_missing_genotypes_genes_of_interest.recode.vcf
-bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_non_ref_no_missing_genotypes.recode.vcf
-bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_non_ref_no_missing_genotypes_genes_of_interest.recode.vcf
-bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_ref_no_missing_genotypes.recode.vcf
-bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_ref_no_missing_genotypes_genes_of_interest.recode.vcf
-bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_ref_no_missing_genotypes.recode.vcf
-bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_ref_no_missing_genotypes_genes_of_interest.recode.vcf
+bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf
+bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf
+bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes.vcf
+bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf
+
+tabix $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf.gz
+tabix $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf.gz
+tabix $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes.vcf.gz
+tabix $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf.gz
+
+# cleaning up
+echo ""
+echo "Cleanup"
+echo ""
+
+rm $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_*.recode.vcf

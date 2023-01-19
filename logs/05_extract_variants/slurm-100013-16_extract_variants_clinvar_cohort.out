@@ -41,14 +41,14 @@ Transaction
   + bcftools                 1.16  hfe4b78e_1           bioconda/linux-64        Cached
   + bzip2                   1.0.8  h7f98852_4           conda-forge/linux-64     Cached
   + c-ares                 1.18.1  h7f98852_0           conda-forge/linux-64     Cached
-  + ca-certificates     2022.9.24  ha878542_0           conda-forge/linux-64     Cached
+  + ca-certificates     2022.12.7  ha878542_0           conda-forge/linux-64     Cached
   + gsl                       2.7  he838d99_0           conda-forge/linux-64     Cached
   + htslib                   1.16  h6bc39ce_0           bioconda/linux-64        Cached
   + keyutils                1.6.1  h166bdaf_0           conda-forge/linux-64     Cached
-  + krb5                   1.19.3  h3790be6_0           conda-forge/linux-64     Cached
+  + krb5                   1.20.1  hf9c8cef_0           conda-forge/linux-64     Cached
   + libblas                 3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
   + libcblas                3.9.0  16_linux64_openblas  conda-forge/linux-64     Cached
-  + libcurl                7.86.0  h7bff187_1           conda-forge/linux-64     Cached
+  + libcurl                7.87.0  h6312ad2_0           conda-forge/linux-64     Cached
   + libdeflate               1.13  h166bdaf_0           conda-forge/linux-64     Cached
   + libedit          3.1.20191231  he28a2e2_2           conda-forge/linux-64     Cached
   + libev                    4.33  h516909a_1           conda-forge/linux-64     Cached
@@ -56,7 +56,7 @@ Transaction
   + libgfortran-ng         12.2.0  h69a702a_19          conda-forge/linux-64     Cached
   + libgfortran5           12.2.0  h337968e_19          conda-forge/linux-64     Cached
   + libgomp                12.2.0  h65d4601_19          conda-forge/linux-64     Cached
-  + libnghttp2             1.47.0  hdcd2b5c_1           conda-forge/linux-64     Cached
+  + libnghttp2             1.51.0  hdcd2b5c_0           conda-forge/linux-64     Cached
   + libnsl                  2.0.0  h7f98852_0           conda-forge/linux-64     Cached
   + libopenblas            0.3.21  pthreads_h78a6416_3  conda-forge/linux-64     Cached
   + libssh2                1.10.0  haa6b8db_3           conda-forge/linux-64     Cached
