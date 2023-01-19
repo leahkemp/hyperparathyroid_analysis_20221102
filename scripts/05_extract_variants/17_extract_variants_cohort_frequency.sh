@@ -123,6 +123,31 @@ grep -v "#" $project_dir/results/05_extract_variants/cohort/cohort_frequency/21C
 cat $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_non_ref_no_missing_genotypes_genes_of_interest.recode.vcf > $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf
 grep -v "#" $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_ref_no_missing_genotypes_genes_of_interest.recode.vcf >> $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf
 
+# cleaning up
+echo ""
+echo "Cleanup"
+echo ""
+
+rm $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_*.recode.vcf
+
+# sort vcf
+echo ""
+echo "Sort vcf"
+echo ""
+
+for file in $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_*.vcf
+do
+    cat $file | awk '$1 ~ /^#/ {print $0;next} {print $0 | "sort -k1,1 -k2,2n"}' > $file.sorted
+done
+
+# cleanup
+rm $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_*.vcf
+
+# remove ".sorted" sufix
+for file in $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_*.vcf.sorted
+do
+    mv "$file" "`echo $file | sed 's/.sorted//'`"
+done
 
 # create conda environment with htslib installed
 echo ""
@@ -132,9 +157,9 @@ echo ""
 mamba env create --force -f $project_dir/scripts/envs/conda.htslib.1.10.2.yml
 conda activate htslib
 
-# compress and index vcf
+# compress vcf
 echo ""
-echo "Compressing and indexing vcf"
+echo "Compressing vcf"
 echo ""
 
 bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf
@@ -142,14 +167,13 @@ bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_
 bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes.vcf
 bgzip $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf
 
+# indexing vcf
+echo ""
+echo "Indexing vcf"
+echo ""
+
 tabix $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf.gz
 tabix $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf.gz
 tabix $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes.vcf.gz
 tabix $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf.gz
 
-# cleaning up
-echo ""
-echo "Cleanup"
-echo ""
-
-rm $project_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_*.recode.vcf

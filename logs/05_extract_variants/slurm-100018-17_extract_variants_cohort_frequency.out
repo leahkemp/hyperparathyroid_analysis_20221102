@@ -141,7 +141,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=culprit,Number=1,Type=Strin
 After filtering, kept 63 out of 63 Individuals
 Outputting VCF file...
 After filtering, kept 3585 out of a possible 5827321 Sites
-Run Time = 61.00 seconds
+Run Time = 62.00 seconds
 
 VCFtools - 0.1.16
 (C) Adam Auton and Anthony Marcketta 2009
@@ -274,7 +274,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=culprit,Number=1,Type=Strin
 After filtering, kept 63 out of 63 Individuals
 Outputting VCF file...
 After filtering, kept 445034 out of a possible 5827321 Sites
-Run Time = 114.00 seconds
+Run Time = 113.00 seconds
 
 VCFtools - 0.1.16
 (C) Adam Auton and Anthony Marcketta 2009
@@ -410,7 +410,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=culprit,Number=1,Type=Strin
 After filtering, kept 63 out of 63 Individuals
 Outputting VCF file...
 After filtering, kept 13154 out of a possible 5827321 Sites
-Run Time = 62.00 seconds
+Run Time = 63.00 seconds
 
 VCFtools - 0.1.16
 (C) Adam Auton and Anthony Marcketta 2009
@@ -543,7 +543,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=culprit,Number=1,Type=Strin
 After filtering, kept 63 out of 63 Individuals
 Outputting VCF file...
 After filtering, kept 445034 out of a possible 5827321 Sites
-Run Time = 114.00 seconds
+Run Time = 113.00 seconds
 
 VCFtools - 0.1.16
 (C) Adam Auton and Anthony Marcketta 2009
@@ -614,12 +614,14 @@ Run Time = 0.00 seconds
 Merging vcf files
 
 
+Cleanup
+
+
+Sort vcf
+
+
 Creating conda environment with htslib installed
 
-bioconda/linux-64                                           Using cache
-bioconda/noarch                                             Using cache
-conda-forge/linux-64                                        Using cache
-conda-forge/noarch                                          Using cache
 Transaction
 
   Prefix: /home/lkemp/miniconda3/envs/htslib
@@ -683,16 +685,8 @@ Executing transaction: ...working... done
 #     $ conda deactivate
 
 
-Compressing and indexing vcf
+Compressing vcf
 
-[E::hts_idx_push] Chromosome blocks not continuous
-tbx_index_build failed: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf.gz
-[E::hts_idx_push] Chromosome blocks not continuous
-tbx_index_build failed: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf.gz
-[E::hts_idx_push] Chromosome blocks not continuous
-tbx_index_build failed: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes.vcf.gz
-[E::hts_idx_push] Chromosome blocks not continuous
-tbx_index_build failed: /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/results/05_extract_variants/cohort/cohort_frequency/21CG0001_most_patients_no_missing_genotypes_genes_of_interest.vcf.gz
 
-Cleanup
+Indexing vcf
 
