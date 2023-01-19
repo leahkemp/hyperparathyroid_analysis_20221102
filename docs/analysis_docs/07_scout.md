@@ -1,7 +1,7 @@
 # 07 - Scout
 
 Created: 2022/11/09 15:14:29
-Last modified: 2023/01/19 14:35:21
+Last modified: 2023/01/19 14:46:33
 
 - **Aim:** This document documents/describes setting up a [scout](http://www.clinicalgenomics.se/scout/) database for the CCDHB hyperparathyroidism exomes data (**ccdhb-exomes-database**)
 - **Prerequisite software:** [rsync](https://rsync.samba.org/) v3.2.4, [Conda 4.12.0](https://docs.conda.io/projects/conda/en/latest/index.html), [Mamba 0.15.3](https://mamba.readthedocs.io/en/latest/index.html), [MonogDB v5.0.9](https://www.mongodb.com/)
@@ -509,7 +509,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0002_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0002_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0003
@@ -520,7 +520,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0003_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0003_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0004
@@ -531,7 +531,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0004_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0004_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0005
@@ -542,7 +542,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0005_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0005_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0006
@@ -553,7 +553,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0006_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0006_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0007
@@ -564,7 +564,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0007_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0007_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0008
@@ -575,7 +575,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0008_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0008_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0009
@@ -586,7 +586,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0009_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0009_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0010
@@ -597,7 +597,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0010_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0010_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0011
@@ -608,7 +608,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0011_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0011_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0012
@@ -619,7 +619,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0012_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0012_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0013
@@ -630,7 +630,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0013_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0013_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0014
@@ -641,7 +641,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0014_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0014_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0015
@@ -652,7 +652,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0015_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0015_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0016
@@ -663,7 +663,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0016_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0016_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0017
@@ -674,7 +674,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0017_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0017_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0018
@@ -685,7 +685,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0018_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0018_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0019
@@ -696,7 +696,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0019_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0019_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0020
@@ -707,7 +707,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0020_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0020_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0021
@@ -718,7 +718,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0021_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0021_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0034
@@ -729,7 +729,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0034_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0034_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0035
@@ -740,7 +740,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0035_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0035_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0036
@@ -751,7 +751,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0036_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0036_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0037
@@ -762,7 +762,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0037_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0037_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0038
@@ -773,7 +773,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0038_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0038_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0039
@@ -784,7 +784,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0039_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0039_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0040
@@ -795,7 +795,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0040_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0040_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0041
@@ -806,7 +806,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0041_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0041_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0042
@@ -817,7 +817,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0042_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0042_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0043
@@ -828,7 +828,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0043_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0043_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0044
@@ -839,7 +839,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0044_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0044_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0045
@@ -850,7 +850,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0045_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0045_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0046
@@ -861,7 +861,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0046_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0046_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0047
@@ -872,7 +872,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0047_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0047_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 21CG0048
@@ -883,7 +883,7 @@ samples:
     sex: unknown
     tissue_type: blood
     expected_coverage: 30
-    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG0048_recalibrated.bam
+    bam_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/21CG0048_recalibrated.bam
 
   - analysis_type: wes
     sample_id: 22CG001
