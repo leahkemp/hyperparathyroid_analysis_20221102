@@ -1,7 +1,7 @@
 # 07 - Scout
 
 Created: 2022/11/09 15:14:29
-Last modified: 2023/01/19 16:06:16
+Last modified: 2023/01/19 16:45:30
 
 - **Aim:** This document documents/describes setting up a [scout](http://www.clinicalgenomics.se/scout/) database for the CCDHB hyperparathyroidism exomes data (**ccdhb-exomes-database**)
 - **Prerequisite software:** [rsync](https://rsync.samba.org/) v3.2.4, [Conda 4.12.0](https://docs.conda.io/projects/conda/en/latest/index.html), [Mamba 0.15.3](https://mamba.readthedocs.io/en/latest/index.html), [MonogDB v5.0.9](https://www.mongodb.com/)
@@ -42,11 +42,11 @@ rsync -av orac:$working_dir/results/03_pipeline_runs/cohort/human_genomics_pipel
 /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/
 rsync -av orac:$working_dir/results/05_extract_variants/cohort/genes_bed_extract/21CG0001_genes_of_interest.vcf \
 /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/vcf/
-rsync -av orac:$working_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes.vcf.gz* \
+rsync -av orac:$working_dir/results/05_extract_variants/cohort/cohort_frequency/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf.gz* \
 /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/vcf/
 
 # singleton
-rsync -av orac:$working_dir/results/04_manual_annotation/singleton/22CG019_filtered_annotated_readyforscout.vcf.gz* \
+rsync -av orac:$working_dir/results/05_extract_variants/singleton/genes_bed_extract/22CG019_genes_of_interest.vcf \
 /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/singleton/vcf/
 rsync -av orac:$working_dir/results/03_pipeline_runs/singleton/human_genomics_pipeline/results/mapped/*_recalibrated.bam* \
 /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/singleton/bams/
@@ -474,8 +474,7 @@ samples:
     expected_coverage: 30
     alignment_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/singleton/bams/22CG019_recalibrated.bam
 
-vcf_snv: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/singleton/vcf/22CG019_filtered_annotated_readyforscout.vcf.gz
-vcf_snv_research: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/singleton/vcf/22CG019_filtered_annotated_readyforscout.vcf.gz
+vcf_snv_research: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/singleton/vcf/22CG019_genes_of_interest.vcf
 
 analysis_date: 2022-11-28 12:24:20
 human_genome_build: 37
@@ -1186,7 +1185,7 @@ samples:
     expected_coverage: 30
     alignment_path: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/bams/22CG027_recalibrated.bam
 
-vcf_snv: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/vcf/21CG0001_all_patients_no_missing_genotypes.vcf.gz
+vcf_snv: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/vcf/21CG0001_all_patients_no_missing_genotypes_genes_of_interest.vcf.gz
 vcf_snv_research: /data/CCDHB_exomes_hyperparathyroid/ccdhb-exomes-database/data/cohort/vcf/21CG0001_genes_of_interest.vcf
 
 analysis_date: 2022-11-28 12:24:20
