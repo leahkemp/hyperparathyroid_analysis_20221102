@@ -1,7 +1,7 @@
 # 07 - Scout
 
 Created: 2022/11/09 15:14:29
-Last modified: 2023/01/19 17:01:16
+Last modified: 2023/02/02 12:00:16
 
 - **Aim:** This document documents/describes setting up a [scout](http://www.clinicalgenomics.se/scout/) database for the CCDHB hyperparathyroidism exomes data (**ccdhb-exomes-database**)
 - **Prerequisite software:** [rsync](https://rsync.samba.org/) v3.2.4, [Conda 4.12.0](https://docs.conda.io/projects/conda/en/latest/index.html), [Mamba 0.15.3](https://mamba.readthedocs.io/en/latest/index.html), [MonogDB v5.0.9](https://www.mongodb.com/)
@@ -305,6 +305,8 @@ Successfully installed gunicorn-20.1.0
 <br/>
 
 ### Serve scout using production server
+
+*Note. I ended up loading the "gene panel" vcf's into scout since scout started lagging to an un-usable point with the large cohort when I loaded the entire vcf*
 
 Serve in a screen so scout remains running. Also make sure conda env is activated.
 
