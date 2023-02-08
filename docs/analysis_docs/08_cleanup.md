@@ -13,9 +13,7 @@ Last modified: 2023/02/08 12:54:58
   - [Table of contents](#table-of-contents)
   - [Cleanup](#cleanup)
 
-## Cleanup
-
-*Work in progress*
+## Cleanup and backup
 
 ```bash
 rm -r ./fastq/
@@ -48,6 +46,8 @@ rm -rf ./results/03_pipeline_runs/*/human_genomics_pipeline/results/mapped/*_rec
 rm -rf ./results/03_pipeline_runs/*/human_genomics_pipeline/results/qc/fastqc/
 rm -rf ./results/03_pipeline_runs/*/human_genomics_pipeline/results/qc/multiqc_data/
 rm -rf ./results/03_pipeline_runs/*/vcf_annotation_pipeline/results/annotated/*.txt
+rm -rf ./results/03_pipeline_runs/*/human_genomics_pipeline/.git
+rm -rf ./results/03_pipeline_runs/*/vcf_annotation_pipeline/git
 rm -rf ./results/03_pipeline_runs/cohort/vcf_annotation_pipeline/
 rm -rf ./results/03_pipeline_runs/cohort/human_genomics_pipeline/results/called/
 rm -rf ./results/03_pipeline_runs/singleton/human_genomics_pipeline/results/called/
@@ -56,4 +56,10 @@ rm -rf ./results/03_pipeline_runs/cohort/pedigrees/
 rm -rf ./results/04_manual_annotation/singleton/22CG019_raw_snps_indels*
 rm -rf ./results/04_manual_annotation/cohort/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp_posteriors_denovo.multiallelicsites.vcf*
 
+```
+
+Backup project
+
+```bash
+rsync -av /NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/ /NGS/clinicalgenomics/archive/2022/results/hyperparathyroid_analysis_20221102/
 ```
