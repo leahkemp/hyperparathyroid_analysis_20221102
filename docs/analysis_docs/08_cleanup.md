@@ -1,7 +1,7 @@
 # 08 - Cleanup
 
 Created: 2022/11/17 14:50:49
-Last modified: 2023/02/08 12:54:58
+Last modified: 2023/02/28 15:12:49
 
 - **Aim:** This document documents/describes cleaning up
 - **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/), [singularity](https://docs.sylabs.io/guides/3.5/user-guide/index.html) v3.7.2-1.el7, [slurm](https://slurm.schedmd.com/overview.html) v20.11.6
@@ -11,7 +11,7 @@ Last modified: 2023/02/08 12:54:58
 
 - [08 - Cleanup](#08---cleanup)
   - [Table of contents](#table-of-contents)
-  - [Cleanup](#cleanup)
+  - [Cleanup and backup](#cleanup-and-backup)
 
 ## Cleanup and backup
 
