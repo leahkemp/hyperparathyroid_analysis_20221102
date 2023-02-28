@@ -1,7 +1,7 @@
 # 01 - Assumptions
 
 Created: 2022/11/02 11:21:46
-Last modified: 2022/12/08 15:28:35
+Last modified: 2023/02/28 15:14:06
 
 - **Aim:** This document documents/describes the assumptions for reproducing this analysis
 - **Prerequisite software:**
@@ -15,7 +15,7 @@ Last modified: 2022/12/08 15:28:35
 
 ## Assumptions
 
-1. You have cloned the [project github repository](https://github.com/ESR-NZ/hyperparathyroid_analysis_20221102) and are running all code from this directory
+1. You have cloned the [project github repository](https://github.com/leahkemp/hyperparathyroid_analysis_20221102) and are running all code from this directory
 
 2. You have configured all user configurable parameters within each script appropriate for your setup
 
