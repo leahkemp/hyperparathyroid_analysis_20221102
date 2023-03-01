@@ -1,7 +1,7 @@
 # 02 - Setup
 
 Created: 2022/11/02 13:30:54
-Last modified: 2023/02/28 15:14:45
+Last modified: 2023/03/02 12:23:58
 
 - **Aim:** This document documents/describes setting up this project
 - **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/), [slurm](https://slurm.schedmd.com/overview.html) v20.11.6
@@ -15,7 +15,7 @@ Last modified: 2023/02/28 15:14:45
 
 ## Merge fastqs and format fastq file names
 
-Run bash script to merge fastq files from different lanes. See my script at [./scripts/02_setup/01_merge_fastq.sh](https://github.com/leahkemp/hyperparathyroid_analysis_20221102/blob/main/scripts/02_setup/01_merge_fastq.sh)
+Run bash script to merge fastq files from different lanes and format the file names. See my script at [./scripts/02_setup/01_merge_fastq.sh](https://github.com/leahkemp/hyperparathyroid_analysis_20221102/blob/main/scripts/02_setup/01_merge_fastq.sh)
 
 ```bash
 sbatch ./scripts/02_setup/01_merge_fastq.sh
