@@ -39,7 +39,6 @@ echo ""
 bcftools view \
 -O z \
 --max-alleles 2 \
---exclude-types indels \
 $project_dir/results/04_manual_annotation/singleton/22CG019_raw_snps_indels.filtered.dbnsfp.vep.cadd.dbsnp.vcf.gz > $project_dir/results/04_manual_annotation/singleton/22CG019_raw_snps_indels.filtered.dbnsfp.vep.cadd.dbsnp.multiallelicsites.vcf.gz
 
 # create conda environment with genmod installed

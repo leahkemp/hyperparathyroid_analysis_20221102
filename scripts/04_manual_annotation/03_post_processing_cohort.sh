@@ -40,7 +40,6 @@ echo ""
 bcftools view \
 -O z \
 --max-alleles 2 \
---exclude-types indels \
 $project_dir/results/03_pipeline_runs/cohort/vcf_annotation_pipeline/results/annotated/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp_posteriors_denovo.vcf > $project_dir/results/04_manual_annotation/cohort/21CG0001_filtered_dbnsfp_vep_cadd_dbsnp_posteriors_denovo.multiallelicsites.vcf.gz
 
 # create conda environment with gunzip installed
