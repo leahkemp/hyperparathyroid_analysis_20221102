@@ -1,10 +1,10 @@
 # 03 - Pipeline runs
 
 Created: 2022/11/02 14:26:44
-Last modified: 2023/02/28 15:12:22
+Last modified: 2023/03/02 13:30:30
 
 - **Aim:** This document documents/describes running pipelines on the data
-- **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/), [rsync](https://linux.die.net/man/1/rsync) v3.1.2, [git](https://git-scm.com/) v1.8.3.1, [conda](https://docs.conda.io/projects/conda/en/latest/index.html) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/) v0.24.0, [parabricks](https://docs.nvidia.com/clara/parabricks/3.8.0/index.html) v3.8 and v3.7
+- **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/) v8.22, [rsync](https://linux.die.net/man/1/rsync) v3.1.2, [git](https://git-scm.com/) v1.8.3.1, [conda](https://docs.conda.io/projects/conda/en/latest/index.html) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/) v0.24.0, [parabricks](https://docs.nvidia.com/clara/parabricks/3.8.0/index.html) v3.8 and v3.7
 - **OS:** ORAC (CentOS Linux) (ESR production network)
 
 ## Table of contents

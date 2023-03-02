@@ -1,10 +1,10 @@
 # 02 - Setup
 
 Created: 2022/11/02 13:30:54
-Last modified: 2023/03/02 12:23:58
+Last modified: 2023/03/02 13:30:00
 
 - **Aim:** This document documents/describes setting up this project
-- **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/), [slurm](https://slurm.schedmd.com/overview.html) v20.11.6
+- **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/) v8.22, [slurm](https://slurm.schedmd.com/overview.html) v20.11.9
 - **OS:** ORAC (CentOS Linux) (ESR production network)
 
 ## Table of contents

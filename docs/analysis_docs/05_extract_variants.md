@@ -1,10 +1,10 @@
 # 05 - Extract variants
 
 Created: 2022/11/07 12:12:45
-Last modified: 2023/02/28 15:12:38
+Last modified: 2023/03/02 13:32:36
 
 - **Aim:** This document documents/describes extracting various variants of interest
-- **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/), [singularity](https://docs.sylabs.io/guides/3.5/user-guide/index.html) v3.7.2-1.el7, [slurm](https://slurm.schedmd.com/overview.html) v20.11.6
+- **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/) v8.22, [singularity](https://docs.sylabs.io/guides/3.5/user-guide/index.html) v1.1.6-1.el7, [slurm](https://slurm.schedmd.com/overview.html) v20.11.9
 - **OS:** ORAC (CentOS Linux) (ESR production network)
 
 ## Table of contents

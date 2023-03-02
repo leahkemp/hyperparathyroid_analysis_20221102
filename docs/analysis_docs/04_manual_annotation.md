@@ -1,10 +1,10 @@
 # 04 - Manual annotation
 
 Created: 2022/11/07 14:06:21
-Last modified: 2023/02/28 15:12:32
+Last modified: 2023/03/02 13:31:30
 
 - **Aim:** This document documents/describes the manual annotation of the data after the pipeline runs
-- **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/), [conda](https://docs.conda.io/projects/conda/en/latest/index.html) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/) v0.24.0, [slurm](https://slurm.schedmd.com/overview.html) v20.11.6
+- **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/) v8.22, [conda](https://docs.conda.io/projects/conda/en/latest/index.html) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/) v0.24.0, [slurm](https://slurm.schedmd.com/overview.html) v20.11.9
 - **OS:** ORAC (CentOS Linux) (ESR production network)
 
 ## Table of contents
