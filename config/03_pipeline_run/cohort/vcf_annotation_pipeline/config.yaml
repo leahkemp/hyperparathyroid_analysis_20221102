@@ -15,10 +15,10 @@ GPU_ACCELERATED: "Yes"
 PREPARE_FOR_SCOUT: "Yes"
 
 # File paths to the reference genome (.fasta)
-REFGENOME: "/NGS/humangenomics/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta"
+REFGENOME: "/NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/human_g1k_v37_decoy.fasta"
 
 # File path to dbSNP database
-dbSNP: "/NGS/humangenomics/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf"
+dbSNP: "/NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf"
 
 # Temporary file directory
 TEMPDIR: "/NGS/humangenomics/active/tmp/"
@@ -82,9 +82,9 @@ COHORT:
 
     # ...provide a list of resources
     RESOURCES:
-    - /NGS/humangenomics/public_data/gatk_resource_bundle/b37/Mills_and_1000G_gold_standard.indels.b37.vcf
-    - /NGS/humangenomics/public_data/gatk_resource_bundle/b37/1000G_phase1.indels.b37.vcf
-    - /NGS/humangenomics/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf
+    - /NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/Mills_and_1000G_gold_standard.indels.b37.vcf
+    - /NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/1000G_phase1.indels.b37.vcf
+    - /NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf
 
     # ...provide associated machine learning parameters
     PARAMS:
@@ -97,10 +97,10 @@ COHORT:
 
     # ...provide a list of resources
     RESOURCES:
-    - /NGS/humangenomics/public_data/gatk_resource_bundle/b37/hapmap_3.3.b37.vcf
-    - /NGS/humangenomics/public_data/gatk_resource_bundle/b37/1000G_omni2.5.b37.vcf
-    - /NGS/humangenomics/public_data/gatk_resource_bundle/b37/1000G_phase1.indels.b37.vcf
-    - /NGS/humangenomics/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf
+    - /NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/hapmap_3.3.b37.vcf
+    - /NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/1000G_omni2.5.b37.vcf
+    - /NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/1000G_phase1.indels.b37.vcf
+    - /NGS/humangenomics/active/2022/run/public_data/gatk_resource_bundle/b37/dbsnp_138.b37.vcf
 
     # ...provide associated machine learning parameters
     PARAMS:
@@ -114,6 +114,6 @@ COHORT:
 ##############################
 
 # File paths to vcf annotation databases
-VEP: "/NGS/humangenomics/public_data/vep/GRCh37/"
-dbNSFP: "/NGS/humangenomics/public_data/dbNSFP/GRCh37/dbNSFPv4.0a.hg19.custombuild.gz"
-CADD: "/NGS/humangenomics/public_data/cadd/GRCh37/whole_genome_SNVs.tsv.gz"
+VEP: "/NGS/humangenomics/active/2022/run/public_data/vep/GRCh37/"
+dbNSFP: "/NGS/humangenomics/active/2022/run/public_data/dbNSFP/GRCh37/dbNSFPv4.0a.hg19.custombuild.gz"
+CADD: "/NGS/humangenomics/active/2022/run/public_data/cadd/GRCh37/whole_genome_SNVs.tsv.gz"
