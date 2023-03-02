@@ -1,7 +1,7 @@
 # 03 - Pipeline runs
 
 Created: 2022/11/02 14:26:44
-Last modified: 2023/03/02 13:30:30
+Last modified: 2023/03/02 14:17:10
 
 - **Aim:** This document documents/describes running pipelines on the data
 - **Prerequisite software:** [GNU coreutils](https://www.gnu.org/software/coreutils/) v8.22, [rsync](https://linux.die.net/man/1/rsync) v3.1.2, [git](https://git-scm.com/) v1.8.3.1, [conda](https://docs.conda.io/projects/conda/en/latest/index.html) v4.13.0, [mamba](https://mamba.readthedocs.io/en/latest/) v0.24.0, [parabricks](https://docs.nvidia.com/clara/parabricks/3.8.0/index.html) v3.8 and v3.7
@@ -37,7 +37,7 @@ Run bash script to run [human_genomics_pipeline](https://github.com/ESR-NZ/human
 bash ./scripts/03_pipeline_runs/02_hgp_cohort.sh
 ```
 
-*Note. I ended up getting errors with running pbrun triocombinegvcf on more than 3 files, so I modified the Snakefile to coerce the pipeline to run gatk CombineGVCFs instead. See the changes I made at [line 198 of ./config/03_pipeline_run/cohort/human_genomics_pipeline/Snakefile](https://github.com/leahkemp/hyperparathyroid_analysis_20221102/blob/main/config/03_pipeline_run/cohort/human_genomics_pipeline/Snakefile#L198)*
+*Note. I ended up getting errors with running pbrun triocombinegvcf on more than 3 files, so I modified the Snakefile to coerce the pipeline to run gatk CombineGVCFs instead. See the changes I made at [line 198 of ./config/03_pipeline_run/cohort/human_genomics_pipeline/Snakefile](https://github.com/leahkemp/hyperparathyroid_analysis_20221102/blob/main/config/03_pipeline_run/cohort/human_genomics_pipeline/Snakefile#L198) - this has been automated*
 
 Run bash script to run [vcf_annotation_pipeline](https://github.com/ESR-NZ/vcf_annotation_pipeline). See my script at [./scripts/03_pipeline_runs/03_vap_cohort.sh](https://github.com/leahkemp/hyperparathyroid_analysis_20221102/blob/main/scripts/03_pipeline_runs/03_vap_cohort.sh)
 
