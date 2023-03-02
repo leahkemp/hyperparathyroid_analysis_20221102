@@ -9,7 +9,7 @@
 
 # configure directories
 project_dir="/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102"
-public_data_dir="/NGS/clinicalgenomics/public_data"
+public_data_dir="/NGS/humangenomics/active/2022/run/public_data"
 
 # remove any old outputs of this script to avoid results being written twice to a file
 rm $project_dir/results/04_manual_annotation/singleton/22CG019_raw_snps_indels.filtered.dbnsfp.vep.cadd.dbsnp.multiallelicsites.vcf.gz
