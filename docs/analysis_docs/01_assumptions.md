@@ -1,7 +1,7 @@
 # 01 - Assumptions
 
 Created: 2022/11/02 11:21:46
-Last modified: 2023/02/28 15:14:06
+Last modified: 2023/03/02 13:27:31
 
 - **Aim:** This document documents/describes the assumptions for reproducing this analysis
 - **Prerequisite software:**
@@ -26,6 +26,7 @@ Last modified: 2023/02/28 15:14:06
 <details><summary markdown="span">Expected raw fastq files (click to expand)</summary>
 
 ```bash
+/NGS/humangenomics/active/2022/run/hyperparathyroid_analysis_20221102/fastq
 ├── [855M]  21CG0001_S1_L001_R1_001.fastq.gz
 ├── [884M]  21CG0001_S1_L001_R2_001.fastq.gz
 ├── [824M]  21CG0001_S1_L002_R1_001.fastq.gz
@@ -273,7 +274,7 @@ Last modified: 2023/02/28 15:14:06
 ├── [5.4G]  VMV3286_S4_R1_001.fastq.gz
 └── [5.4G]  VMV3286_S4_R2_001.fastq.gz
 
-0 directories, 246 files
+ 686G used in 0 directories, 246 files
 ```
 
 </details>
